@@ -1,0 +1,7 @@
+../App/hw/driver/buzzer.c:19:6:buzzerInit	8	static
+../App/hw/driver/buzzer.c:28:6:buzzerOn	8	static
+../App/hw/driver/buzzer.c:34:6:buzzerOff	8	static
+../App/hw/driver/buzzer.c:40:6:buzzerIsOn	4	static
+../App/hw/driver/buzzer.c:45:6:buzzerBeep	24	static
+../App/hw/driver/buzzer.c:57:6:buzzerTone	32	static
+../App/hw/driver/buzzer.c:76:6:cliBuzzer	32	static

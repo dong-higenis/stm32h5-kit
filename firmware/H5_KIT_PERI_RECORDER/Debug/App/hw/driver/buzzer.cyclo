@@ -1,0 +1,7 @@
+../App/hw/driver/buzzer.c:19:6:buzzerInit	1
+../App/hw/driver/buzzer.c:28:6:buzzerOn	1
+../App/hw/driver/buzzer.c:34:6:buzzerOff	1
+../App/hw/driver/buzzer.c:40:6:buzzerIsOn	1
+../App/hw/driver/buzzer.c:45:6:buzzerBeep	2
+../App/hw/driver/buzzer.c:57:6:buzzerTone	1
+../App/hw/driver/buzzer.c:76:6:cliBuzzer	11

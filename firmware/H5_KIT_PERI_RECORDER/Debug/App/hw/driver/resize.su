@@ -1,0 +1,4 @@
+../App/hw/driver/resize.c:46:6:resizeImage	152	static
+../App/hw/driver/resize.c:113:38:resizeImageFast	112	static
+../App/hw/driver/resize.c:235:38:resizeImageFastGray	96	static
+../App/hw/driver/resize.c:325:38:resizeImageNearest	48	static

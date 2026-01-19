@@ -1,0 +1,7 @@
+../App/ap/toy/peripheral/can/can_app.c:18:6:canAppInit	2
+../App/ap/toy/peripheral/can/can_app.c:28:6:canAppOnRx	6
+../App/ap/toy/peripheral/can/can_app.c:49:20:canAppGetLatest	2
+../App/ap/toy/peripheral/can/can_app.c:62:10:canAppGetSavedNum	1
+../App/ap/toy/peripheral/can/can_app.c:67:6:canLogOpen	2
+../App/ap/toy/peripheral/can/can_app.c:78:6:canLogWrite	4
+../App/ap/toy/peripheral/can/can_app.c:99:6:canLogClose	3

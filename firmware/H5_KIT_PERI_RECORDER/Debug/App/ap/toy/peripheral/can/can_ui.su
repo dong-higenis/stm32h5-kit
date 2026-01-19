@@ -1,0 +1,4 @@
+../App/ap/toy/peripheral/can/can_ui.c:19:6:canUiDraw	16	static
+../App/ap/toy/peripheral/can/can_ui.c:27:6:canUiOnSelect	24	static
+../App/ap/toy/peripheral/can/can_ui.c:51:13:drawCanMonitor	24	static
+../App/ap/toy/peripheral/can/can_ui.c:100:13:drawCanLogger	24	static

@@ -1,0 +1,15 @@
+../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_spi.h:1333:22:LL_SPI_SetDataWidth	1
+../App/hw/driver/spi.c:32:6:spiInit	2
+../App/hw/driver/spi.c:51:6:spiBegin	3
+../App/hw/driver/spi.c:90:6:spiSetDataMode	6
+../App/hw/driver/spi.c:130:6:spiSetBitWidth	3
+../App/hw/driver/spi.c:152:9:spiTransfer8	2
+../App/hw/driver/spi.c:165:10:spiTransfer16	3
+../App/hw/driver/spi.c:193:6:spiTransfer	5
+../App/hw/driver/spi.c:228:6:spiTransferDMA	8
+../App/hw/driver/spi.c:277:6:spiDmaTxStart	2
+../App/hw/driver/spi.c:287:6:spiDmaTxTransfer	4
+../App/hw/driver/spi.c:315:6:spiDmaTxIsDone	2
+../App/hw/driver/spi.c:324:6:spiAttachTxInterrupt	2
+../App/hw/driver/spi.c:335:6:HAL_SPI_RxCpltCallback	2
+../App/hw/driver/spi.c:343:6:HAL_SPI_ErrorCallback	2

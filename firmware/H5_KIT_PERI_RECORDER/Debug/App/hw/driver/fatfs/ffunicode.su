@@ -1,3 +1,0 @@
-../App/hw/driver/fatfs/ffunicode.c:15275:7:ff_uni2oem	48	static
-../App/hw/driver/fatfs/ffunicode.c:15311:7:ff_oem2uni	40	static
-../App/hw/driver/fatfs/ffunicode.c:15464:7:ff_wtoupper	32	static

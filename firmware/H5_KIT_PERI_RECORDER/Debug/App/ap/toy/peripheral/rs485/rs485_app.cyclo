@@ -1,6 +1,0 @@
-../App/ap/toy/peripheral/rs485/rs485_app.c:30:6:rs485AppInit	2
-../App/ap/toy/peripheral/rs485/rs485_app.c:42:6:rs485AppOnRx	6
-../App/ap/toy/peripheral/rs485/rs485_app.c:93:10:rs485AppGetSavedNum	2
-../App/ap/toy/peripheral/rs485/rs485_app.c:102:6:rs485LogOpen	2
-../App/ap/toy/peripheral/rs485/rs485_app.c:113:6:rs485LogWrite	3
-../App/ap/toy/peripheral/rs485/rs485_app.c:124:6:rs485LogClose	3

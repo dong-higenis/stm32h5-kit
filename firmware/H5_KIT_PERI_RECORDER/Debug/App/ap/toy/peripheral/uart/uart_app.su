@@ -1,6 +1,0 @@
-../App/ap/toy/peripheral/uart/uart_app.c:24:6:uartAppInit	16	static
-../App/ap/toy/peripheral/uart/uart_app.c:41:6:uartAppOnRx	32	static
-../App/ap/toy/peripheral/uart/uart_app.c:89:10:uartAppGetSavedNum	16	static
-../App/ap/toy/peripheral/uart/uart_app.c:97:6:uartLogOpen	56	static
-../App/ap/toy/peripheral/uart/uart_app.c:108:6:uartLogWrite	24	static
-../App/ap/toy/peripheral/uart/uart_app.c:119:6:uartLogClose	16	static

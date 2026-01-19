@@ -1,7 +1,0 @@
-../App/hw/driver/pwm.c:39:6:pwmInit	4
-../App/hw/driver/pwm.c:62:6:pwmInitTimer	1
-../App/hw/driver/pwm.c:71:6:pwmIsInit	1
-../App/hw/driver/pwm.c:76:6:pwmWrite	2
-../App/hw/driver/pwm.c:91:10:pwmRead	2
-../App/hw/driver/pwm.c:98:10:pwmGetMax	2
-../App/hw/driver/pwm.c:107:6:cliPwm	5

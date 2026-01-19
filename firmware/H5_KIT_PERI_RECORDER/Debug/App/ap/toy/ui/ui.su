@@ -1,0 +1,6 @@
+../App/ap/toy/ui/ui.c:40:6:uiInit	4	static
+../App/ap/toy/ui/ui.c:49:6:uiOnButton	16	static
+../App/ap/toy/ui/ui.c:61:6:uiDraw	24	static
+../App/ap/toy/ui/ui.c:112:21:uiGet	4	static
+../App/ap/toy/ui/ui.c:122:13:uiNext	24	static
+../App/ap/toy/ui/ui.c:185:13:uiSelect	32	static

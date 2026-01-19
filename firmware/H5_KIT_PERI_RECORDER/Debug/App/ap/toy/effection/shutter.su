@@ -1,0 +1,2 @@
+../App/ap/toy/effection/shutter.c:3:6:shutterInit	4	static
+../App/ap/toy/effection/shutter.c:7:6:shutterSaveCanFrame	48	static

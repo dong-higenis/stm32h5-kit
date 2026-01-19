@@ -1,0 +1,34 @@
+#include "ap.h"
+#include "stm32h5xx_hal.h"
+
+void apInit(void)
+{
+  cliOpen(HW_UART_CH_DEBUG, 115200);
+  lcdSetFont(LCD_FONT_05x08);
+
+  toyInit();
+
+  logBoot(true);
+}
+
+void apMain(void)
+{
+  static uint32_t pre_time = 0;
+
+  while (1)
+  {
+	if (millis() - pre_time > 500)
+	{
+      pre_time = millis();
+      ledToggle(_DEF_LED1);
+	}
+    cliMain();
+
+    canUpdate();
+    sdUpdate();
+
+    toyUpdate();
+
+//    etnetUpdate();
+  }
+}

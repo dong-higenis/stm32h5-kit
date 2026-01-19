@@ -1,0 +1,7 @@
+../App/ap/toy/can_game.c:64:6:canToyInit	1
+../App/ap/toy/can_game.c:70:6:canToyUpdate	2
+../App/ap/toy/can_game.c:154:6:gameInit	2
+../App/ap/toy/can_game.c:168:6:gameUpdate	8
+../App/ap/toy/can_game.c:213:6:canGameDraw	4
+../App/ap/toy/can_game.c:240:6:canGameOverDraw	2
+../App/ap/toy/can_game.c:262:6:canTimeDraw	2

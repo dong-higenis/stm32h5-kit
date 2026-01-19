@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "can_app.h": "c",
+        "ui.h": "c",
+        "can_game.h": "c",
+        "ap_def.h": "c",
+        "ui_draw.h": "c",
+        "ui_def.h": "c",
+        "shutter.h": "c",
+        "hw.h": "c",
+        "can_ui.h": "c",
+        "uart_app.h": "c",
+        "sd.h": "c",
+        "rs485_app.h": "c",
+        "hw_def.h": "c",
+        "cli.h": "c",
+        "ff.h": "c",
+        "rs485_ui.h": "c",
+        "led.h": "c"
+    }
+}

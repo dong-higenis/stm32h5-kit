@@ -1,0 +1,6 @@
+../App/common/core/qbuffer.c:6:6:qbufferCreate	32	static
+../App/common/core/qbuffer.c:22:6:qbufferCreateBySize	32	static
+../App/common/core/qbuffer.c:39:6:qbufferWrite	48	static
+../App/common/core/qbuffer.c:72:6:qbufferRead	40	static
+../App/common/core/qbuffer.c:105:10:qbufferAvailable	24	static
+../App/common/core/qbuffer.c:114:6:qbufferFlush	16	static

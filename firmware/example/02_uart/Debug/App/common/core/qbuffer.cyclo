@@ -1,6 +1,0 @@
-../App/common/core/qbuffer.c:6:6:qbufferCreate	1
-../App/common/core/qbuffer.c:22:6:qbufferCreateBySize	1
-../App/common/core/qbuffer.c:39:6:qbufferWrite	6
-../App/common/core/qbuffer.c:72:6:qbufferRead	6
-../App/common/core/qbuffer.c:105:10:qbufferAvailable	1
-../App/common/core/qbuffer.c:114:6:qbufferFlush	1

@@ -1,3 +1,0 @@
-../App/hw/hw.c:6:6:hwInit	8	static
-../App/hw/hw.c:16:6:delay	16	static
-../App/hw/hw.c:21:10:millis	8	static

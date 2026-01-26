@@ -15,6 +15,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_rcc_ex.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_gpio.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_gpio_ex.h \
+ ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_icache.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_dma.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_dma_ex.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_cortex.h \
@@ -25,14 +26,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_uart.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_uart_ex.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_exti.h \
- C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/ap/ap.h \
- C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/ap/ap_def.h \
- C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/hw.h \
- C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/hw_def.h \
- C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/common/def.h \
- C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/driver/include/led.h \
- C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/hw_def.h \
- C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/driver/include/uart.h
+ ../Core/Inc/gpdma.h ../Core/Inc/main.h ../Core/Inc/icache.h \
+ ../Core/Inc/usart.h ../Core/Inc/gpio.h
 ../Core/Inc/main.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h:
 ../Core/Inc/stm32h5xx_hal_conf.h:
@@ -50,6 +45,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_rcc_ex.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_gpio.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_gpio_ex.h:
+../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_icache.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_dma.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_dma_ex.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_cortex.h:
@@ -60,11 +56,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_uart.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_uart_ex.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_exti.h:
-C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/ap/ap.h:
-C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/ap/ap_def.h:
-C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/hw.h:
-C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/hw_def.h:
-C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/common/def.h:
-C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/driver/include/led.h:
-C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/hw_def.h:
-C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/driver/include/uart.h:
+../Core/Inc/gpdma.h:
+../Core/Inc/main.h:
+../Core/Inc/icache.h:
+../Core/Inc/usart.h:
+../Core/Inc/gpio.h:

@@ -16,7 +16,7 @@ S_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Core/Startup/%.o: ../Core/Startup/%.s Core/Startup/subdir.mk
-	arm-none-eabi-gcc -mcpu=cortex-m33 -g3 -DDEBUG -c -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App" -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/ap" -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/common" -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw" -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/driver/include" -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/driver/src" -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/hw/driver" -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/Core/Inc" -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/Core/Src" -I"C:/Users/user/Desktop/projects/STM/stm32h5_kit/example/02_uart/App/common/core" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m33 -g3 -DDEBUG -c -I"C:/work/git/STM32-H5-KIT/firmware/example/02_uart/Core/Inc" -I"C:/work/git/STM32-H5-KIT/firmware/example/02_uart/Core/Src" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 
 clean: clean-Core-2f-Startup
 

@@ -1,4 +1,0 @@
-../App/common/core/util.c:3:10:utilConvert8ToU32	24	static
-../App/common/core/util.c:16:10:utilConvert8ToU16	24	static
-../App/common/core/util.c:68:6:utilUpdateCrc	24	static
-../App/common/core/util.c:79:5:hex2int	16	static

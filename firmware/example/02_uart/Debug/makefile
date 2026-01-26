@@ -12,10 +12,6 @@ RM := rm -rf
 -include Drivers/STM32H5xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
--include App/hw/driver/src/subdir.mk
--include App/hw/subdir.mk
--include App/common/core/subdir.mk
--include App/ap/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -64,8 +60,8 @@ all: main-build
 main-build: 02_uart.elf secondary-outputs
 
 # Tool invocations
-02_uart.elf 02_uart.map: $(OBJS) $(USER_OBJS) C:\Users\user\Desktop\projects\STM\stm32h5_kit\example\02_uart\STM32H563VITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "02_uart.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\user\Desktop\projects\STM\stm32h5_kit\example\02_uart\STM32H563VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="02_uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+02_uart.elf 02_uart.map: $(OBJS) $(USER_OBJS) C:\work\git\STM32-H5-KIT\firmware\example\02_uart\STM32H563VITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "02_uart.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\work\git\STM32-H5-KIT\firmware\example\02_uart\STM32H563VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="02_uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

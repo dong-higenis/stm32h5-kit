@@ -15,13 +15,18 @@
  *
  ******************************************************************************
  */
+
+/**
+ * @brief 해당 예제는 500ms마다 led를 blink 시키는 예제이다.
+ */
+
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "ap.h"
+#include <stdbool.h> // boolean형 사용을 위해 포함
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -31,6 +36,12 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+
+/**
+ * @brief true == [HIGH] , false == [LOW] 로 직관적으로 표현하기 위해 define
+ */
+#define HIGH true
+#define LOW false
 
 /* USER CODE END PD */
 
@@ -55,6 +66,11 @@ static void MX_GPIO_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+uint32_t millis(void)
+{
+  return HAL_GetTick();
+}
 
 /* USER CODE END 0 */
 
@@ -87,15 +103,22 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  hwInit();
-  apInit();
-  apMain();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	static bool led_state = HIGH;
+    static uint32_t pre_time = 0;
+
+    if (millis() - pre_time > 500)
+    {
+      pre_time = millis();
+      led_state = !led_state;
+      HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, led_state);
+    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

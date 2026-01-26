@@ -1,7 +1,3 @@
-"./App/ap/ap.o"
-"./App/hw/driver/src/gpio.o"
-"./App/hw/driver/src/led.o"
-"./App/hw/hw.o"
 "./Core/Src/main.o"
 "./Core/Src/stm32h5xx_hal_msp.o"
 "./Core/Src/stm32h5xx_it.o"

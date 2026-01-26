@@ -22,9 +22,6 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-App/ap \
-App/hw/driver/src \
-App/hw \
 Core/Src \
 Core/Startup \
 Drivers/STM32H5xx_HAL_Driver/Src \

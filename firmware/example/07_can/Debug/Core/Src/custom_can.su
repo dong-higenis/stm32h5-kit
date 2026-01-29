@@ -1,0 +1,2 @@
+../Core/Src/custom_can.c:24:7:customCanInit	48	static
+../Core/Src/custom_can.c:113:7:customCanClose	16	static

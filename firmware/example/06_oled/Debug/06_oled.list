@@ -6492,7 +6492,7 @@ bool ssd1306Init(void)
   ssd1306WriteCommand(0xD3); // Display Offset 설정
  8003248:	20d3      	movs	r0, #211	@ 0xd3
  800324a:	f7ff ffd7 	bl	80031fc <ssd1306WriteCommand>
-  ssd1306WriteCommand(0x00); // Offset = 0
+  ssd1306WriteCommand(0x00); // Offset = 0  (필요한 이유 : oled의 첫번째 페이지 기준을 설정하기 위함)
  800324e:	2000      	movs	r0, #0
  8003250:	f7ff ffd4 	bl	80031fc <ssd1306WriteCommand>
 

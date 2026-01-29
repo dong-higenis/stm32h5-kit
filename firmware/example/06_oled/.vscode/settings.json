@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "gpio.h": "c",
+        "def.h": "c",
+        "stdlib.h": "c",
+        "gpdma.h": "c",
+        "ssd1306.h": "c",
+        "string.h": "c",
+        "usart.h": "c",
+        "ctype.h": "c",
+        "cli.h": "c"
+    }
+}

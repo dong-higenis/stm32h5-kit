@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "gpio.h": "c",
+        "def.h": "c",
+        "stdlib.h": "c",
+        "gpdma.h": "c"
+    }
+}

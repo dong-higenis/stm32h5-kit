@@ -17,7 +17,7 @@
  */
 
 /**
- * @brief 해당 예제는 500ms마다 led를 blink 시키는 예제이다.
+ * @brief 해당 예제는 500ms마다 led를 blink 시키는 예제입니다.
  */
 
 /* USER CODE END Header */

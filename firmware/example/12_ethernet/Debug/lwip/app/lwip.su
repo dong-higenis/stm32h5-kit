@@ -1,0 +1,9 @@
+../lwip/app/lwip.c:65:6:lwipIsLink	4	static
+../lwip/app/lwip.c:81:6:lwipGetIPAddress	16	static
+../lwip/app/lwip.c:107:13:lwipGetDHCPStateString	4	static
+../lwip/app/lwip.c:141:6:ethernet_link_status_updated	16	static
+../lwip/app/lwip.c:163:6:Ethernet_Link_Periodic_Handle	16	static
+../lwip/app/lwip.c:189:6:DHCP_Process	48	static
+../lwip/app/lwip.c:284:6:DHCP_Periodic_Handle	16	static
+../lwip/app/lwip.c:298:6:MX_LWIP_Init	40	static
+../lwip/app/lwip.c:345:6:MX_LWIP_Process	8	static

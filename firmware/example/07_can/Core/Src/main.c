@@ -298,7 +298,7 @@ void cliOled(cli_args_t *args)
 /**
  * @brief CAN 테스트 명령어
  *        사용법: can test 1 (CAN1 테스트)
- *                can test 2 (CAN2 테스트)
+ *              can test 2 (CAN2 테스트)
  */
 void cliCan(cli_args_t *args)
 {

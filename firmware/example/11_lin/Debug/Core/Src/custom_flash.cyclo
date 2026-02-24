@@ -1,0 +1,6 @@
+../Core/Src/custom_flash.c:35:6:customFlashInit	4
+../Core/Src/custom_flash.c:75:6:customFlashRead	3
+../Core/Src/custom_flash.c:117:6:customFlashWrite	5
+../Core/Src/custom_flash.c:168:6:customFlashSectorErase	3
+../Core/Src/custom_flash.c:206:9:customFlashReadStatus	1
+../Core/Src/custom_flash.c:222:6:cliFlash	19

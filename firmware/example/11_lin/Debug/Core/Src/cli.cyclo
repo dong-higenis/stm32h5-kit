@@ -1,0 +1,16 @@
+../Core/Src/cli.c:95:6:cliInit	1
+../Core/Src/cli.c:118:6:cliLineClean	1
+../Core/Src/cli.c:128:6:cliShowPrompt	1
+../Core/Src/cli.c:137:6:cliLineAdd	2
+../Core/Src/cli.c:154:6:cliLineChange	6
+../Core/Src/cli.c:201:6:cliProcess	28
+../Core/Src/cli.c:375:6:cliRunCmd	4
+../Core/Src/cli.c:405:6:cliParseArgs	3
+../Core/Src/cli.c:441:6:cliPrintf	2
+../Core/Src/cli.c:460:6:cliToUpper	5
+../Core/Src/cli.c:475:9:cliArgsGetData	2
+../Core/Src/cli.c:485:7:cliArgsGetFloat	2
+../Core/Src/cli.c:495:7:cliArgsGetStr	2
+../Core/Src/cli.c:505:6:cliArgsIsStr	2
+../Core/Src/cli.c:519:6:cliAdd	2
+../Core/Src/cli.c:542:6:cliShowList	2

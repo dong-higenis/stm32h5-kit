@@ -404,29 +404,34 @@ bool cliRunCmd(cli_t *p_cli)
  */
 bool cliParseArgs(cli_t *p_cli)
 {
-  char              *tok;
-  char              *next_ptr;
-  uint16_t           argc  = 0;
-  static const char *delim = " \t\r\n";
-  char               cmdline_copy[CLI_LINE_BUF_MAX];
-
-  // 원본 버퍼 보존을 위해 복사본 사용
-  strncpy(cmdline_copy, (char *)p_cli->line.buf, CLI_LINE_BUF_MAX - 1);
-  cmdline_copy[CLI_LINE_BUF_MAX - 1] = 0;
+  bool ret = false;
+  char *tok;
+  char *next_ptr;
+  uint16_t argc = 0;
+  static const char *delim = " \f\n\r\t\v";
+  char *cmdline;
+  char **argv;
 
   p_cli->argc = 0;
 
-  for (tok = strtok_r(cmdline_copy, delim, &next_ptr); tok; tok = strtok_r(NULL, delim, &next_ptr))
+  cmdline = (char *)p_cli->line.buf;
+  argv    = p_cli->argv;
+
+  argv[argc] = NULL;
+
+  for (tok = strtok_r(cmdline, delim, &next_ptr); tok; tok = strtok_r(NULL, delim, &next_ptr))
   {
-    if (argc < CLI_ARGS_MAX)
-    {
-      p_cli->argv[argc++] = tok;
-    }
+    argv[argc++] = tok;
   }
 
   p_cli->argc = argc;
 
-  return (argc > 0);
+  if (argc > 0)
+  {
+    ret = true;
+  }
+
+  return ret;
 }
 
 /**

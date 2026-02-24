@@ -1,0 +1,6 @@
+../Core/Src/custom_flash.c:35:6:customFlashInit	24	static
+../Core/Src/custom_flash.c:75:6:customFlashRead	96	dynamic
+../Core/Src/custom_flash.c:117:6:customFlashWrite	64	dynamic
+../Core/Src/custom_flash.c:168:6:customFlashSectorErase	24	static
+../Core/Src/custom_flash.c:206:9:customFlashReadStatus	24	static
+../Core/Src/custom_flash.c:222:6:cliFlash	552	static

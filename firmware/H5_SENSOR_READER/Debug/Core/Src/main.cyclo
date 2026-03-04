@@ -1,0 +1,8 @@
+../Core/Src/main.c:126:13:sensorRequest	6
+../Core/Src/main.c:182:13:sensorParse	4
+../Core/Src/main.c:212:13:oledUpdate	1
+../Core/Src/main.c:235:17:modbus_crc16	4
+../Core/Src/main.c:261:5:_write	1
+../Core/Src/main.c:271:5:main	7
+../Core/Src/main.c:348:6:SystemClock_Config	4
+../Core/Src/main.c:391:6:Error_Handler	1

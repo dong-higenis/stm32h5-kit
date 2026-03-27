@@ -13,15 +13,16 @@ void apMain(void)
 
   while (1)
   {
-	if (millis() - pre_time > 500)
-	{
-      pre_time = millis();
-      ledToggle(_DEF_LED1);
-	}
+    if (millis() - pre_time > 500)
+    {
+        pre_time = millis();
+        ledToggle(_DEF_LED1);
+    }
     cliMain();
 
     sdUpdate();
 
     etnetUpdate();
+    tx_thread_sleep(1);
   }
 }

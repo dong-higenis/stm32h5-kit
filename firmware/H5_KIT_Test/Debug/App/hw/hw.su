@@ -1,0 +1,4 @@
+../App/hw/hw.c:16:6:hwInit	16	static
+../App/hw/hw.c:80:13:jumpToSysBoot	24	static,ignoring_inline_asm
+../App/hw/hw.c:111:6:delay	16	static
+../App/hw/hw.c:116:10:millis	8	static

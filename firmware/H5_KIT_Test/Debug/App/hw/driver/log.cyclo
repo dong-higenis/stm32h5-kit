@@ -1,0 +1,8 @@
+../App/hw/driver/log.c:56:6:logInit	1
+../App/hw/driver/log.c:85:6:logEnable	1
+../App/hw/driver/log.c:90:6:logDisable	1
+../App/hw/driver/log.c:95:6:logBoot	1
+../App/hw/driver/log.c:100:6:logOpen	1
+../App/hw/driver/log.c:110:6:logBufPrintf	4
+../App/hw/driver/log.c:144:6:logPrintf	5
+../App/hw/driver/log.c:179:6:cliCmd	14

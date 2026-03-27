@@ -1,0 +1,8 @@
+../App/hw/driver/log.c:56:6:logInit	8	static
+../App/hw/driver/log.c:85:6:logEnable	4	static
+../App/hw/driver/log.c:90:6:logDisable	4	static
+../App/hw/driver/log.c:95:6:logBoot	16	static
+../App/hw/driver/log.c:100:6:logOpen	16	static
+../App/hw/driver/log.c:110:6:logBufPrintf	48	static
+../App/hw/driver/log.c:144:6:logPrintf	16	static
+../App/hw/driver/log.c:179:6:cliCmd	40	static

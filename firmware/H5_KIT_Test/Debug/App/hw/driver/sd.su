@@ -1,0 +1,15 @@
+../App/hw/driver/sd.c:26:6:sdInit	16	static
+../App/hw/driver/sd.c:82:6:sdReInit	16	static
+../App/hw/driver/sd.c:97:6:sdDeInit	16	static
+../App/hw/driver/sd.c:113:6:sdIsInit	4	static
+../App/hw/driver/sd.c:118:6:sdIsDetected	16	static
+../App/hw/driver/sd.c:144:12:sdUpdate	16	static
+../App/hw/driver/sd.c:242:6:sdGetInfo	88	static
+../App/hw/driver/sd.c:269:6:sdIsBusy	16	static
+../App/hw/driver/sd.c:285:6:sdIsReady	24	static
+../App/hw/driver/sd.c:302:6:sdReadBlocks	40	static
+../App/hw/driver/sd.c:350:6:sdWriteBlocks	40	static
+../App/hw/driver/sd.c:396:6:sdEraseBlocks	24	static
+../App/hw/driver/sd.c:410:6:HAL_SD_RxCpltCallback	16	static
+../App/hw/driver/sd.c:417:6:HAL_SD_TxCpltCallback	16	static
+../App/hw/driver/sd.c:425:6:cliSd	568	static

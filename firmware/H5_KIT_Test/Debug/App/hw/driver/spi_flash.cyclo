@@ -1,0 +1,15 @@
+../App/hw/driver/spi_flash.c:30:6:spiFlashInit	5
+../App/hw/driver/spi_flash.c:67:6:spiFlashIsInit	1
+../App/hw/driver/spi_flash.c:72:6:spiFlashReset	3
+../App/hw/driver/spi_flash.c:106:6:spiFlashRead	2
+../App/hw/driver/spi_flash.c:132:6:spiFlashWrite	7
+../App/hw/driver/spi_flash.c:198:6:spiFlashErase	6
+../App/hw/driver/spi_flash.c:239:6:spiFlashEraseBlock	2
+../App/hw/driver/spi_flash.c:268:6:spiFlashEraseSector	2
+../App/hw/driver/spi_flash.c:297:10:spiFlashGetAddr	1
+../App/hw/driver/spi_flash.c:302:10:spiFlashGetLength	1
+../App/hw/driver/spi_flash.c:311:6:spiFlashGetID	4
+../App/hw/driver/spi_flash.c:339:6:spiFlashWriteEnable	4
+../App/hw/driver/spi_flash.c:379:6:spiFlashWaitBusy	4
+../App/hw/driver/spi_flash.c:417:6:spiFlashTransfer	1
+../App/hw/driver/spi_flash.c:430:6:cliCmd	23

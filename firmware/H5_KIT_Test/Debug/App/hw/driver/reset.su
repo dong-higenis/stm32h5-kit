@@ -1,0 +1,9 @@
+../App/hw/driver/reset.c:32:6:resetInit	24	static
+../App/hw/driver/reset.c:93:6:resetLog	4	static
+../App/hw/driver/reset.c:98:6:resetToBoot	8	static
+../App/hw/driver/reset.c:104:6:resetToReset	8	static
+../App/hw/driver/reset.c:109:10:resetGetBits	4	static
+../App/hw/driver/reset.c:114:6:resetSetBits	16	static
+../App/hw/driver/reset.c:119:6:resetSetBootMode	16	static
+../App/hw/driver/reset.c:125:10:resetGetBootMode	4	static
+../App/hw/driver/reset.c:131:6:cliReset	24	static

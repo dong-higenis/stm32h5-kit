@@ -1,0 +1,16 @@
+../App/hw/driver/uart.c:88:6:uartInit	9
+../App/hw/driver/uart.c:135:6:uartDeInit	1
+../App/hw/driver/uart.c:140:6:uartIsInit	1
+../App/hw/driver/uart.c:145:6:uartOpen	10
+../App/hw/driver/uart.c:227:6:uartClose	2
+../App/hw/driver/uart.c:236:10:uartAvailable	5
+../App/hw/driver/uart.c:281:6:uartIsOpen	2
+../App/hw/driver/uart.c:302:6:uartFlush	3
+../App/hw/driver/uart.c:320:9:uartRead	2
+../App/hw/driver/uart.c:342:6:uartLinSendBreak	1
+../App/hw/driver/uart.c:350:10:uartWrite	3
+../App/hw/driver/uart.c:385:10:uartPrintf	1
+../App/hw/driver/uart.c:403:10:uartGetBaud	2
+../App/hw/driver/uart.c:415:10:uartGetRxCnt	2
+../App/hw/driver/uart.c:422:10:uartGetTxCnt	2
+../App/hw/driver/uart.c:430:6:cliUart	33

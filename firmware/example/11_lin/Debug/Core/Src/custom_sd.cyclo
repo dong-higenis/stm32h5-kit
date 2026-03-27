@@ -1,6 +1,0 @@
-../Core/Src/custom_sd.c:30:6:customSdInit	3
-../Core/Src/custom_sd.c:57:6:customSdMount	5
-../Core/Src/custom_sd.c:86:6:customSdUnmount	3
-../Core/Src/custom_sd.c:114:6:customSdWriteFile	6
-../Core/Src/custom_sd.c:175:6:customSdReadFile	6
-../Core/Src/custom_sd.c:218:6:cliSdCard	19

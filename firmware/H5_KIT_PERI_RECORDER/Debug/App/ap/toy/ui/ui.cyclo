@@ -1,6 +1,0 @@
-../App/ap/toy/ui/ui.c:40:6:uiInit	1
-../App/ap/toy/ui/ui.c:49:6:uiOnButton	3
-../App/ap/toy/ui/ui.c:61:6:uiDraw	10
-../App/ap/toy/ui/ui.c:112:21:uiGet	1
-../App/ap/toy/ui/ui.c:122:13:uiNext	11
-../App/ap/toy/ui/ui.c:185:13:uiSelect	14

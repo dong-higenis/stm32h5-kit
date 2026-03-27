@@ -1,4 +1,0 @@
-../App/hw/hw.c:16:6:hwInit	3
-../App/hw/hw.c:80:13:jumpToSysBoot	2
-../App/hw/hw.c:111:6:delay	1
-../App/hw/hw.c:116:10:millis	1

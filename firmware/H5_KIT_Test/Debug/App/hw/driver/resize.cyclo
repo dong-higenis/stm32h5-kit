@@ -1,4 +1,0 @@
-../App/hw/driver/resize.c:46:6:resizeImage	5
-../App/hw/driver/resize.c:113:38:resizeImageFast	8
-../App/hw/driver/resize.c:235:38:resizeImageFastGray	8
-../App/hw/driver/resize.c:325:38:resizeImageNearest	6

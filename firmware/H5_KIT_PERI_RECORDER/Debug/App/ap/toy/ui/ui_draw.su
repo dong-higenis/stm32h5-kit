@@ -1,8 +1,0 @@
-../App/ap/toy/ui/ui_draw.c:15:6:drawMainMenu	56	static
-../App/ap/toy/ui/ui_draw.c:54:6:drawProtocolMenu	40	static
-../App/ap/toy/ui/ui_draw.c:85:6:drawProtocolDetailMenu	40	static
-../App/ap/toy/ui/ui_draw.c:118:6:drawChannelMenu	56	static
-../App/ap/toy/ui/ui_draw.c:146:6:drawByteBox	48	static
-../App/ap/toy/ui/ui_draw.c:161:5:getTextWidth	32	static
-../App/ap/toy/ui/ui_draw.c:172:6:drawSelectedBox	48	static
-../App/ap/toy/ui/ui_draw.c:183:6:drawNormalBox	48	static

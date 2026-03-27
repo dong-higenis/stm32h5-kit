@@ -1,3 +1,0 @@
-../Core/Src/wind_sensor.c:25:6:windSensorInit	1
-../Core/Src/wind_sensor.c:41:6:windSensorSetAddr	1
-../Core/Src/wind_sensor.c:56:6:windSensorSetBaud	5

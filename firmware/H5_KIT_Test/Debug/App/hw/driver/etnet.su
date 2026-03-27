@@ -1,8 +1,0 @@
-../App/hw/driver/etnet.c:60:6:etnetInit	16	static
-../App/hw/driver/etnet.c:76:6:etnetIsInit	4	static
-../App/hw/driver/etnet.c:81:6:etnetIsLink	8	static
-../App/hw/driver/etnet.c:86:6:etnetUpdateLink	16	static
-../App/hw/driver/etnet.c:105:6:etnetUpdateDHCP	32	static
-../App/hw/driver/etnet.c:198:6:etnetUpdate	8	static
-../App/hw/driver/etnet.c:205:6:etnetIsGetIP	4	static
-../App/hw/driver/etnet.c:210:6:etnetGetInfo	24	static

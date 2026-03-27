@@ -1,5 +1,0 @@
-../Core/Src/custom_lin.c:68:6:customLinInit	16	static
-../Core/Src/custom_lin.c:112:6:cliLin	40	static
-../Core/Src/custom_lin.c:216:16:linCalcChecksum	24	static
-../Core/Src/custom_lin.c:239:13:linSendFrame	48	static
-../Core/Src/custom_lin.c:277:13:linReceiveMonitor	48	static

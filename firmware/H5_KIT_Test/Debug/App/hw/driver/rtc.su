@@ -1,9 +1,0 @@
-../App/hw/driver/rtc.c:18:6:rtcInit	16	static
-../App/hw/driver/rtc.c:46:6:rtcGetInfo	40	static
-../App/hw/driver/rtc.c:69:6:rtcGetTime	40	static
-../App/hw/driver/rtc.c:88:6:rtcGetDate	80	static
-../App/hw/driver/rtc.c:122:6:rtcSetTime	40	static
-../App/hw/driver/rtc.c:144:6:rtcSetDate	40	static
-../App/hw/driver/rtc.c:166:6:rtcSetReg	16	static
-../App/hw/driver/rtc.c:179:6:rtcGetReg	16	static
-../App/hw/driver/rtc.c:194:6:cliRtc	56	static

@@ -1,5 +1,0 @@
-../App/hw/driver/lcd/han.c:14:10:hanFontLoad	24	static
-../App/hw/driver/lcd/han.c:62:6:hanWanFontLoad	24	static
-../App/hw/driver/lcd/han.c:103:6:hanUniFontLoad	24	static
-../App/hw/driver/lcd/han.c:150:6:hanEngFontLoad	24	static
-../App/hw/driver/lcd/han.c:165:10:hanCnvCodeWan2Johab	24	static

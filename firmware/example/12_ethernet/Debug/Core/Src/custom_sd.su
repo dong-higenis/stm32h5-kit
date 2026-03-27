@@ -1,6 +1,0 @@
-../Core/Src/custom_sd.c:30:6:customSdInit	8	static
-../Core/Src/custom_sd.c:57:6:customSdMount	16	static
-../Core/Src/custom_sd.c:86:6:customSdUnmount	16	static
-../Core/Src/custom_sd.c:114:6:customSdWriteFile	656	static
-../Core/Src/custom_sd.c:175:6:customSdReadFile	768	static
-../Core/Src/custom_sd.c:218:6:cliSdCard	96	static

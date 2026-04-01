@@ -7,6 +7,7 @@
 #endif /* MDK ARM Compiler */
 #include "ethernetif.h"
 
+#include "lwip/timeouts.h"
 #include "lwip/debug.h"
 #include "lwip/stats.h"
 #include "lwip/tcp.h"

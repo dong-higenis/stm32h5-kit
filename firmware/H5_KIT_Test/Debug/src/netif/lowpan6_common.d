@@ -1,8 +1,8 @@
 src/netif/lowpan6_common.o: ../src/netif/lowpan6_common.c \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/netif/lowpan6_common.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/netif/lowpan6_opts.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/lwip/opt.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/lwip/target/lwipopts.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/netif/lowpan6_common.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/netif/lowpan6_opts.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/lwip/opt.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/lwip/target/lwipopts.h \
  ../Core/Inc/main.h ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h \
  ../Core/Inc/stm32h5xx_hal_conf.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_rcc.h \
@@ -49,14 +49,14 @@ src/netif/lowpan6_common.o: ../src/netif/lowpan6_common.c \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_eth.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_eth_ex.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_fdcan.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/lwip/debug.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/lwip/arch.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/system/arch/cc.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/system/arch/cpu.h
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/netif/lowpan6_common.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/netif/lowpan6_opts.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/lwip/opt.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/lwip/target/lwipopts.h:
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/lwip/debug.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/lwip/arch.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/system/arch/cc.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/system/arch/cpu.h
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/netif/lowpan6_common.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/netif/lowpan6_opts.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/lwip/opt.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/lwip/target/lwipopts.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h:
 ../Core/Inc/stm32h5xx_hal_conf.h:
@@ -104,7 +104,7 @@ C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/lwip/target/lwipopts.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_eth.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_eth_ex.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_fdcan.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/lwip/debug.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/src/include/lwip/arch.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/system/arch/cc.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/system/arch/cpu.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/lwip/debug.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/src/include/lwip/arch.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/system/arch/cc.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/system/arch/cpu.h:

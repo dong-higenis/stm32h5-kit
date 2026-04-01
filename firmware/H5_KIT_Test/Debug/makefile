@@ -76,8 +76,8 @@ all: main-build
 main-build: H5_KIT_Test.elf secondary-outputs
 
 # Tool invocations
-H5_KIT_Test.elf H5_KIT_Test.map: $(OBJS) $(USER_OBJS) C:\Users\user\Desktop\projects\STM\touchgfx\H5_KIT_Test\STM32H563VITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "H5_KIT_Test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\user\Desktop\projects\STM\touchgfx\H5_KIT_Test\STM32H563VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H5_KIT_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+H5_KIT_Test.elf H5_KIT_Test.map: $(OBJS) $(USER_OBJS) C:\work\git\STM32-H5-KIT\firmware\H5_KIT_Test\STM32H563VITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "H5_KIT_Test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\work\git\STM32-H5-KIT\firmware\H5_KIT_Test\STM32H563VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="H5_KIT_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

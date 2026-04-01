@@ -1,5 +1,0 @@
-../App/hw/driver/lcd/han.c:14:10:hanFontLoad	6
-../App/hw/driver/lcd/han.c:62:6:hanWanFontLoad	9
-../App/hw/driver/lcd/han.c:103:6:hanUniFontLoad	9
-../App/hw/driver/lcd/han.c:150:6:hanEngFontLoad	2
-../App/hw/driver/lcd/han.c:165:10:hanCnvCodeWan2Johab	1

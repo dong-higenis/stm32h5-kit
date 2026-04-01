@@ -6,7 +6,7 @@
 
 #include "led.h"
 #include "uart.h"
-#include "gpio.h"
+#include "common/hw/include/gpio.h"
 #include "swtimer.h"
 #include "cli.h"
 #include "rtc.h"
@@ -24,7 +24,7 @@
 #include "can.h"
 #include "pwm.h"
 #include "buzzer.h"
-#include "fram.h"
+#include "common/hw/include/fram.h"
 #include "etnet.h"
 
 

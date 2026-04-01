@@ -1,5 +1,4 @@
-../Core/Src/custom_fram.c:13:6:customFramInit	2
-../Core/Src/custom_fram.c:31:6:customFramWrite	2
-../Core/Src/custom_fram.c:45:6:customFramRead	1
-../Core/Src/custom_fram.c:54:13:isFramReady	1
-../Core/Src/custom_fram.c:71:6:cliFram	10
+../Core/Src/custom_fram.c:11:6:customFramInit	2
+../Core/Src/custom_fram.c:29:6:customFramWrite	2
+../Core/Src/custom_fram.c:43:6:customFramRead	1
+../Core/Src/custom_fram.c:58:6:cliFram	10

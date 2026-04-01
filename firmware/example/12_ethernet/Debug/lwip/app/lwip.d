@@ -21,6 +21,7 @@ lwip/app/lwip.o: ../lwip/app/lwip.c ../lwip/app/lwip.h \
  C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/priv/mem_priv.h \
  C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/init.h \
  C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/lwip/target/ethernetif.h \
+ C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/timeouts.h \
  C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/tcp.h \
  C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/tcpbase.h \
  C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/ip.h \
@@ -101,6 +102,7 @@ C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/priv/memp
 C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/priv/mem_priv.h:
 C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/init.h:
 C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/lwip/target/ethernetif.h:
+C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/timeouts.h:
 C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/tcp.h:
 C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/tcpbase.h:
 C:/work/git/STM32-H5-KIT/firmware/example/12_ethernet/src/include/lwip/ip.h:

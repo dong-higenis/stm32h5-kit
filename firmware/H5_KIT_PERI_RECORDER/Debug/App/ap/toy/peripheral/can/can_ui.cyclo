@@ -1,4 +1,0 @@
-../App/ap/toy/peripheral/can/can_ui.c:19:6:canUiDraw	3
-../App/ap/toy/peripheral/can/can_ui.c:27:6:canUiOnSelect	5
-../App/ap/toy/peripheral/can/can_ui.c:51:13:drawCanMonitor	6
-../App/ap/toy/peripheral/can/can_ui.c:100:13:drawCanLogger	3

@@ -14,9 +14,6 @@
  *          3. 간단히 쓰기, 읽기, 및 ACK 응답 여부 함수를 구현하고 main에서 cli함수를 작성해 줍시다.
  *
  */
-
-static bool isFramReady(void); // 항상 fram에게 뭔가를 요청하기 전에 준비가 되어있는지 물어봅시다. 
-
 #define I2C_FRAM_ADDRESS            0x50 // slave 주소 (fram의 i2c주소)
 #define I2C_FRAM_READ_START_ADDRESS 0x00 // fram내 시작 주소 (i2c주소 아님!!)
 
@@ -74,19 +71,5 @@ bool customFramRead(uint16_t addr, uint8_t *data)
   i2c_ret = HAL_I2C_Mem_Read(&hi2c4, (uint16_t)(I2C_FRAM_ADDRESS << 1), addr, I2C_MEMADD_SIZE_8BIT, data, 1, 100);
 
   return (i2c_ret == HAL_OK);
-}
-
-/**
- * @brief FRAM의 ACK 응답 여부
- */
-static bool isFramReady(void)
-{
-  HAL_StatusTypeDef ret;
-
-  uint8_t data;
-
-  ret = HAL_I2C_Mem_Read(&hi2c4, (uint16_t)(I2C_FRAM_ADDRESS << 1), I2C_FRAM_READ_START_ADDRESS, I2C_MEMADD_SIZE_8BIT, &data, 1, 100);
-
-  return (ret == HAL_OK);
 }
 

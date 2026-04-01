@@ -1,6 +1,6 @@
 #include "fram.h"
 #include "cli.h"
-#include "i2c.h"
+#include "common/hw/include/i2c.h"
 
 #ifdef _USE_HW_FRAM
 

@@ -15,7 +15,6 @@ static volatile bool is_rx_done = false;
 static volatile bool is_tx_done = false;
 static uint8_t is_try = 0;
 static sd_state_t sd_state = SDCARD_IDLE;
-static const uint8_t _PIN_GPIO_SDCARD_DETECT = (uint8_t)SD_CD;
 
 extern SD_HandleTypeDef hsd1;
 

@@ -11,6 +11,6 @@
 ../App/hw/driver/uart.c:350:10:uartWrite	32	static
 ../App/hw/driver/uart.c:385:10:uartPrintf	292	static
 ../App/hw/driver/uart.c:403:10:uartGetBaud	24	static
-../App/hw/driver/uart.c:415:10:uartGetRxCnt	16	static
-../App/hw/driver/uart.c:422:10:uartGetTxCnt	16	static
-../App/hw/driver/uart.c:430:6:cliUart	56	static
+../App/hw/driver/uart.c:416:10:uartGetRxCnt	16	static
+../App/hw/driver/uart.c:423:10:uartGetTxCnt	16	static
+../App/hw/driver/uart.c:431:6:cliUart	56	static

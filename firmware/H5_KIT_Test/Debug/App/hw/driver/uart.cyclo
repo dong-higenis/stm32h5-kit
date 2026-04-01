@@ -11,6 +11,6 @@
 ../App/hw/driver/uart.c:350:10:uartWrite	3
 ../App/hw/driver/uart.c:385:10:uartPrintf	1
 ../App/hw/driver/uart.c:403:10:uartGetBaud	2
-../App/hw/driver/uart.c:415:10:uartGetRxCnt	2
-../App/hw/driver/uart.c:422:10:uartGetTxCnt	2
-../App/hw/driver/uart.c:430:6:cliUart	33
+../App/hw/driver/uart.c:416:10:uartGetRxCnt	2
+../App/hw/driver/uart.c:423:10:uartGetTxCnt	2
+../App/hw/driver/uart.c:431:6:cliUart	33

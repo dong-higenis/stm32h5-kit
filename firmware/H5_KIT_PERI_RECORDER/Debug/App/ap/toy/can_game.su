@@ -1,7 +1,0 @@
-../App/ap/toy/can_game.c:64:6:canToyInit	8	static
-../App/ap/toy/can_game.c:70:6:canToyUpdate	96	static
-../App/ap/toy/can_game.c:154:6:gameInit	16	static
-../App/ap/toy/can_game.c:168:6:gameUpdate	24	static
-../App/ap/toy/can_game.c:213:6:canGameDraw	24	static
-../App/ap/toy/can_game.c:240:6:canGameOverDraw	24	static
-../App/ap/toy/can_game.c:262:6:canTimeDraw	40	static

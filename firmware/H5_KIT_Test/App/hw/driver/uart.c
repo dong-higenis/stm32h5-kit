@@ -407,7 +407,8 @@ uint32_t uartGetBaud(uint8_t ch)
 
   if (ch >= UART_MAX_CH)
     return 0;
-    ret = uart_tbl[ch].baud;
+
+  ret = uart_tbl[ch].baud;
 
     return ret;
 }

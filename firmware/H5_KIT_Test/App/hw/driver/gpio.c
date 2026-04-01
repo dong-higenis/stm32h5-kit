@@ -1,4 +1,4 @@
-#include "gpio.h"
+#include "common/hw/include/gpio.h"
 #include "cli.h"
 
 

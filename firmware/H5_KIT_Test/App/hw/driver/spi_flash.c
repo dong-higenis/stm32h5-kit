@@ -4,8 +4,8 @@
 
 #ifdef _USE_HW_SPI_FLASH
 #include "qspi/w25q128fv.h"
-#include "spi.h"
-#include "gpio.h"
+#include "common/hw/include/spi.h"
+#include "common/hw/include/gpio.h"
 #include "cli.h"
 
 #define SPI_CS_L()    gpioPinWrite(SPI_FLASH_CS, _DEF_LOW)

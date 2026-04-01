@@ -1,6 +1,6 @@
 App/hw/driver/fram.o: ../App/hw/driver/fram.c \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/App/common/hw/include/fram.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/App/hw/hw_def.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/common/hw/include/fram.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/hw/hw_def.h \
  ../Core/Inc/main.h ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h \
  ../Core/Inc/stm32h5xx_hal_conf.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_rcc.h \
@@ -47,11 +47,11 @@ App/hw/driver/fram.o: ../App/hw/driver/fram.c \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_eth.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_eth_ex.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_fdcan.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/App/common/def.h \
- C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/App/common/hw/include/cli.h \
- ../Core/Inc/i2c.h ../Core/Inc/main.h
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/App/common/hw/include/fram.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/App/hw/hw_def.h:
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/common/def.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/common/hw/include/cli.h \
+ C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/common/hw/include/i2c.h
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/common/hw/include/fram.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/hw/hw_def.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h:
 ../Core/Inc/stm32h5xx_hal_conf.h:
@@ -99,7 +99,6 @@ C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/App/hw/hw_def.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_eth.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_eth_ex.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_fdcan.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/App/common/def.h:
-C:/Users/user/Desktop/projects/STM/touchgfx/H5_KIT_Test/App/common/hw/include/cli.h:
-../Core/Inc/i2c.h:
-../Core/Inc/main.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/common/def.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/common/hw/include/cli.h:
+C:/work/git/STM32-H5-KIT/firmware/H5_KIT_Test/App/common/hw/include/i2c.h:

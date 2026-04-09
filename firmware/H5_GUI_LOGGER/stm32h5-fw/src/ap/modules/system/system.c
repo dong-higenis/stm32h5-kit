@@ -38,18 +38,22 @@ void systemMain(void)
   logBoot(false);
   logPrintf("[%s] Thread Started : SYSTEM\n", init_ret ? "OK":"E_" );
   unLock(mutex_start);
-
+  
   while(1)
   {
-    ledToggle(_DEF_LED1);
-
     if (init_ret)
     {
-      delay(500);
+      sdUpdate();
     }
-    else
+    
+    static uint32_t pre_time;
+    
+    if (millis() - pre_time > 500)
     {
-      delay(50);
+      pre_time = millis();
+      
+      ledToggle(_DEF_LED1);
     }
+
   }
 }

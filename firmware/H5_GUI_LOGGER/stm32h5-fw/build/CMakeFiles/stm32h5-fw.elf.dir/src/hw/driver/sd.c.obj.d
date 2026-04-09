@@ -107,5 +107,5 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj: \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/timers.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\rtos/cpu_utils.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/assert_def.h \
- C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/gpio.h \
- C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/cli.h
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/cli.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/gpio.h

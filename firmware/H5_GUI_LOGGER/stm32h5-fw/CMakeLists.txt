@@ -33,6 +33,9 @@ file(GLOB SRC_FILES CONFIGURE_DEPENDS
   # LittleFS
   src/lib/littlefs/*.c
 
+  # FATFS
+  src/lib/fatfs/*.c
+
   # FreeRTOS
   src/lib/FreeRTOS/Source/*.c  
   src/lib/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/*.c

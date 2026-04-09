@@ -17,7 +17,7 @@ c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2
 c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-malloc.o)
                               CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj (malloc)
 c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-memcmp.o)
-                              CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj (memcmp)
+                              CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj (memcmp)
 c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
                               CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/queue.c.obj (memcpy)
 c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-memset.o)
@@ -41,7 +41,7 @@ c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2
 c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-sprintf.o)
                               CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/tasks.c.obj (sprintf)
 c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-strchr.o)
-                              CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj (strchr)
+                              CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj (strchr)
 c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-strcmp.o)
                               CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.obj (strcmp)
 c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-strcpy.o)
@@ -2901,6 +2901,451 @@ Discarded input sections
  .comment       0x00000000       0x4a CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/timers.c.obj
  .ARM.attributes
                 0x00000000       0x3a CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/timers.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .text          0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .data          0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .text.disk_status
+                0x00000000       0x14 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .text.disk_initialize
+                0x00000000       0x2c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .text.disk_read
+                0x00000000       0x38 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .text.disk_write
+                0x00000000       0x48 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .text.disk_ioctl
+                0x00000000       0x74 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .text.get_fattime
+                0x00000000        0x8 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .data.disk_status_flag
+                0x00000000        0x1 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_info    0x00000000      0x498 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_abbrev  0x00000000      0x15f CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_loc     0x00000000      0x533 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_aranges
+                0x00000000       0x48 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_ranges  0x00000000       0x38 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x574 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0xa7e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x119 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xe2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x64 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x1e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x174 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x43 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x182 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x341 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x29 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xd5 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x3d CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x16f CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x1b4 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x1fb CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x19b CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x49 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x29 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000     0x1336 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x5e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000    0x211d5 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000     0x388a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x63 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000     0x1f0d CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0xe96 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x166 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x300 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xca CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xb6 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x917 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x478 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x1cd CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x55b CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x638 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x7b CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x22c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xa5 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x313 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x1bb CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x31a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x96a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xe4 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0xa0c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x1ce CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x5cf CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xeb CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0xbe8 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x3f4 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x693 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xa6 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x2a7 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x6bd CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x4ee CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x141 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x15a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x1c6 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x26 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x4a2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xb5 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xaa CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x91 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x86 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x7e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0xcf CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_macro   0x00000000      0x208 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_line    0x00000000      0xf64 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_str     0x00000000   0x15933a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .debug_frame   0x00000000       0x9c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .ARM.attributes
+                0x00000000       0x3a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text          0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .data          0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.ld_16    0x00000000        0xa CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.ld_32    0x00000000       0x16 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.st_16    0x00000000        0x8 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.st_32    0x00000000       0x14 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dbc_1st  0x00000000       0x24 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dbc_2nd  0x00000000       0x28 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.clst2sect
+                0x00000000       0x18 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.ld_clust
+                0x00000000       0x26 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.st_clust
+                0x00000000       0x26 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.get_fileinfo
+                0x00000000       0x74 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.get_ldnumber
+                0x00000000       0x52 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.validate
+                0x00000000       0x46 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.sync_window
+                0x00000000       0x48 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.move_window
+                0x00000000       0x36 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .rodata.check_fs.str1.4
+                0x00000000        0x9 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.check_fs
+                0x00000000       0xd4 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.find_volume
+                0x00000000       0x70 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.mount_volume
+                0x00000000      0x2a8 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.put_fat  0x00000000      0x10e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.get_fat  0x00000000       0xd0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dir_sdi  0x00000000       0xac CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.create_chain
+                0x00000000      0x118 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.remove_chain
+                0x00000000       0x7e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dir_remove
+                0x00000000       0x1c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dir_clear
+                0x00000000       0x52 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dir_next
+                0x00000000       0xc8 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dir_find
+                0x00000000       0x5a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dir_alloc
+                0x00000000       0x50 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dir_read
+                0x00000000       0x5e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .rodata.create_name.str1.4
+                0x00000000        0xf CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.create_name
+                0x00000000      0x108 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.follow_path
+                0x00000000       0x8c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.dir_register
+                0x00000000       0x46 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.sync_fs  0x00000000       0x8c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_mount  0x00000000       0x58 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_open   0x00000000      0x1fa CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_read   0x00000000      0x1b6 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_write  0x00000000      0x1f6 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_sync   0x00000000       0x94 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_close  0x00000000       0x20 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_lseek  0x00000000      0x184 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_opendir
+                0x00000000       0x6e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_closedir
+                0x00000000       0x14 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_readdir
+                0x00000000       0x58 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_stat   0x00000000       0x4c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_getfree
+                0x00000000       0xdc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_truncate
+                0x00000000       0xac CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_unlink
+                0x00000000       0xb6 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_mkdir  0x00000000      0x134 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .text.f_rename
+                0x00000000      0x15c CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .bss.FatFs     0x00000000        0x4 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .bss.Fsid      0x00000000        0x2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_info    0x00000000     0x3190 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_abbrev  0x00000000      0x291 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_loc     0x00000000     0x3726 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_aranges
+                0x00000000      0x198 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_ranges  0x00000000      0x1d8 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000      0x684 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000      0xa7e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x5e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x1e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000      0x174 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x43 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000      0x182 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000      0x341 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000      0x119 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0xe2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_line    0x00000000     0x319e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_str     0x00000000     0xad37 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .debug_frame   0x00000000      0x5ec CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .ARM.attributes
+                0x00000000       0x3a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .text          0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .data          0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_info    0x00000000       0x6f CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_abbrev  0x00000000       0x29 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000       0x81 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000      0xa7e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000      0x119 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_macro   0x00000000       0xe2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_line    0x00000000      0x2c0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .debug_str     0x00000000     0x41a6 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .ARM.attributes
+                0x00000000       0x3a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .text          0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .data          0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_info    0x00000000       0x6f CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_abbrev  0x00000000       0x29 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000       0x81 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000      0xa7e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000      0x119 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_macro   0x00000000       0xe2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_line    0x00000000      0x2c1 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .debug_str     0x00000000     0x41a7 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+ .ARM.attributes
+                0x00000000       0x3a CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
  .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj
  .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj
  .group         0x00000000        0xc CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj
@@ -25493,6 +25938,10 @@ LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/queue.c.obj
 LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/stream_buffer.c.obj
 LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/tasks.c.obj
 LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/timers.c.obj
+LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
 LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj
 LOAD CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.obj
 LOAD CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj
@@ -29669,7 +30118,7 @@ LOAD c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-1
 LOAD c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a
 LOAD c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x72a57
+.debug_info     0x00000000    0x72a5f
  .debug_info    0x00000000     0x1eb2 CMakeFiles/stm32h5-fw.elf.dir/src/ap/ap.cpp.obj
  .debug_info    0x00001eb2     0x15c0 CMakeFiles/stm32h5-fw.elf.dir/src/bsp/bsp.c.obj
  .debug_info    0x00003472       0xa5 CMakeFiles/stm32h5-fw.elf.dir/src/bsp/device/stm32h5xx_hal_msp.c.obj
@@ -29715,36 +30164,36 @@ LOAD c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-1
  .debug_info    0x00034140     0x18c5 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.obj
  .debug_info    0x00035a05      0xa44 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.obj
  .debug_info    0x00036449     0x1755 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.obj
- .debug_info    0x00037b9e     0x1cb7 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
- .debug_info    0x00039855     0x241f CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj
- .debug_info    0x0003bc74     0x1342 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj
- .debug_info    0x0003cfb6     0x324b CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj
- .debug_info    0x00040201      0x4af CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj
- .debug_info    0x000406b0      0xb03 CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj
- .debug_info    0x000411b3     0x1711 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj
- .debug_info    0x000428c4     0x1b0a CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj
- .debug_info    0x000443ce     0x12db CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj
- .debug_info    0x000456a9      0xfc2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj
- .debug_info    0x0004666b     0x2b75 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj
- .debug_info    0x000491e0     0x256a CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj
- .debug_info    0x0004b74a      0xa87 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj
- .debug_info    0x0004c1d1     0x4a4c CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj
- .debug_info    0x00050c1d      0xa78 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj
- .debug_info    0x00051695      0x6e9 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj
- .debug_info    0x00051d7e      0xb53 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj
- .debug_info    0x000528d1     0x1a5f CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj
- .debug_info    0x00054330     0x2db0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj
- .debug_info    0x000570e0     0x1dca CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj
- .debug_info    0x00058eaa     0x2949 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj
- .debug_info    0x0005b7f3     0x2654 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj
- .debug_info    0x0005de47     0x2243 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj
- .debug_info    0x0006008a     0x5e7a CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj
- .debug_info    0x00065f04     0x33e7 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj
- .debug_info    0x000692eb     0x5d80 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj
- .debug_info    0x0006f06b     0x1549 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj
- .debug_info    0x000705b4     0x24a3 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj
+ .debug_info    0x00037b9e     0x1cbf CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
+ .debug_info    0x0003985d     0x241f CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj
+ .debug_info    0x0003bc7c     0x1342 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj
+ .debug_info    0x0003cfbe     0x324b CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj
+ .debug_info    0x00040209      0x4af CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj
+ .debug_info    0x000406b8      0xb03 CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj
+ .debug_info    0x000411bb     0x1711 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj
+ .debug_info    0x000428cc     0x1b0a CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj
+ .debug_info    0x000443d6     0x12db CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj
+ .debug_info    0x000456b1      0xfc2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj
+ .debug_info    0x00046673     0x2b75 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj
+ .debug_info    0x000491e8     0x256a CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj
+ .debug_info    0x0004b752      0xa87 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj
+ .debug_info    0x0004c1d9     0x4a4c CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj
+ .debug_info    0x00050c25      0xa78 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj
+ .debug_info    0x0005169d      0x6e9 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj
+ .debug_info    0x00051d86      0xb53 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj
+ .debug_info    0x000528d9     0x1a5f CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj
+ .debug_info    0x00054338     0x2db0 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj
+ .debug_info    0x000570e8     0x1dca CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj
+ .debug_info    0x00058eb2     0x2949 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj
+ .debug_info    0x0005b7fb     0x2654 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj
+ .debug_info    0x0005de4f     0x2243 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj
+ .debug_info    0x00060092     0x5e7a CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj
+ .debug_info    0x00065f0c     0x33e7 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj
+ .debug_info    0x000692f3     0x5d80 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj
+ .debug_info    0x0006f073     0x1549 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj
+ .debug_info    0x000705bc     0x24a3 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj
 
-.debug_abbrev   0x00000000     0xa530
+.debug_abbrev   0x00000000     0xa53f
  .debug_abbrev  0x00000000      0x263 CMakeFiles/stm32h5-fw.elf.dir/src/ap/ap.cpp.obj
  .debug_abbrev  0x00000263      0x25d CMakeFiles/stm32h5-fw.elf.dir/src/bsp/bsp.c.obj
  .debug_abbrev  0x000004c0       0x47 CMakeFiles/stm32h5-fw.elf.dir/src/bsp/device/stm32h5xx_hal_msp.c.obj
@@ -29790,34 +30239,34 @@ LOAD c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-1
  .debug_abbrev  0x000058f8      0x2eb CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.obj
  .debug_abbrev  0x00005be3      0x24c CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.obj
  .debug_abbrev  0x00005e2f      0x26f CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.obj
- .debug_abbrev  0x0000609e      0x306 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
- .debug_abbrev  0x000063a4      0x3d8 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj
- .debug_abbrev  0x0000677c      0x2b2 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj
- .debug_abbrev  0x00006a2e      0x386 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj
- .debug_abbrev  0x00006db4      0x150 CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj
- .debug_abbrev  0x00006f04      0x264 CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj
- .debug_abbrev  0x00007168      0x260 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj
- .debug_abbrev  0x000073c8      0x3a9 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj
- .debug_abbrev  0x00007771      0x22d CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj
- .debug_abbrev  0x0000799e      0x232 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj
- .debug_abbrev  0x00007bd0      0x221 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj
- .debug_abbrev  0x00007df1      0x1ea CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj
- .debug_abbrev  0x00007fdb      0x219 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj
- .debug_abbrev  0x000081f4      0x26e CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj
- .debug_abbrev  0x00008462      0x1bc CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj
- .debug_abbrev  0x0000861e      0x21d CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj
- .debug_abbrev  0x0000883b      0x24e CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj
- .debug_abbrev  0x00008a89      0x1ff CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj
- .debug_abbrev  0x00008c88      0x26f CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00008ef7      0x1ca CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj
- .debug_abbrev  0x000090c1      0x1fc CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj
- .debug_abbrev  0x000092bd      0x252 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj
- .debug_abbrev  0x0000950f      0x283 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj
- .debug_abbrev  0x00009792      0x2b9 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj
- .debug_abbrev  0x00009a4b      0x2b2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00009cfd      0x312 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj
- .debug_abbrev  0x0000a00f      0x2f3 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj
- .debug_abbrev  0x0000a302      0x22e CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj
+ .debug_abbrev  0x0000609e      0x315 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
+ .debug_abbrev  0x000063b3      0x3d8 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj
+ .debug_abbrev  0x0000678b      0x2b2 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj
+ .debug_abbrev  0x00006a3d      0x386 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj
+ .debug_abbrev  0x00006dc3      0x150 CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj
+ .debug_abbrev  0x00006f13      0x264 CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj
+ .debug_abbrev  0x00007177      0x260 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj
+ .debug_abbrev  0x000073d7      0x3a9 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj
+ .debug_abbrev  0x00007780      0x22d CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj
+ .debug_abbrev  0x000079ad      0x232 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj
+ .debug_abbrev  0x00007bdf      0x221 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj
+ .debug_abbrev  0x00007e00      0x1ea CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj
+ .debug_abbrev  0x00007fea      0x219 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj
+ .debug_abbrev  0x00008203      0x26e CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj
+ .debug_abbrev  0x00008471      0x1bc CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj
+ .debug_abbrev  0x0000862d      0x21d CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj
+ .debug_abbrev  0x0000884a      0x24e CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj
+ .debug_abbrev  0x00008a98      0x1ff CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj
+ .debug_abbrev  0x00008c97      0x26f CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x00008f06      0x1ca CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj
+ .debug_abbrev  0x000090d0      0x1fc CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj
+ .debug_abbrev  0x000092cc      0x252 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj
+ .debug_abbrev  0x0000951e      0x283 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj
+ .debug_abbrev  0x000097a1      0x2b9 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj
+ .debug_abbrev  0x00009a5a      0x2b2 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x00009d0c      0x312 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj
+ .debug_abbrev  0x0000a01e      0x2f3 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj
+ .debug_abbrev  0x0000a311      0x22e CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj
 
 .debug_aranges  0x00000000     0x3c68
  .debug_aranges
@@ -33031,6 +33480,16 @@ delay                                             CMakeFiles/stm32h5-fw.elf.dir/
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj
 disHanFontBuffer                                  CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd.c.obj
+disk_initialize                                   CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+disk_ioctl                                        CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+disk_read                                         CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+disk_status                                       CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+disk_write                                        CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
 div                                               c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-div.o)
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-mktime.o)
 dlc_len_tbl                                       CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj
@@ -33049,6 +33508,22 @@ errno                                             c:/work/tools/baram-fw-tools-m
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-sbrkr.o)
 exit                                              c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-exit.o)
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o
+f_close                                           CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_closedir                                        CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_getfree                                         CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_lseek                                           CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_mkdir                                           CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_mount                                           CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_open                                            CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_opendir                                         CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_read                                            CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_readdir                                         CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_rename                                          CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_stat                                            CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_sync                                            CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_truncate                                        CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_unlink                                          CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+f_write                                           CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
 faultInit                                         CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj
 faultReset                                        CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj
@@ -33094,6 +33569,8 @@ fsIsExist                                         CMakeFiles/stm32h5-fw.elf.dir/
 fsIsInit                                          CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/nvs.c.obj
 g_pfnVectors                                      CMakeFiles/stm32h5-fw.elf.dir/src/bsp/startup/startup_stm32h562xx.s.obj
+get_fattime                                       CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
 gpioInit                                          CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj
 gpioPinMode                                       CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj
@@ -33298,6 +33775,7 @@ memchr                                            c:/work/tools/baram-fw-tools-m
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
 memcmp                                            c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-memcmp.o)
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
 memcpy                                            c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard\libgcc.a(unwind-arm.o)
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-ungetc.o)
@@ -33309,6 +33787,7 @@ memcpy                                            c:/work/tools/baram-fw-tools-m
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-strtod.o)
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/stream_buffer.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/queue.c.obj
 memmove                                           c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-memmove.o)
@@ -33327,6 +33806,7 @@ memset                                            c:/work/tools/baram-fw-tools-m
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/tasks.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/stream_buffer.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/bsp/bsp.c.obj
@@ -33503,17 +33983,22 @@ rtcSetTime                                        CMakeFiles/stm32h5-fw.elf.dir/
 sdDeInit                                          CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
 sdEraseBlocks                                     CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
 sdGetInfo                                         CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
 sdInit                                            CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj
 sdIsBusy                                          CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
 sdIsDetected                                      CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
 sdIsInit                                          CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
 sdIsReady                                         CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
 sdReInit                                          CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
 sdReadBlocks                                      CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
 sdUpdate                                          CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.obj
 sdWriteBlocks                                     CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
 setlocale                                         c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-locale.o)
 signal                                            c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-signal.o)
 siprintf                                          c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-sprintf.o)
@@ -33563,6 +34048,7 @@ ssd1306WriteCmd                                   CMakeFiles/stm32h5-fw.elf.dir/
 strchr                                            c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-strchr.o)
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-strrchr.o)
                                                   CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj
+                                                  CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
 strcmp                                            c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-strcmp.o)
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-locale.o)
                                                   c:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-tzset_r.o)

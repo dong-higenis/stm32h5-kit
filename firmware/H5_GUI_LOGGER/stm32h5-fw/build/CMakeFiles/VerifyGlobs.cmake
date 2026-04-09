@@ -123,6 +123,19 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # SRC_FILES at CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/*.c")
+set(OLD_GLOB
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/diskio.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/ff.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/ffsystem.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/ffunicode.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:23 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/littlefs/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/littlefs/lfs.c"
@@ -133,7 +146,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/modules/common/cli/cli.c"
@@ -145,7 +158,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/*.cpp")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/ap.cpp"
@@ -155,7 +168,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/bsp/*.s")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/bsp/startup/startup_stm32h562xx.s"
@@ -165,7 +178,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/core/qbuffer.c"
@@ -180,7 +193,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/assert.c"
@@ -215,7 +228,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c"
@@ -334,7 +347,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/wifi/ArduinoJson/src/*.cpp")
 set(OLD_GLOB
   )
@@ -343,7 +356,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/wifi/Arduino_JSON/src/*.c")
 set(OLD_GLOB
   )
@@ -352,7 +365,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/wifi/PubSubClient/src/*.cpp")
 set(OLD_GLOB
   )
@@ -361,7 +374,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:45 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/wifi/WiFiEspAT/*.cpp")
 set(OLD_GLOB
   )

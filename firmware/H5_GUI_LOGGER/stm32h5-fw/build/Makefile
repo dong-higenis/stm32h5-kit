@@ -4097,6 +4097,102 @@ src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.s
 .PHONY : src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.s
 
+src/lib/fatfs/diskio.obj: src/lib/fatfs/diskio.c.obj
+.PHONY : src/lib/fatfs/diskio.obj
+
+# target to build an object file
+src/lib/fatfs/diskio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
+.PHONY : src/lib/fatfs/diskio.c.obj
+
+src/lib/fatfs/diskio.i: src/lib/fatfs/diskio.c.i
+.PHONY : src/lib/fatfs/diskio.i
+
+# target to preprocess a source file
+src/lib/fatfs/diskio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.i
+.PHONY : src/lib/fatfs/diskio.c.i
+
+src/lib/fatfs/diskio.s: src/lib/fatfs/diskio.c.s
+.PHONY : src/lib/fatfs/diskio.s
+
+# target to generate assembly for a file
+src/lib/fatfs/diskio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.s
+.PHONY : src/lib/fatfs/diskio.c.s
+
+src/lib/fatfs/ff.obj: src/lib/fatfs/ff.c.obj
+.PHONY : src/lib/fatfs/ff.obj
+
+# target to build an object file
+src/lib/fatfs/ff.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
+.PHONY : src/lib/fatfs/ff.c.obj
+
+src/lib/fatfs/ff.i: src/lib/fatfs/ff.c.i
+.PHONY : src/lib/fatfs/ff.i
+
+# target to preprocess a source file
+src/lib/fatfs/ff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.i
+.PHONY : src/lib/fatfs/ff.c.i
+
+src/lib/fatfs/ff.s: src/lib/fatfs/ff.c.s
+.PHONY : src/lib/fatfs/ff.s
+
+# target to generate assembly for a file
+src/lib/fatfs/ff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.s
+.PHONY : src/lib/fatfs/ff.c.s
+
+src/lib/fatfs/ffsystem.obj: src/lib/fatfs/ffsystem.c.obj
+.PHONY : src/lib/fatfs/ffsystem.obj
+
+# target to build an object file
+src/lib/fatfs/ffsystem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
+.PHONY : src/lib/fatfs/ffsystem.c.obj
+
+src/lib/fatfs/ffsystem.i: src/lib/fatfs/ffsystem.c.i
+.PHONY : src/lib/fatfs/ffsystem.i
+
+# target to preprocess a source file
+src/lib/fatfs/ffsystem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.i
+.PHONY : src/lib/fatfs/ffsystem.c.i
+
+src/lib/fatfs/ffsystem.s: src/lib/fatfs/ffsystem.c.s
+.PHONY : src/lib/fatfs/ffsystem.s
+
+# target to generate assembly for a file
+src/lib/fatfs/ffsystem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.s
+.PHONY : src/lib/fatfs/ffsystem.c.s
+
+src/lib/fatfs/ffunicode.obj: src/lib/fatfs/ffunicode.c.obj
+.PHONY : src/lib/fatfs/ffunicode.obj
+
+# target to build an object file
+src/lib/fatfs/ffunicode.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
+.PHONY : src/lib/fatfs/ffunicode.c.obj
+
+src/lib/fatfs/ffunicode.i: src/lib/fatfs/ffunicode.c.i
+.PHONY : src/lib/fatfs/ffunicode.i
+
+# target to preprocess a source file
+src/lib/fatfs/ffunicode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.i
+.PHONY : src/lib/fatfs/ffunicode.c.i
+
+src/lib/fatfs/ffunicode.s: src/lib/fatfs/ffunicode.c.s
+.PHONY : src/lib/fatfs/ffunicode.s
+
+# target to generate assembly for a file
+src/lib/fatfs/ffunicode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.s
+.PHONY : src/lib/fatfs/ffunicode.c.s
+
 src/lib/littlefs/lfs.obj: src/lib/littlefs/lfs.c.obj
 .PHONY : src/lib/littlefs/lfs.obj
 
@@ -4674,6 +4770,18 @@ help:
 	@echo ... src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.obj
 	@echo ... src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.i
 	@echo ... src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.s
+	@echo ... src/lib/fatfs/diskio.obj
+	@echo ... src/lib/fatfs/diskio.i
+	@echo ... src/lib/fatfs/diskio.s
+	@echo ... src/lib/fatfs/ff.obj
+	@echo ... src/lib/fatfs/ff.i
+	@echo ... src/lib/fatfs/ff.s
+	@echo ... src/lib/fatfs/ffsystem.obj
+	@echo ... src/lib/fatfs/ffsystem.i
+	@echo ... src/lib/fatfs/ffsystem.s
+	@echo ... src/lib/fatfs/ffunicode.obj
+	@echo ... src/lib/fatfs/ffunicode.i
+	@echo ... src/lib/fatfs/ffunicode.s
 	@echo ... src/lib/littlefs/lfs.obj
 	@echo ... src/lib/littlefs/lfs.i
 	@echo ... src/lib/littlefs/lfs.s

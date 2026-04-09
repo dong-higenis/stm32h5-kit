@@ -39,6 +39,8 @@ typedef struct
   void       *sd_arg;
 } sd_event_t;
 
+// fatfs 참조용
+extern SD_HandleTypeDef hsd;
 
 bool sdInit(void);
 bool sdReInit(void);

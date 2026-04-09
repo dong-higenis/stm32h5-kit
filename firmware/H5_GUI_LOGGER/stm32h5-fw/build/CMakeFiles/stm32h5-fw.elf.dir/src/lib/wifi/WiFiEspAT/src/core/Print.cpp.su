@@ -1,0 +1,41 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.h:74:17:virtual int Print::availableForWrite()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.h:115:18:virtual void Print::flush()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:34:8:virtual size_t Print::write(const uint8_t*, size_t)	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:52:8:size_t Print::print(const String&)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:57:8:size_t Print::print(const char*)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:47:8:size_t Print::print(const __FlashStringHelper*)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:62:8:size_t Print::print(char)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:149:8:size_t Print::print(const Printable&)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:154:8:size_t Print::println()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:142:8:size_t Print::println(const __FlashStringHelper*)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:159:8:size_t Print::println(const String&)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:166:8:size_t Print::println(const char*)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:173:8:size_t Print::println(char)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:243:8:size_t Print::println(const Printable&)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:252:7:int _write(int, char*, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:275:5:)	12	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:284:5:)	12	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:293:5:int Print::vprintf(const char*, va_list)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:298:5:int Print::vprintf(const __FlashStringHelper*, va_list)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:306:8:size_t Print::printNumber(long unsigned int, uint8_t)	56	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:82:8:size_t Print::print(long int, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:72:8:size_t Print::print(int, int)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:187:8:size_t Print::println(int, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:201:8:size_t Print::println(long int, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:98:8:size_t Print::print(long unsigned int, int)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:67:8:size_t Print::print(unsigned char, int)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:180:8:size_t Print::println(unsigned char, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:77:8:size_t Print::print(unsigned int, int)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:194:8:size_t Print::println(unsigned int, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:208:8:size_t Print::println(long unsigned int, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:372:8:size_t Print::printULLNumber(long long unsigned int, uint8_t)	96	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:107:8:size_t Print::print(long long int, int)	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:215:8:size_t Print::println(long long int, int)	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:123:8:size_t Print::print(long long unsigned int, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:222:8:size_t Print::println(long long unsigned int, int)	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:423:8:size_t Print::printFloat(T, uint8_t) [with T = float]	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:132:8:size_t Print::print(float, int)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:229:8:size_t Print::println(float, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:423:8:size_t Print::printFloat(T, uint8_t) [with T = double]	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:137:8:size_t Print::print(double, int)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.cpp:236:8:size_t Print::println(double, int)	16	static

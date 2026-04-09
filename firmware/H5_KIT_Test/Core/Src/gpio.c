@@ -37,6 +37,10 @@
      PC15-OSC32_OUT(OSC32_OUT)   ------> RCC_OSC32_OUT
      PH0-OSC_IN(PH0)   ------> RCC_OSC_IN
      PH1-OSC_OUT(PH1)   ------> RCC_OSC_OUT
+     PE11   ------> SPI4_NSS
+     PE12   ------> SPI4_SCK
+     PE13   ------> SPI4_MISO
+     PE14   ------> SPI4_MOSI
 */
 void MX_GPIO_Init(void)
 {
@@ -55,7 +59,7 @@ void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOC, LED_Pin|RMII_NRST_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3|SPI_NSS_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(SPI_NSS_GPIO_Port, SPI_NSS_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(U4_DE_GPIO_Port, U4_DE_Pin, GPIO_PIN_RESET);
@@ -76,12 +80,20 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(SW_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PA3 SPI_NSS_Pin */
-  GPIO_InitStruct.Pin = GPIO_PIN_3|SPI_NSS_Pin;
+  /*Configure GPIO pin : SPI_NSS_Pin */
+  GPIO_InitStruct.Pin = SPI_NSS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  HAL_GPIO_Init(SPI_NSS_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PE11 PE12 PE13 PE14 */
+  GPIO_InitStruct.Pin = GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14;
+  GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Alternate = GPIO_AF5_SPI4;
+  HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
   /*Configure GPIO pin : U4_DE_Pin */
   GPIO_InitStruct.Pin = U4_DE_Pin;

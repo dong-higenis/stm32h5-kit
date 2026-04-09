@@ -1,0 +1,11 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:99:8:virtual size_t IPAddress::printTo(Print&) const	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:23:1:IPAddress::IPAddress()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:28:1:IPAddress::IPAddress(uint8_t, uint8_t, uint8_t, uint8_t)	4	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:108:1:void __static_initialization_and_destruction_0(int, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:36:1:IPAddress::IPAddress(uint32_t)	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:41:1:IPAddress::IPAddress(const uint8_t*)	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:46:6:bool IPAddress::fromString(const char*)	4	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:82:12:IPAddress& IPAddress::operator=(const uint8_t*)	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:88:12:IPAddress& IPAddress::operator=(uint32_t)	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:94:6:bool IPAddress::operator==(const uint8_t*) const	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\IPAddress.cpp:108:1:cpp)	8	static

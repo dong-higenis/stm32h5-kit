@@ -1,0 +1,13 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:876:20:UTILS_PLL_IsBusy	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:843:17:UTILS_GetPLLOutputFrequency	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:212:6:LL_Init1msTick	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:226:6:LL_Init1msTick_HCLK_Div8	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:240:6:LL_Init1msTick_LSE	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:254:6:LL_Init1msTick_LSI	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:272:6:LL_mDelay	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:346:6:LL_SetSystemCoreClock	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:661:13:LL_SetFlashLatency	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:899:20:UTILS_EnablePLLAndSwitchSystem	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:371:13:LL_PLL_ConfigSystemClock_CSI	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:461:13:LL_PLL_ConfigSystemClock_HSI	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c:555:13:LL_PLL_ConfigSystemClock_HSE	32	static

@@ -1,0 +1,17 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.h:74:17:virtual int Print::availableForWrite()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Print.h:115:18:virtual void Print::flush()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:31:5:int Stream::timedRead()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:213:8:virtual size_t Stream::readBytes(char*, size_t)	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:232:8:virtual size_t Stream::readBytesUntil(char, char*, size_t)	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:45:5:int Stream::timedPeek()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:60:5:int Stream::peekNextDigit(LookaheadMode, bool)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:93:6:void Stream::setTimeout(long unsigned int)	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:136:6:long int Stream::parseInt(LookaheadMode, char)	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:167:7:float Stream::parseFloat(LookaheadMode, char)	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:249:8:String Stream::readString()	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:260:8:String Stream::readStringUntil(char)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:271:5:int Stream::findMulti(Stream::MultiTarget*, int)	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:120:6:bool Stream::findUntil(const char*, size_t, const char*, size_t)	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:99:7:bool Stream::find(const char*)	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:106:6:bool Stream::find(const char*, size_t)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core\Stream.cpp:112:7:bool Stream::findUntil(const char*, const char*)	32	static

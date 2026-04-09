@@ -1,0 +1,7 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\pwm.c:69:6:pwmInitTimer	96	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\pwm.c:47:6:pwmInit	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\pwm.c:138:6:pwmIsInit	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\pwm.c:143:6:pwmWrite	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\pwm.c:158:10:pwmRead	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\pwm.c:173:6:cliPwm	40	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\pwm.c:165:10:pwmGetMax	0	static

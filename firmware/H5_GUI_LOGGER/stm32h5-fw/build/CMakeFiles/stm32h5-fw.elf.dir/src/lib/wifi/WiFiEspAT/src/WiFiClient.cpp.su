@@ -1,0 +1,28 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core/Print.h:74:17:virtual int Print::availableForWrite()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:140:1:virtual WiFiClient::operator bool()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:71:6:virtual void WiFiClient::stop()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:86:8:virtual size_t WiFiClient::write(uint8_t)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:92:8:virtual size_t WiFiClient::write(const uint8_t*, size_t)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:98:6:virtual void WiFiClient::flush()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:116:5:virtual int WiFiClient::available()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:122:5:virtual int WiFiClient::read()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:128:5:virtual int WiFiClient::read(uint8_t*, size_t)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:134:5:virtual int WiFiClient::peek()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:144:9:virtual uint8_t WiFiClient::connected()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:187:1:void __static_initialization_and_destruction_0(int, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:24:1:WiFiClient::WiFiClient()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:27:1:WiFiClient::WiFiClient(uint8_t, uint16_t)	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:34:5:int WiFiClient::connect(bool, const char*, uint16_t)	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:55:5:virtual int WiFiClient::connect(const char*, uint16_t)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:49:5:int WiFiClient::connect(bool, IPAddress, uint16_t)	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:59:5:virtual int WiFiClient::connect(IPAddress, uint16_t)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:63:5:int WiFiClient::connectSSL(const char*, uint16_t)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:67:5:int WiFiClient::connectSSL(IPAddress, uint16_t)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:79:6:void WiFiClient::abort()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:104:8:size_t WiFiClient::write(Stream&)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:110:8:size_t WiFiClient::write(SendCallbackFnc)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:155:9:uint8_t WiFiClient::status()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:163:11:IPAddress WiFiClient::remoteIP()	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:173:10:uint16_t WiFiClient::remotePort()	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:183:10:uint16_t WiFiClient::localPort()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiClient.cpp:187:1:cpp)	8	static

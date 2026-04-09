@@ -98,9 +98,10 @@ bool uartInit(void)
       case HW_UART_CH_UART_2:
       case HW_UART_CH_RS485_2:
       case HW_UART_CH_RS485_1:
+    	uart_tbl[i].baud = 115200;
+    	break;
       case HW_UART_CH_RS232:
-        uart_tbl[i].baud = 115200;
-        break;
+
       case HW_UART_CH_LIN_1:
       case HW_UART_CH_LIN_2:
       case HW_UART_CH_LIN_3:
@@ -554,11 +555,55 @@ void cliUart(cli_args_t *args)
     ret = true;
   }
 
+  if (args->argc == 1 && args->isStr(0, "bt_test"))
+  {
+    uint8_t rx_data;
+    uint32_t pre_time;
+
+    cliPrintf("BC-04 AT Test Start (q to quit)\n");
+
+    // AT\r\n 전송
+    uartWrite(HW_UART_CH_RS232, (uint8_t *)"AT\r\n", 4);
+    cliPrintf("-> TX : AT\\r\\n\n");
+
+    pre_time = millis();
+    while(1)
+    {
+      // RX 수신 대기
+      if (uartAvailable(HW_UART_CH_RS232) > 0)
+      {
+        rx_data = uartRead(HW_UART_CH_RS232);
+        cliPrintf("<- RX : 0x%02X (%c)\n", rx_data, (rx_data >= 0x20) ? rx_data : '.');
+        pre_time = millis();
+      }
+
+      // 1초 타임아웃
+      if (millis() - pre_time >= 1000)
+      {
+        cliPrintf("Timeout - No response\n");
+        uartWrite(HW_UART_CH_RS232, (uint8_t *)"AT\r\n", 4);
+        cliPrintf("-> TX : AT\\r\\n (retry)\n");
+        pre_time = millis();
+      }
+
+      // q 누르면 종료
+      if (cliAvailable() > 0)
+      {
+        rx_data = cliRead();
+        if (rx_data == 'q') break;
+      }
+    }
+
+    cliPrintf("BT Test End\n");
+    ret = true;
+  }
+
   if (ret == false)
   {
     cliPrintf("uart info\n");
     cliPrintf("uart test ch[1~%d]\n", HW_UART_MAX_CH);
     cliPrintf("uart lin_rx ch[1~%d]\n", HW_UART_MAX_CH);
+    cliPrintf("uart bt_test\n");
   }
 }
 

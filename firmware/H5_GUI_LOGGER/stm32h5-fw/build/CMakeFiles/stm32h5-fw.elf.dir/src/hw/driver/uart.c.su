@@ -1,0 +1,16 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:122:6:uartInit	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:154:6:uartDeInit	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:159:6:uartIsInit	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:164:6:uartOpen	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:245:6:uartClose	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:255:10:uartAvailable	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:289:9:uartRead	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:271:6:uartFlush	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:305:10:uartWrite	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:324:10:uartPrintf	276	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:342:10:uartGetBaud	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:1276:6:cliUart	40	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:362:10:uartGetRxCnt	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:370:10:uartGetTxCnt	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:378:6:HAL_UART_MspInit	512	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c:1161:6:HAL_UART_MspDeInit	8	static

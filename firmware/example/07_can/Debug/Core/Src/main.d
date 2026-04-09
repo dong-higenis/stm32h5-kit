@@ -30,8 +30,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_exti.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_fdcan.h \
  ../Core/Inc/fdcan.h ../Core/Inc/main.h ../Core/Inc/gpdma.h \
- ../Core/Inc/i2c.h ../Core/Inc/icache.h ../Core/Inc/usart.h \
- ../Core/Inc/gpio.h ../Core/Inc/cli.h ../Core/Inc/custom_can.h \
+ ../Core/Inc/gpio.h ../Core/Inc/i2c.h ../Core/Inc/icache.h \
+ ../Core/Inc/usart.h ../Core/Inc/cli.h ../Core/Inc/custom_can.h \
  C:/work/git/STM32-H5-KIT/firmware/example/07_can/Core/Inc/driver/ssd1306.h
 ../Core/Inc/main.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h:
@@ -67,10 +67,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/fdcan.h:
 ../Core/Inc/main.h:
 ../Core/Inc/gpdma.h:
+../Core/Inc/gpio.h:
 ../Core/Inc/i2c.h:
 ../Core/Inc/icache.h:
 ../Core/Inc/usart.h:
-../Core/Inc/gpio.h:
 ../Core/Inc/cli.h:
 ../Core/Inc/custom_can.h:
 C:/work/git/STM32-H5-KIT/firmware/example/07_can/Core/Inc/driver/ssd1306.h:

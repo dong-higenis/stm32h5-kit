@@ -1,0 +1,4 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\common\event\event.c:35:6:eventInit	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\common\event\event.c:88:6:eventThread	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\common\event\event.c:57:6:eventAddCallback	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\common\event\event.c:72:6:eventPut	8	static

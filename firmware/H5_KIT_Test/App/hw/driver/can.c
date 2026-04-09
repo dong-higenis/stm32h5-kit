@@ -186,7 +186,8 @@ bool canOpen(uint8_t ch, CanMode_t mode, CanFrame_t frame, CanBaud_t baud, CanBa
   uint32_t tdc_offset;
 
 
-  if (ch >= CAN_MAX_CH) return false;
+  if (ch >= CAN_MAX_CH)
+    return false;
 
 
   p_can = can_tbl[ch].hfdcan;

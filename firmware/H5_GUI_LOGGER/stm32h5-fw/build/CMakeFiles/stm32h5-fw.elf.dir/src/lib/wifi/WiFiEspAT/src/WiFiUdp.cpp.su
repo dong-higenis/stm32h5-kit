@@ -1,0 +1,32 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:57:20:virtual uint16_t WiFiUdpSender::remotePort()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:74:15:virtual int WiFiUdpSender::parsePacket()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:76:15:virtual int WiFiUdpSender::available()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:77:15:virtual int WiFiUdpSender::read()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:78:15:virtual int WiFiUdpSender::read(uint8_t*, size_t)	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:79:15:virtual int WiFiUdpSender::read(char*, size_t)	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:80:15:virtual int WiFiUdpSender::peek()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:119:15:virtual int WiFiUDP::read(char*, size_t)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:130:21:virtual IPAddress WiFiUDP::remoteIP()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:131:20:virtual uint16_t WiFiUDP::remotePort()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:192:5:virtual int WiFiUDP::available()	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:196:5:virtual int WiFiUDP::read()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:214:5:virtual int WiFiUDP::peek()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:24:5:virtual int WiFiUdpSender::beginPacket(IPAddress, uint16_t)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:156:6:virtual void WiFiUdpSender::stop()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:29:5:virtual int WiFiUdpSender::beginPacket(const char*, uint16_t)	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:52:5:virtual int WiFiUdpSender::endPacket()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:65:8:virtual size_t WiFiUdpSender::write(uint8_t)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:71:8:virtual size_t WiFiUdpSender::write(const uint8_t*, size_t)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:77:6:virtual void WiFiUdpSender::flush()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:83:5:virtual int WiFiUdpSender::availableForWrite()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:202:5:virtual int WiFiUDP::read(uint8_t*, size_t)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.h:56:21:virtual IPAddress WiFiUdpSender::remoteIP()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:218:1:void __static_initialization_and_destruction_0(int, int)	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:89:8:size_t WiFiUdpSender::write(SendCallbackFnc)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:120:9:uint8_t WiFiUdpSender::begin(const char*, uint16_t)	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:129:9:virtual uint8_t WiFiUdpSender::begin(uint16_t)	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:133:9:virtual uint8_t WiFiUdpSender::beginMulticast(IPAddress, uint16_t)	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:139:8:size_t WiFiUdpSender::availableForParse()	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:145:8:size_t WiFiUdpSender::parsePacket(uint8_t*, size_t, IPAddress&, uint16_t&)	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:178:5:virtual int WiFiUDP::parsePacket()	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiUdp.cpp:218:1:cpp)	8	static

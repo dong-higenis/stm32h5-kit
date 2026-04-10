@@ -30,6 +30,9 @@ extern "C" {
 #include "qbuffer.h"
 #include "can.h"
 #include "sd.h"
+#include "fatfs.h"
+#include "eth.h"
+#include "eth_udp.h"
 
 #include "osal/thread.h"
 

@@ -52,6 +52,8 @@ bool hwInit(void)
   lcdInit();
   canInit();
   sdInit();
+  fatfsInit();
+  etnetInit();
   threadInit();
 
   return true;

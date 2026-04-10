@@ -96,8 +96,9 @@
 #define      HW_CAN_MSG_RX_BUF_MAX  32
 
 #define _USE_HW_SD
-
-    
+#define _USE_HW_FATFS
+#define _USE_HW_ETNET
+#define _USE_HW_ETNET_UDP    
 
 
 //-- CLI
@@ -118,6 +119,9 @@
 
 #define _HW_DEF_THREAD_CLI_PRI                  osPriorityNormal
 #define _HW_DEF_THREAD_CLI_STACK                (32*1024)
+
+#define _HW_DEF_THREAD_PERI_PRI                 osPriorityNormal
+#define _HW_DEF_THREAD_PERI_STACK               (32*1024)
 
 #define _HW_DEF_THREAD_EVENT_PRI                osPriorityNormal
 #define _HW_DEF_THREAD_EVENT_STACK              (8*1024)

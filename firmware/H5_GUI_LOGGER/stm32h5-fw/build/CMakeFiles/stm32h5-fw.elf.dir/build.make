@@ -348,10 +348,24 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/timers.c.s"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\timers.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\FreeRTOS\Source\timers.c.s
 
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/BSP/lan8742.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\BSP\lan8742.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\BSP\lan8742.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\BSP\lan8742.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\BSP\lan8742.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\BSP\lan8742.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\BSP\lan8742.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\BSP\lan8742.c.s
+
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/diskio.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\fatfs\diskio.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\fatfs\diskio.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\fatfs\diskio.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.i: cmake_force
@@ -365,7 +379,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/ff.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\fatfs\ff.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\fatfs\ff.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\fatfs\ff.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.i: cmake_force
@@ -379,7 +393,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/ffsystem.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\fatfs\ffsystem.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\fatfs\ffsystem.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\fatfs\ffsystem.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.i: cmake_force
@@ -393,7 +407,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/ffunicode.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\fatfs\ffunicode.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\fatfs\ffunicode.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\fatfs\ffunicode.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.i: cmake_force
@@ -407,7 +421,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/littlefs/lfs.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\littlefs\lfs.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\littlefs\lfs.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\littlefs\lfs.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.i: cmake_force
@@ -421,7 +435,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/littlefs/lfs_util.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\littlefs\lfs_util.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\littlefs\lfs_util.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\littlefs\lfs_util.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.i: cmake_force
@@ -432,10 +446,38 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.s"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\littlefs\lfs_util.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\littlefs\lfs_util.c.s
 
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/app/lwip.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\app\lwip.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\app\lwip.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\app\lwip.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\app\lwip.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\app\lwip.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\app\lwip.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\app\lwip.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/target/ethernetif.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\target\ethernetif.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\target\ethernetif.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\target\ethernetif.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\target\ethernetif.c.s
+
 CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/main.cpp
 CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\main.cpp.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\main.cpp.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\main.cpp
 
 CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.i: cmake_force
@@ -449,7 +491,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/modules/common/cli/cli.c
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\ap\modules\common\cli\cli.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\ap\modules\common\cli\cli.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\common\cli\cli.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.i: cmake_force
@@ -463,7 +505,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/modules/module.c
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\ap\modules\module.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\ap\modules\module.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\module.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.i: cmake_force
@@ -477,7 +519,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/modules/system/system.c
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\ap\modules\system\system.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\ap\modules\system\system.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\system\system.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.i: cmake_force
@@ -490,7 +532,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.s: cmake_force
 
 CMakeFiles/stm32h5-fw.elf.dir/src/bsp/startup/startup_stm32h562xx.s.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/bsp/startup/startup_stm32h562xx.s.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/bsp/startup/startup_stm32h562xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/stm32h5-fw.elf.dir/src/bsp/startup/startup_stm32h562xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/stm32h5-fw.elf.dir/src/bsp/startup/startup_stm32h562xx.s.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\stm32h5-fw.elf.dir\src\bsp\startup\startup_stm32h562xx.s.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\startup\startup_stm32h562xx.s
 
 CMakeFiles/stm32h5-fw.elf.dir/src/bsp/startup/startup_stm32h562xx.s.i: cmake_force
@@ -504,7 +546,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/bsp/startup/startup_stm32h562xx.s.s: cmake_for
 CMakeFiles/stm32h5-fw.elf.dir/src/common/core/qbuffer.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/common/core/qbuffer.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/core/qbuffer.c
 CMakeFiles/stm32h5-fw.elf.dir/src/common/core/qbuffer.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/core/qbuffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/core/qbuffer.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/common/core/qbuffer.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\common\core\qbuffer.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\common\core\qbuffer.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\core\qbuffer.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/common/core/qbuffer.c.i: cmake_force
@@ -518,7 +560,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/common/core/qbuffer.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/common/core/util_core.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/common/core/util_core.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/core/util_core.c
 CMakeFiles/stm32h5-fw.elf.dir/src/common/core/util_core.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/core/util_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/core/util_core.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/common/core/util_core.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\common\core\util_core.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\common\core\util_core.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\core\util_core.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/common/core/util_core.c.i: cmake_force
@@ -532,7 +574,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/common/core/util_core.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/hw/include/hangul/han.c
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\common\hw\include\hangul\han.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\common\hw\include\hangul\han.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include\hangul\han.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.i: cmake_force
@@ -546,7 +588,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/hw/src/cli.c
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\common\hw\src\cli.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\common\hw\src\cli.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\src\cli.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.i: cmake_force
@@ -560,7 +602,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli_gui.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli_gui.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/hw/src/cli_gui.c
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli_gui.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli_gui.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli_gui.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli_gui.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\common\hw\src\cli_gui.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\common\hw\src\cli_gui.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\src\cli_gui.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli_gui.c.i: cmake_force
@@ -574,7 +616,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/cli_gui.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/swtimer.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/swtimer.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/hw/src/swtimer.c
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/swtimer.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/swtimer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/swtimer.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/swtimer.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\common\hw\src\swtimer.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\common\hw\src\swtimer.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\src\swtimer.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/swtimer.c.i: cmake_force
@@ -588,7 +630,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/src/swtimer.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/assert.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/assert.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/assert.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/assert.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/assert.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/assert.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/assert.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\assert.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\assert.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\assert.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/assert.c.i: cmake_force
@@ -602,7 +644,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/assert.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/button.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\button.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\button.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\button.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.i: cmake_force
@@ -616,7 +658,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/buzzer.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\buzzer.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\buzzer.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\buzzer.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.i: cmake_force
@@ -630,7 +672,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/can.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\can.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\can.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\can.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.i: cmake_force
@@ -641,10 +683,52 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.s"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\can.c -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\can.c.s
 
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/eth.c
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\eth.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\eth.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c > CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\eth.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\eth.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/eth_udp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\eth_udp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\eth_udp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c > CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\eth_udp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\eth_udp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/fatfs.c
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\fatfs.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\fatfs.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\fatfs.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\fatfs.c > CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\fatfs.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\fatfs.c -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\fatfs.c.s
+
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/fault.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\fault.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\fault.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\fault.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.i: cmake_force
@@ -658,7 +742,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/fs.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\fs.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\fs.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\fs.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.i: cmake_force
@@ -672,7 +756,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/gpio.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\gpio.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\gpio.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\gpio.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.i: cmake_force
@@ -686,7 +770,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/i2c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/i2c.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/i2c.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/i2c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/i2c.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/i2c.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\i2c.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\i2c.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\i2c.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/i2c.c.i: cmake_force
@@ -700,7 +784,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/i2c.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/lcd.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\lcd.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\lcd.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\lcd.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd.c.i: cmake_force
@@ -714,7 +798,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/lcd_fonts.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/lcd_fonts.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/lcd/lcd_fonts.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/lcd_fonts.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/lcd_fonts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/lcd_fonts.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/lcd_fonts.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\lcd\lcd_fonts.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\lcd\lcd_fonts.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\lcd\lcd_fonts.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/lcd_fonts.c.i: cmake_force
@@ -728,7 +812,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/lcd_fonts.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/ssd1306.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/ssd1306.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/lcd/ssd1306.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/ssd1306.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/ssd1306.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/ssd1306.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/ssd1306.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\lcd\ssd1306.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\lcd\ssd1306.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\lcd\ssd1306.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/ssd1306.c.i: cmake_force
@@ -742,7 +826,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/ssd1306.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/st7735.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/st7735.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/lcd/st7735.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/st7735.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/st7735.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/st7735.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/st7735.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\lcd\st7735.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\lcd\st7735.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\lcd\st7735.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/st7735.c.i: cmake_force
@@ -756,7 +840,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/lcd/st7735.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/led.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/led.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/led.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/led.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/led.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/led.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\led.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\led.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\led.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/led.c.i: cmake_force
@@ -770,7 +854,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/led.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/log.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/log.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/log.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/log.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/log.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/log.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\log.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\log.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\log.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/log.c.i: cmake_force
@@ -784,7 +868,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/log.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/micros.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/micros.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/micros.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/micros.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/micros.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/micros.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/micros.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\micros.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\micros.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\micros.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/micros.c.i: cmake_force
@@ -798,7 +882,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/micros.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/nvs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/nvs.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/nvs.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/nvs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/nvs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/nvs.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/nvs.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\nvs.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\nvs.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\nvs.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/nvs.c.i: cmake_force
@@ -812,7 +896,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/nvs.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/pwm.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\pwm.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\pwm.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\pwm.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.i: cmake_force
@@ -826,7 +910,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/pwm.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/reset.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\reset.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\reset.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\reset.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.i: cmake_force
@@ -840,7 +924,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/reset.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/resize.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\resize.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\resize.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\resize.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.i: cmake_force
@@ -854,7 +938,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/rtc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\rtc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\rtc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\rtc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.i: cmake_force
@@ -868,7 +952,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/rtc.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/sd.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\sd.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\sd.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\sd.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.i: cmake_force
@@ -882,7 +966,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/sd.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/spi.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\spi.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\spi.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\spi.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.i: cmake_force
@@ -896,7 +980,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/spi_flash.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\spi_flash.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\spi_flash.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.i: cmake_force
@@ -910,7 +994,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/uart.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\uart.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\driver\uart.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\uart.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.i: cmake_force
@@ -924,7 +1008,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/uart.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/hw.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\hw.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\hw.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\hw.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.i: cmake_force
@@ -938,7 +1022,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/osal/thread.c
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\hw\osal\thread.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\hw\osal\thread.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\osal\thread.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.i: cmake_force
@@ -952,7 +1036,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/osal/thread.c.s: cmake_force
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.i: cmake_force
@@ -966,7 +1050,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_adc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_adc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_adc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc.c.i: cmake_force
@@ -980,7 +1064,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_adc_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_adc_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_adc_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_adc_ex.c.i: cmake_force
@@ -994,7 +1078,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cec.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cec.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cec.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cec.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cec.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cec.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cec.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cec.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cec.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cec.c.i: cmake_force
@@ -1008,7 +1092,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_comp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_comp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_comp.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_comp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_comp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_comp.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_comp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_comp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_comp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_comp.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_comp.c.i: cmake_force
@@ -1022,7 +1106,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cordic.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cordic.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cordic.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cordic.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cordic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cordic.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cordic.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cordic.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cordic.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cordic.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cordic.c.i: cmake_force
@@ -1036,7 +1120,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cortex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cortex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cortex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cortex.c.i: cmake_force
@@ -1050,7 +1134,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_crc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_crc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_crc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc.c.i: cmake_force
@@ -1064,7 +1148,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_crc_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_crc_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_crc_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_crc_ex.c.i: cmake_force
@@ -1078,7 +1162,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cryp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cryp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cryp.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp.c.i: cmake_force
@@ -1092,7 +1176,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cryp_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cryp_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cryp_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_cryp_ex.c.i: cmake_force
@@ -1106,7 +1190,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dac.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dac.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dac.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac.c.i: cmake_force
@@ -1120,7 +1204,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dac_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dac_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dac_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dac_ex.c.i: cmake_force
@@ -1134,7 +1218,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dcache.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dcache.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dcache.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcache.c.i: cmake_force
@@ -1148,7 +1232,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcmi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcmi.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcmi.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcmi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcmi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcmi.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcmi.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dcmi.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dcmi.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dcmi.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dcmi.c.i: cmake_force
@@ -1162,7 +1246,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma.c.i: cmake_force
@@ -1176,7 +1260,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dma_ex.c.i: cmake_force
@@ -1190,7 +1274,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dts.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dts.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dts.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_dts.c.i: cmake_force
@@ -1204,7 +1288,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_eth.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_eth.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_eth.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth.c.i: cmake_force
@@ -1218,7 +1302,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_eth_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_eth_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_eth_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_eth_ex.c.i: cmake_force
@@ -1232,7 +1316,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_exti.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_exti.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_exti.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c.i: cmake_force
@@ -1246,7 +1330,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_fdcan.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_fdcan.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_fdcan.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fdcan.c.i: cmake_force
@@ -1260,7 +1344,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_flash.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_flash.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_flash.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash.c.i: cmake_force
@@ -1274,7 +1358,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_flash_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_flash_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_flash_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_flash_ex.c.i: cmake_force
@@ -1288,7 +1372,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fmac.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fmac.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fmac.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fmac.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fmac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fmac.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fmac.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_fmac.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_fmac.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_fmac.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_fmac.c.i: cmake_force
@@ -1302,7 +1386,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_gpio.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_gpio.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_gpio.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gpio.c.i: cmake_force
@@ -1316,7 +1400,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gtzc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gtzc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gtzc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gtzc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gtzc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gtzc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gtzc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_gtzc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_gtzc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_gtzc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_gtzc.c.i: cmake_force
@@ -1330,7 +1414,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hash.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hash.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hash.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hash.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hash.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hash.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_hash.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_hash.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_hash.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hash.c.i: cmake_force
@@ -1344,7 +1428,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hcd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hcd.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hcd.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hcd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hcd.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hcd.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_hcd.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_hcd.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_hcd.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_hcd.c.i: cmake_force
@@ -1358,7 +1442,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2c.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2c.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2c.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c.c.i: cmake_force
@@ -1372,7 +1456,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2c_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2c_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2c_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2c_ex.c.i: cmake_force
@@ -1386,7 +1470,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2s.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2s.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2s.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s.c.i: cmake_force
@@ -1400,7 +1484,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2s_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2s_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i2s_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i2s_ex.c.i: cmake_force
@@ -1414,7 +1498,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i3c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i3c.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i3c.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i3c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i3c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i3c.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i3c.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i3c.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i3c.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_i3c.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_i3c.c.i: cmake_force
@@ -1428,7 +1512,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_icache.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_icache.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_icache.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_icache.c.i: cmake_force
@@ -1442,7 +1526,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_irda.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_irda.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_irda.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_irda.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_irda.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_irda.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_irda.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_irda.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_irda.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_irda.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_irda.c.i: cmake_force
@@ -1456,7 +1540,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_iwdg.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_iwdg.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_iwdg.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_iwdg.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_iwdg.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_iwdg.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_iwdg.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_iwdg.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_iwdg.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_iwdg.c.i: cmake_force
@@ -1470,7 +1554,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_lptim.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_lptim.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_lptim.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_lptim.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_lptim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_lptim.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_lptim.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_lptim.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_lptim.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_lptim.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_lptim.c.i: cmake_force
@@ -1484,7 +1568,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_mmc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_mmc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_mmc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc.c.i: cmake_force
@@ -1498,7 +1582,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_mmc_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_mmc_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_mmc_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_mmc_ex.c.i: cmake_force
@@ -1512,7 +1596,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nand.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nand.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nand.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nand.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nand.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nand.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_nand.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_nand.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_nand.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nand.c.i: cmake_force
@@ -1526,7 +1610,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nor.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nor.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nor.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nor.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nor.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nor.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_nor.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_nor.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_nor.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_nor.c.i: cmake_force
@@ -1540,7 +1624,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_opamp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_opamp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_opamp.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp.c.i: cmake_force
@@ -1554,7 +1638,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_opamp_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_opamp_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_opamp_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_opamp_ex.c.i: cmake_force
@@ -1568,7 +1652,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_otfdec.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_otfdec.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_otfdec.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_otfdec.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_otfdec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_otfdec.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_otfdec.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_otfdec.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_otfdec.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_otfdec.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_otfdec.c.i: cmake_force
@@ -1582,7 +1666,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pcd.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pcd.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pcd.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd.c.i: cmake_force
@@ -1596,7 +1680,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pcd_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pcd_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pcd_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pcd_ex.c.i: cmake_force
@@ -1610,7 +1694,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pka.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pka.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pka.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pka.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pka.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pka.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pka.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pka.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pka.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pka.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pka.c.i: cmake_force
@@ -1624,7 +1708,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pssi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pssi.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pssi.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pssi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pssi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pssi.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pssi.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pssi.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pssi.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pssi.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pssi.c.i: cmake_force
@@ -1638,7 +1722,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pwr.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pwr.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pwr.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr.c.i: cmake_force
@@ -1652,7 +1736,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pwr_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pwr_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pwr_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_pwr_ex.c.i: cmake_force
@@ -1666,7 +1750,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_ramcfg.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_ramcfg.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_ramcfg.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_ramcfg.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_ramcfg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_ramcfg.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_ramcfg.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_ramcfg.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_ramcfg.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_ramcfg.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_ramcfg.c.i: cmake_force
@@ -1680,7 +1764,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc.c.i: cmake_force
@@ -1694,7 +1778,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rcc_ex.c.i: cmake_force
@@ -1708,7 +1792,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rng.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rng.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rng.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng.c.i: cmake_force
@@ -1722,7 +1806,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rng_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rng_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rng_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rng_ex.c.i: cmake_force
@@ -1736,7 +1820,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rtc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rtc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rtc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc.c.i: cmake_force
@@ -1750,7 +1834,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rtc_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rtc_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rtc_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_rtc_ex.c.i: cmake_force
@@ -1764,7 +1848,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sai.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sai.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sai.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai.c.i: cmake_force
@@ -1778,7 +1862,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sai_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sai_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sai_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sai_ex.c.i: cmake_force
@@ -1792,7 +1876,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sd.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sd.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sd.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd.c.i: cmake_force
@@ -1806,7 +1890,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sd_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sd_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sd_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sd_ex.c.i: cmake_force
@@ -1820,7 +1904,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdio.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdio.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdio.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdio.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sdio.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sdio.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sdio.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdio.c.i: cmake_force
@@ -1834,7 +1918,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdram.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdram.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdram.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdram.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdram.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdram.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sdram.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sdram.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sdram.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sdram.c.i: cmake_force
@@ -1848,7 +1932,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smartcard.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smartcard.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smartcard.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard.c.i: cmake_force
@@ -1862,7 +1946,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smartcard_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smartcard_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smartcard_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smartcard_ex.c.i: cmake_force
@@ -1876,7 +1960,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smbus.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smbus.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smbus.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus.c.i: cmake_force
@@ -1890,7 +1974,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smbus_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smbus_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_smbus_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_smbus_ex.c.i: cmake_force
@@ -1904,7 +1988,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_spi.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_spi.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_spi.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi.c.i: cmake_force
@@ -1918,7 +2002,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_spi_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_spi_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_spi_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_spi_ex.c.i: cmake_force
@@ -1932,7 +2016,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sram.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sram.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sram.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sram.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sram.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sram.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sram.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sram.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_sram.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_sram.c.i: cmake_force
@@ -1946,7 +2030,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_tim.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_tim.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_tim.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim.c.i: cmake_force
@@ -1960,7 +2044,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_tim_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_tim_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_tim_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_tim_ex.c.i: cmake_force
@@ -1974,7 +2058,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_uart.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_uart.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_uart.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart.c.i: cmake_force
@@ -1988,7 +2072,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_uart_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_uart_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_uart_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_uart_ex.c.i: cmake_force
@@ -2002,7 +2086,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_usart.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_usart.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_usart.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart.c.i: cmake_force
@@ -2016,7 +2100,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart_ex.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart_ex.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart_ex.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart_ex.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart_ex.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_usart_ex.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_usart_ex.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_usart_ex.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_usart_ex.c.i: cmake_force
@@ -2030,7 +2114,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_wwdg.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_wwdg.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_wwdg.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_wwdg.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_wwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_wwdg.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_wwdg.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_wwdg.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_wwdg.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_wwdg.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_wwdg.c.i: cmake_force
@@ -2044,7 +2128,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_xspi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_xspi.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_xspi.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_xspi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_xspi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_xspi.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_xspi.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_xspi.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_xspi.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_xspi.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_xspi.c.i: cmake_force
@@ -2058,7 +2142,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_adc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_adc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_adc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_adc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_adc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_adc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_adc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_adc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_adc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_adc.c.i: cmake_force
@@ -2072,7 +2156,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_a
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_comp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_comp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_comp.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_comp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_comp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_comp.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_comp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_comp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_comp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_comp.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_comp.c.i: cmake_force
@@ -2086,7 +2170,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_cordic.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_cordic.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_cordic.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_cordic.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_cordic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_cordic.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_cordic.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_cordic.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_cordic.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_cordic.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_cordic.c.i: cmake_force
@@ -2100,7 +2184,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_crc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_crc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_crc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crc.c.i: cmake_force
@@ -2114,7 +2198,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crs.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crs.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crs.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crs.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crs.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_crs.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_crs.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_crs.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_crs.c.i: cmake_force
@@ -2128,7 +2212,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dac.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dac.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dac.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dac.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dac.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dac.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dac.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dac.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dac.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dac.c.i: cmake_force
@@ -2142,7 +2226,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_d
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dlyb.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dlyb.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dlyb.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dlyb.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dlyb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dlyb.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dlyb.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dlyb.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dlyb.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dlyb.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dlyb.c.i: cmake_force
@@ -2156,7 +2240,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_d
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dma.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dma.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dma.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dma.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dma.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dma.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dma.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dma.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dma.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_dma.c.i: cmake_force
@@ -2170,7 +2254,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_d
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_exti.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_exti.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_exti.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_exti.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_exti.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_exti.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_exti.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_exti.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_exti.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_exti.c.i: cmake_force
@@ -2184,7 +2268,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_e
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmac.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmac.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmac.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmac.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmac.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmac.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_fmac.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_fmac.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_fmac.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmac.c.i: cmake_force
@@ -2198,7 +2282,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_f
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_fmc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_fmc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_fmc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_fmc.c.i: cmake_force
@@ -2212,7 +2296,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_f
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_gpio.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_gpio.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_gpio.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c.i: cmake_force
@@ -2226,7 +2310,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_g
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i2c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i2c.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i2c.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i2c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i2c.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i2c.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_i2c.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_i2c.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_i2c.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i2c.c.i: cmake_force
@@ -2240,7 +2324,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i3c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i3c.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i3c.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i3c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i3c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i3c.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i3c.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_i3c.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_i3c.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_i3c.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i3c.c.i: cmake_force
@@ -2254,7 +2338,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_icache.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_icache.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_icache.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_icache.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_icache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_icache.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_icache.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_icache.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_icache.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_icache.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_icache.c.i: cmake_force
@@ -2268,7 +2352,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_i
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lptim.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lptim.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lptim.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lptim.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lptim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lptim.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lptim.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_lptim.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_lptim.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_lptim.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lptim.c.i: cmake_force
@@ -2282,7 +2366,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_l
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lpuart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lpuart.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lpuart.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lpuart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lpuart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lpuart.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lpuart.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_lpuart.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_lpuart.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_lpuart.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_lpuart.c.i: cmake_force
@@ -2296,7 +2380,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_l
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_opamp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_opamp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_opamp.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_opamp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_opamp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_opamp.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_opamp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_opamp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_opamp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_opamp.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_opamp.c.i: cmake_force
@@ -2310,7 +2394,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_o
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pka.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pka.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pka.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pka.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pka.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pka.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pka.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_pka.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_pka.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_pka.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pka.c.i: cmake_force
@@ -2324,7 +2408,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_p
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pwr.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pwr.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pwr.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pwr.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pwr.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pwr.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_pwr.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_pwr.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_pwr.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_pwr.c.i: cmake_force
@@ -2338,7 +2422,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_p
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rcc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rcc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rcc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rcc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rcc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rcc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rcc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rcc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rcc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rcc.c.i: cmake_force
@@ -2352,7 +2436,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_r
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rng.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rng.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rng.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rng.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rng.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rng.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rng.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rng.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rng.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rng.c.i: cmake_force
@@ -2366,7 +2450,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_r
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rtc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rtc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rtc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rtc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rtc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rtc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rtc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rtc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rtc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_rtc.c.i: cmake_force
@@ -2380,7 +2464,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_r
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_sdmmc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_sdmmc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_sdmmc.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_sdmmc.c.i: cmake_force
@@ -2394,7 +2478,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_s
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_spi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_spi.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_spi.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_spi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_spi.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_spi.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_spi.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_spi.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_spi.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_spi.c.i: cmake_force
@@ -2408,7 +2492,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_s
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_tim.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_tim.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_tim.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_tim.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_tim.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_tim.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_tim.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_tim.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_tim.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_tim.c.i: cmake_force
@@ -2422,7 +2506,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_t
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_ucpd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_ucpd.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_ucpd.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_ucpd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_ucpd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_ucpd.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_ucpd.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_ucpd.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_ucpd.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_ucpd.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_ucpd.c.i: cmake_force
@@ -2436,7 +2520,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_u
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usart.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usart.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usart.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usart.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usart.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_usart.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_usart.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_usart.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usart.c.i: cmake_force
@@ -2450,7 +2534,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_u
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_usb.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_usb.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_usb.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c.i: cmake_force
@@ -2464,7 +2548,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_u
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c.i: cmake_force
@@ -2478,7 +2562,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_u
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.obj"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_util_i3c.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_util_i3c.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_util_i3c.c
 
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.i: cmake_force
@@ -2488,6 +2572,1210 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util
 CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.s"
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_util_i3c.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\ST\STM32H5xx_HAL_Driver\Src\stm32h5xx_util_i3c.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/api_lib.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\api_lib.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\api_lib.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\api_lib.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\api_lib.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\api_lib.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\api_lib.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\api_lib.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/api_msg.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\api_msg.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\api_msg.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\api_msg.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\api_msg.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\api_msg.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\api_msg.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\api_msg.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/err.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\err.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\err.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\err.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\err.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\err.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\err.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\err.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/if_api.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\if_api.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\if_api.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\if_api.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\if_api.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\if_api.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\if_api.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\if_api.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/netbuf.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netbuf.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netbuf.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\netbuf.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\netbuf.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netbuf.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\netbuf.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netbuf.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/netdb.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netdb.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netdb.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\netdb.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\netdb.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netdb.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\netdb.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netdb.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/netifapi.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netifapi.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netifapi.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\netifapi.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\netifapi.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netifapi.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\netifapi.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\netifapi.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/sockets.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\sockets.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\sockets.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\sockets.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\sockets.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\sockets.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\sockets.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\sockets.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/tcpip.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\tcpip.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\tcpip.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\tcpip.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\tcpip.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\tcpip.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\api\tcpip.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\api\tcpip.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/altcp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\altcp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\altcp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\altcp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/altcp_alloc.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp_alloc.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp_alloc.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\altcp_alloc.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\altcp_alloc.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp_alloc.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\altcp_alloc.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp_alloc.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/altcp_tcp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp_tcp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp_tcp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\altcp_tcp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\altcp_tcp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp_tcp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\altcp_tcp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\altcp_tcp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/def.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\def.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\def.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\def.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\def.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/dns.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\dns.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\dns.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\dns.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\dns.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\dns.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\dns.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\dns.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/inet_chksum.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\inet_chksum.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\inet_chksum.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\inet_chksum.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\inet_chksum.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\inet_chksum.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\inet_chksum.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\inet_chksum.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/init.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\init.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\init.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\init.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\init.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\init.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\init.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\init.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ip.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ip.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ip.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ip.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ip.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ip.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ip.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ip.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/acd.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\acd.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\acd.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\acd.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\acd.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\acd.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\acd.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\acd.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/autoip.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\autoip.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\autoip.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\autoip.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\autoip.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\autoip.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\autoip.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\autoip.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/dhcp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\dhcp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\dhcp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\dhcp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\dhcp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\dhcp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\dhcp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\dhcp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/etharp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\etharp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\etharp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\etharp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\etharp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\etharp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\etharp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\etharp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/icmp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\icmp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\icmp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\icmp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\icmp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\icmp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\icmp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\icmp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/igmp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\igmp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\igmp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\igmp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\igmp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\igmp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\igmp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\igmp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/ip4.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\ip4.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\ip4.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\ip4.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/ip4_addr.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4_addr.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4_addr.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\ip4_addr.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\ip4_addr.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4_addr.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\ip4_addr.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4_addr.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/ip4_frag.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4_frag.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4_frag.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\ip4_frag.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\ip4_frag.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4_frag.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv4\ip4_frag.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv4\ip4_frag.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/dhcp6.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\dhcp6.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\dhcp6.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\dhcp6.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\dhcp6.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\dhcp6.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\dhcp6.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\dhcp6.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/ethip6.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ethip6.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ethip6.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ethip6.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ethip6.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ethip6.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ethip6.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ethip6.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/icmp6.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\icmp6.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\icmp6.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\icmp6.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\icmp6.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\icmp6.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\icmp6.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\icmp6.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/inet6.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\inet6.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\inet6.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\inet6.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\inet6.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\inet6.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\inet6.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\inet6.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/ip6.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ip6.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ip6.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ip6.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/ip6_addr.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6_addr.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6_addr.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ip6_addr.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ip6_addr.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6_addr.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ip6_addr.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6_addr.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/ip6_frag.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6_frag.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6_frag.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ip6_frag.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ip6_frag.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6_frag.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\ip6_frag.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\ip6_frag.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/mld6.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\mld6.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\mld6.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\mld6.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\mld6.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\mld6.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\mld6.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\mld6.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/nd6.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\nd6.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\nd6.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\nd6.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\nd6.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\nd6.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\ipv6\nd6.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\ipv6\nd6.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/mem.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\mem.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\mem.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\mem.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\mem.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\mem.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\mem.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\mem.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/memp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\memp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\memp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\memp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\memp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\memp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\memp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\memp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/netif.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\netif.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\netif.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\netif.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\netif.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\netif.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\netif.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\netif.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/pbuf.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\pbuf.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\pbuf.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\pbuf.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\pbuf.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\pbuf.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\pbuf.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\pbuf.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/raw.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\raw.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\raw.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\raw.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\raw.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\raw.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\raw.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\raw.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/stats.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\stats.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\stats.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\stats.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\stats.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\stats.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\stats.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\stats.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/sys.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\sys.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\sys.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\sys.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\sys.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\sys.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\sys.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\sys.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/tcp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\tcp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\tcp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\tcp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/tcp_in.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp_in.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp_in.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\tcp_in.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\tcp_in.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp_in.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\tcp_in.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp_in.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/tcp_out.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp_out.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp_out.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\tcp_out.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\tcp_out.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp_out.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\tcp_out.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\tcp_out.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/timeouts.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\timeouts.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\timeouts.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\timeouts.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\timeouts.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\timeouts.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\timeouts.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\timeouts.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/udp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\udp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\udp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\udp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\udp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\udp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\udp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\core\udp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/bridgeif.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\bridgeif.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\bridgeif.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\bridgeif.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\bridgeif.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\bridgeif.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\bridgeif.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\bridgeif.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/bridgeif_fdb.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\bridgeif_fdb.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\bridgeif_fdb.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\bridgeif_fdb.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\bridgeif_fdb.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\bridgeif_fdb.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\bridgeif_fdb.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\bridgeif_fdb.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ethernet.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ethernet.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ethernet.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ethernet.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ethernet.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ethernet.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ethernet.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ethernet.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/lowpan6.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\lowpan6.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\lowpan6.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\lowpan6.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/lowpan6_ble.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6_ble.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6_ble.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\lowpan6_ble.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\lowpan6_ble.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6_ble.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\lowpan6_ble.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6_ble.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/lowpan6_common.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6_common.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6_common.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\lowpan6_common.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\lowpan6_common.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6_common.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\lowpan6_common.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\lowpan6_common.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/auth.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\auth.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\auth.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\auth.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\auth.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\auth.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\auth.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\auth.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ccp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ccp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ccp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ccp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ccp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ccp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ccp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ccp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/chap-md5.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap-md5.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap-md5.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\chap-md5.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\chap-md5.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap-md5.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\chap-md5.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap-md5.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/chap-new.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap-new.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap-new.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\chap-new.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\chap-new.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap-new.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\chap-new.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap-new.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/chap_ms.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap_ms.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap_ms.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\chap_ms.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\chap_ms.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap_ms.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\chap_ms.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\chap_ms.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/demand.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\demand.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\demand.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\demand.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\demand.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\demand.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\demand.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\demand.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/eap.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\eap.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\eap.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\eap.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\eap.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\eap.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\eap.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\eap.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ecp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ecp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ecp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ecp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ecp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ecp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ecp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ecp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/eui64.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\eui64.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\eui64.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\eui64.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\eui64.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\eui64.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\eui64.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\eui64.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/fsm.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\fsm.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\fsm.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\fsm.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\fsm.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\fsm.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\fsm.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\fsm.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ipcp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ipcp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ipcp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ipcp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ipcp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ipcp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ipcp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ipcp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ipv6cp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ipv6cp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ipv6cp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ipv6cp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ipv6cp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ipv6cp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ipv6cp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ipv6cp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/lcp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\lcp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\lcp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\lcp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\lcp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\lcp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\lcp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\lcp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/magic.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\magic.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\magic.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\magic.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\magic.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\magic.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\magic.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\magic.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/mppe.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\mppe.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\mppe.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\mppe.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\mppe.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\mppe.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\mppe.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\mppe.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/multilink.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\multilink.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\multilink.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\multilink.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\multilink.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\multilink.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\multilink.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\multilink.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/arc4.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\arc4.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\arc4.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\arc4.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\arc4.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\arc4.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\arc4.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\arc4.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/des.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\des.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\des.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\des.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\des.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\des.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\des.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\des.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/md4.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\md4.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\md4.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\md4.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\md4.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\md4.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\md4.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\md4.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/md5.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\md5.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\md5.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\md5.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\md5.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\md5.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\md5.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\md5.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/sha1.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\sha1.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\sha1.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\sha1.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\sha1.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\sha1.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\polarssl\sha1.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\polarssl\sha1.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ppp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ppp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ppp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ppp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ppp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ppp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\ppp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\ppp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppapi.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppapi.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppapi.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppapi.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppapi.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppapi.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppapi.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppapi.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppcrypt.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppcrypt.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppcrypt.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppcrypt.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppcrypt.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppcrypt.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppcrypt.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppcrypt.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppoe.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppoe.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppoe.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppoe.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppoe.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppoe.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppoe.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppoe.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppol2tp.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppol2tp.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppol2tp.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppol2tp.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppol2tp.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppol2tp.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppol2tp.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppol2tp.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppos.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppos.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppos.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppos.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppos.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppos.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\pppos.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\pppos.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/upap.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\upap.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\upap.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\upap.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\upap.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\upap.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\upap.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\upap.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/utils.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\utils.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\utils.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\utils.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\utils.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\utils.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\utils.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\utils.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/vj.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\vj.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\vj.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\vj.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\vj.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\vj.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\ppp\vj.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\ppp\vj.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/slipif.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\slipif.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\slipif.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\slipif.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\slipif.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\slipif.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\slipif.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\slipif.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/zepif.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\zepif.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\zepif.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\zepif.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\zepif.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\zepif.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\netif\zepif.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\src\netif\zepif.c.s
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.obj: CMakeFiles/stm32h5-fw.elf.dir/flags.make
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.obj: C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/system/OS/sys_arch.c
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.obj: CMakeFiles/stm32h5-fw.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.obj"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.obj -MF CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\system\OS\sys_arch.c.obj.d -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\system\OS\sys_arch.c.obj -c C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\system\OS\sys_arch.c
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.i"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\system\OS\sys_arch.c > CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\system\OS\sys_arch.c.i
+
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.s"
+	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\system\OS\sys_arch.c -o CMakeFiles\stm32h5-fw.elf.dir\src\lib\lwip\system\OS\sys_arch.c.s
 
 # Object files for target stm32h5-fw.elf
 stm32h5__fw_elf_OBJECTS = \
@@ -2511,12 +3799,15 @@ stm32h5__fw_elf_OBJECTS = \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/tasks.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/timers.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.obj" \
@@ -2532,6 +3823,9 @@ stm32h5__fw_elf_OBJECTS = \
 "CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj" \
@@ -2663,7 +3957,93 @@ stm32h5__fw_elf_OBJECTS = \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usart.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c.obj" \
 "CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c.obj" \
-"CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.obj"
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.obj" \
+"CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.obj"
 
 # External object files for target stm32h5-fw.elf
 stm32h5__fw_elf_EXTERNAL_OBJECTS =
@@ -2688,12 +4068,15 @@ stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/queue.c.ob
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/stream_buffer.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/tasks.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/timers.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/diskio.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ff.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffunicode.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.obj
@@ -2709,6 +4092,9 @@ stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/assert.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/button.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/buzzer.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fault.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fs.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/gpio.c.obj
@@ -2841,10 +4227,96 @@ stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Sr
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_usb.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_util_i3c.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.obj
+stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.obj
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/build.make
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/objects1.rsp
 stm32h5-fw.elf: CMakeFiles/stm32h5-fw.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Linking CXX executable stm32h5-fw.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Linking CXX executable stm32h5-fw.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\stm32h5-fw.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Invoking: Make Bin -> "
 	C:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-objcopy -O binary stm32h5-fw.elf stm32h5-fw.bin

@@ -1,0 +1,7 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c:76:1:lwip_htons	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c:90:1:lwip_htonl	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c:105:1:lwip_strnstr	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c:151:1:lwip_stricmp	4	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c:186:1:lwip_strnicmp	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c:128:1:lwip_strnistr	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\core\def.c:222:1:lwip_itoa	8	static

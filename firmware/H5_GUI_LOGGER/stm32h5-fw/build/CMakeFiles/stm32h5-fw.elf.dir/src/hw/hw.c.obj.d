@@ -86,6 +86,8 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj: \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_uart.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_uart_ex.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_exti.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_eth.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_eth_ex.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_fdcan.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\rtos/rtos.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\CMSIS_RTOS/cmsis_os.h \
@@ -135,4 +137,41 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/hw.c.obj: \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\core/qbuffer.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/can.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/sd.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/fatfs.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/eth.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/eth_udp.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/ip.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/opt.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target/lwipopts.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/debug.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/arch.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\system/arch/cc.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\system/arch/cpu.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\time.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\time.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\time.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_time.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\limits.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\syslimits.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\limits.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\syslimits.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\ctype.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/def.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/pbuf.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/err.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/ip_addr.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/ip4_addr.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/ip6_addr.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/def.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/netif.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/stats.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/mem.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/memp.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/priv/memp_std.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/priv/memp_priv.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/priv/mem_priv.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/ip4.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/prot/ip4.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/ip6.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\src\include/lwip/prot/ip.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\common\hw\include/osal/thread.h

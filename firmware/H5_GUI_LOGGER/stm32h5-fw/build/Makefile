@@ -665,6 +665,78 @@ src/hw/driver/can.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/can.c.s
 .PHONY : src/hw/driver/can.c.s
 
+src/hw/driver/eth.obj: src/hw/driver/eth.c.obj
+.PHONY : src/hw/driver/eth.obj
+
+# target to build an object file
+src/hw/driver/eth.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.obj
+.PHONY : src/hw/driver/eth.c.obj
+
+src/hw/driver/eth.i: src/hw/driver/eth.c.i
+.PHONY : src/hw/driver/eth.i
+
+# target to preprocess a source file
+src/hw/driver/eth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.i
+.PHONY : src/hw/driver/eth.c.i
+
+src/hw/driver/eth.s: src/hw/driver/eth.c.s
+.PHONY : src/hw/driver/eth.s
+
+# target to generate assembly for a file
+src/hw/driver/eth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth.c.s
+.PHONY : src/hw/driver/eth.c.s
+
+src/hw/driver/eth_udp.obj: src/hw/driver/eth_udp.c.obj
+.PHONY : src/hw/driver/eth_udp.obj
+
+# target to build an object file
+src/hw/driver/eth_udp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.obj
+.PHONY : src/hw/driver/eth_udp.c.obj
+
+src/hw/driver/eth_udp.i: src/hw/driver/eth_udp.c.i
+.PHONY : src/hw/driver/eth_udp.i
+
+# target to preprocess a source file
+src/hw/driver/eth_udp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.i
+.PHONY : src/hw/driver/eth_udp.c.i
+
+src/hw/driver/eth_udp.s: src/hw/driver/eth_udp.c.s
+.PHONY : src/hw/driver/eth_udp.s
+
+# target to generate assembly for a file
+src/hw/driver/eth_udp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/eth_udp.c.s
+.PHONY : src/hw/driver/eth_udp.c.s
+
+src/hw/driver/fatfs.obj: src/hw/driver/fatfs.c.obj
+.PHONY : src/hw/driver/fatfs.obj
+
+# target to build an object file
+src/hw/driver/fatfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.obj
+.PHONY : src/hw/driver/fatfs.c.obj
+
+src/hw/driver/fatfs.i: src/hw/driver/fatfs.c.i
+.PHONY : src/hw/driver/fatfs.i
+
+# target to preprocess a source file
+src/hw/driver/fatfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.i
+.PHONY : src/hw/driver/fatfs.c.i
+
+src/hw/driver/fatfs.s: src/hw/driver/fatfs.c.s
+.PHONY : src/hw/driver/fatfs.s
+
+# target to generate assembly for a file
+src/hw/driver/fatfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/fatfs.c.s
+.PHONY : src/hw/driver/fatfs.c.s
+
 src/hw/driver/fault.obj: src/hw/driver/fault.c.obj
 .PHONY : src/hw/driver/fault.obj
 
@@ -1456,6 +1528,30 @@ src/lib/FreeRTOS/Source/timers.s: src/lib/FreeRTOS/Source/timers.c.s
 src/lib/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/FreeRTOS/Source/timers.c.s
 .PHONY : src/lib/FreeRTOS/Source/timers.c.s
+
+src/lib/ST/BSP/lan8742.obj: src/lib/ST/BSP/lan8742.c.obj
+.PHONY : src/lib/ST/BSP/lan8742.obj
+
+# target to build an object file
+src/lib/ST/BSP/lan8742.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.obj
+.PHONY : src/lib/ST/BSP/lan8742.c.obj
+
+src/lib/ST/BSP/lan8742.i: src/lib/ST/BSP/lan8742.c.i
+.PHONY : src/lib/ST/BSP/lan8742.i
+
+# target to preprocess a source file
+src/lib/ST/BSP/lan8742.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.i
+.PHONY : src/lib/ST/BSP/lan8742.c.i
+
+src/lib/ST/BSP/lan8742.s: src/lib/ST/BSP/lan8742.c.s
+.PHONY : src/lib/ST/BSP/lan8742.s
+
+# target to generate assembly for a file
+src/lib/ST/BSP/lan8742.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/ST/BSP/lan8742.c.s
+.PHONY : src/lib/ST/BSP/lan8742.c.s
 
 src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.obj: src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c.obj
 .PHONY : src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.obj
@@ -4241,6 +4337,2118 @@ src/lib/littlefs/lfs_util.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/littlefs/lfs_util.c.s
 .PHONY : src/lib/littlefs/lfs_util.c.s
 
+src/lib/lwip/app/lwip.obj: src/lib/lwip/app/lwip.c.obj
+.PHONY : src/lib/lwip/app/lwip.obj
+
+# target to build an object file
+src/lib/lwip/app/lwip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj
+.PHONY : src/lib/lwip/app/lwip.c.obj
+
+src/lib/lwip/app/lwip.i: src/lib/lwip/app/lwip.c.i
+.PHONY : src/lib/lwip/app/lwip.i
+
+# target to preprocess a source file
+src/lib/lwip/app/lwip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.i
+.PHONY : src/lib/lwip/app/lwip.c.i
+
+src/lib/lwip/app/lwip.s: src/lib/lwip/app/lwip.c.s
+.PHONY : src/lib/lwip/app/lwip.s
+
+# target to generate assembly for a file
+src/lib/lwip/app/lwip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.s
+.PHONY : src/lib/lwip/app/lwip.c.s
+
+src/lib/lwip/src/api/api_lib.obj: src/lib/lwip/src/api/api_lib.c.obj
+.PHONY : src/lib/lwip/src/api/api_lib.obj
+
+# target to build an object file
+src/lib/lwip/src/api/api_lib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.obj
+.PHONY : src/lib/lwip/src/api/api_lib.c.obj
+
+src/lib/lwip/src/api/api_lib.i: src/lib/lwip/src/api/api_lib.c.i
+.PHONY : src/lib/lwip/src/api/api_lib.i
+
+# target to preprocess a source file
+src/lib/lwip/src/api/api_lib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.i
+.PHONY : src/lib/lwip/src/api/api_lib.c.i
+
+src/lib/lwip/src/api/api_lib.s: src/lib/lwip/src/api/api_lib.c.s
+.PHONY : src/lib/lwip/src/api/api_lib.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/api/api_lib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_lib.c.s
+.PHONY : src/lib/lwip/src/api/api_lib.c.s
+
+src/lib/lwip/src/api/api_msg.obj: src/lib/lwip/src/api/api_msg.c.obj
+.PHONY : src/lib/lwip/src/api/api_msg.obj
+
+# target to build an object file
+src/lib/lwip/src/api/api_msg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.obj
+.PHONY : src/lib/lwip/src/api/api_msg.c.obj
+
+src/lib/lwip/src/api/api_msg.i: src/lib/lwip/src/api/api_msg.c.i
+.PHONY : src/lib/lwip/src/api/api_msg.i
+
+# target to preprocess a source file
+src/lib/lwip/src/api/api_msg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.i
+.PHONY : src/lib/lwip/src/api/api_msg.c.i
+
+src/lib/lwip/src/api/api_msg.s: src/lib/lwip/src/api/api_msg.c.s
+.PHONY : src/lib/lwip/src/api/api_msg.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/api/api_msg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/api_msg.c.s
+.PHONY : src/lib/lwip/src/api/api_msg.c.s
+
+src/lib/lwip/src/api/err.obj: src/lib/lwip/src/api/err.c.obj
+.PHONY : src/lib/lwip/src/api/err.obj
+
+# target to build an object file
+src/lib/lwip/src/api/err.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.obj
+.PHONY : src/lib/lwip/src/api/err.c.obj
+
+src/lib/lwip/src/api/err.i: src/lib/lwip/src/api/err.c.i
+.PHONY : src/lib/lwip/src/api/err.i
+
+# target to preprocess a source file
+src/lib/lwip/src/api/err.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.i
+.PHONY : src/lib/lwip/src/api/err.c.i
+
+src/lib/lwip/src/api/err.s: src/lib/lwip/src/api/err.c.s
+.PHONY : src/lib/lwip/src/api/err.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/api/err.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/err.c.s
+.PHONY : src/lib/lwip/src/api/err.c.s
+
+src/lib/lwip/src/api/if_api.obj: src/lib/lwip/src/api/if_api.c.obj
+.PHONY : src/lib/lwip/src/api/if_api.obj
+
+# target to build an object file
+src/lib/lwip/src/api/if_api.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.obj
+.PHONY : src/lib/lwip/src/api/if_api.c.obj
+
+src/lib/lwip/src/api/if_api.i: src/lib/lwip/src/api/if_api.c.i
+.PHONY : src/lib/lwip/src/api/if_api.i
+
+# target to preprocess a source file
+src/lib/lwip/src/api/if_api.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.i
+.PHONY : src/lib/lwip/src/api/if_api.c.i
+
+src/lib/lwip/src/api/if_api.s: src/lib/lwip/src/api/if_api.c.s
+.PHONY : src/lib/lwip/src/api/if_api.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/api/if_api.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/if_api.c.s
+.PHONY : src/lib/lwip/src/api/if_api.c.s
+
+src/lib/lwip/src/api/netbuf.obj: src/lib/lwip/src/api/netbuf.c.obj
+.PHONY : src/lib/lwip/src/api/netbuf.obj
+
+# target to build an object file
+src/lib/lwip/src/api/netbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.obj
+.PHONY : src/lib/lwip/src/api/netbuf.c.obj
+
+src/lib/lwip/src/api/netbuf.i: src/lib/lwip/src/api/netbuf.c.i
+.PHONY : src/lib/lwip/src/api/netbuf.i
+
+# target to preprocess a source file
+src/lib/lwip/src/api/netbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.i
+.PHONY : src/lib/lwip/src/api/netbuf.c.i
+
+src/lib/lwip/src/api/netbuf.s: src/lib/lwip/src/api/netbuf.c.s
+.PHONY : src/lib/lwip/src/api/netbuf.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/api/netbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netbuf.c.s
+.PHONY : src/lib/lwip/src/api/netbuf.c.s
+
+src/lib/lwip/src/api/netdb.obj: src/lib/lwip/src/api/netdb.c.obj
+.PHONY : src/lib/lwip/src/api/netdb.obj
+
+# target to build an object file
+src/lib/lwip/src/api/netdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.obj
+.PHONY : src/lib/lwip/src/api/netdb.c.obj
+
+src/lib/lwip/src/api/netdb.i: src/lib/lwip/src/api/netdb.c.i
+.PHONY : src/lib/lwip/src/api/netdb.i
+
+# target to preprocess a source file
+src/lib/lwip/src/api/netdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.i
+.PHONY : src/lib/lwip/src/api/netdb.c.i
+
+src/lib/lwip/src/api/netdb.s: src/lib/lwip/src/api/netdb.c.s
+.PHONY : src/lib/lwip/src/api/netdb.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/api/netdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netdb.c.s
+.PHONY : src/lib/lwip/src/api/netdb.c.s
+
+src/lib/lwip/src/api/netifapi.obj: src/lib/lwip/src/api/netifapi.c.obj
+.PHONY : src/lib/lwip/src/api/netifapi.obj
+
+# target to build an object file
+src/lib/lwip/src/api/netifapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.obj
+.PHONY : src/lib/lwip/src/api/netifapi.c.obj
+
+src/lib/lwip/src/api/netifapi.i: src/lib/lwip/src/api/netifapi.c.i
+.PHONY : src/lib/lwip/src/api/netifapi.i
+
+# target to preprocess a source file
+src/lib/lwip/src/api/netifapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.i
+.PHONY : src/lib/lwip/src/api/netifapi.c.i
+
+src/lib/lwip/src/api/netifapi.s: src/lib/lwip/src/api/netifapi.c.s
+.PHONY : src/lib/lwip/src/api/netifapi.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/api/netifapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/netifapi.c.s
+.PHONY : src/lib/lwip/src/api/netifapi.c.s
+
+src/lib/lwip/src/api/sockets.obj: src/lib/lwip/src/api/sockets.c.obj
+.PHONY : src/lib/lwip/src/api/sockets.obj
+
+# target to build an object file
+src/lib/lwip/src/api/sockets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.obj
+.PHONY : src/lib/lwip/src/api/sockets.c.obj
+
+src/lib/lwip/src/api/sockets.i: src/lib/lwip/src/api/sockets.c.i
+.PHONY : src/lib/lwip/src/api/sockets.i
+
+# target to preprocess a source file
+src/lib/lwip/src/api/sockets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.i
+.PHONY : src/lib/lwip/src/api/sockets.c.i
+
+src/lib/lwip/src/api/sockets.s: src/lib/lwip/src/api/sockets.c.s
+.PHONY : src/lib/lwip/src/api/sockets.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/api/sockets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/sockets.c.s
+.PHONY : src/lib/lwip/src/api/sockets.c.s
+
+src/lib/lwip/src/api/tcpip.obj: src/lib/lwip/src/api/tcpip.c.obj
+.PHONY : src/lib/lwip/src/api/tcpip.obj
+
+# target to build an object file
+src/lib/lwip/src/api/tcpip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.obj
+.PHONY : src/lib/lwip/src/api/tcpip.c.obj
+
+src/lib/lwip/src/api/tcpip.i: src/lib/lwip/src/api/tcpip.c.i
+.PHONY : src/lib/lwip/src/api/tcpip.i
+
+# target to preprocess a source file
+src/lib/lwip/src/api/tcpip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.i
+.PHONY : src/lib/lwip/src/api/tcpip.c.i
+
+src/lib/lwip/src/api/tcpip.s: src/lib/lwip/src/api/tcpip.c.s
+.PHONY : src/lib/lwip/src/api/tcpip.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/api/tcpip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/api/tcpip.c.s
+.PHONY : src/lib/lwip/src/api/tcpip.c.s
+
+src/lib/lwip/src/core/altcp.obj: src/lib/lwip/src/core/altcp.c.obj
+.PHONY : src/lib/lwip/src/core/altcp.obj
+
+# target to build an object file
+src/lib/lwip/src/core/altcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.obj
+.PHONY : src/lib/lwip/src/core/altcp.c.obj
+
+src/lib/lwip/src/core/altcp.i: src/lib/lwip/src/core/altcp.c.i
+.PHONY : src/lib/lwip/src/core/altcp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/altcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.i
+.PHONY : src/lib/lwip/src/core/altcp.c.i
+
+src/lib/lwip/src/core/altcp.s: src/lib/lwip/src/core/altcp.c.s
+.PHONY : src/lib/lwip/src/core/altcp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/altcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp.c.s
+.PHONY : src/lib/lwip/src/core/altcp.c.s
+
+src/lib/lwip/src/core/altcp_alloc.obj: src/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : src/lib/lwip/src/core/altcp_alloc.obj
+
+# target to build an object file
+src/lib/lwip/src/core/altcp_alloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : src/lib/lwip/src/core/altcp_alloc.c.obj
+
+src/lib/lwip/src/core/altcp_alloc.i: src/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : src/lib/lwip/src/core/altcp_alloc.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/altcp_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : src/lib/lwip/src/core/altcp_alloc.c.i
+
+src/lib/lwip/src/core/altcp_alloc.s: src/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : src/lib/lwip/src/core/altcp_alloc.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/altcp_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : src/lib/lwip/src/core/altcp_alloc.c.s
+
+src/lib/lwip/src/core/altcp_tcp.obj: src/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : src/lib/lwip/src/core/altcp_tcp.obj
+
+# target to build an object file
+src/lib/lwip/src/core/altcp_tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : src/lib/lwip/src/core/altcp_tcp.c.obj
+
+src/lib/lwip/src/core/altcp_tcp.i: src/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : src/lib/lwip/src/core/altcp_tcp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/altcp_tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : src/lib/lwip/src/core/altcp_tcp.c.i
+
+src/lib/lwip/src/core/altcp_tcp.s: src/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : src/lib/lwip/src/core/altcp_tcp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/altcp_tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : src/lib/lwip/src/core/altcp_tcp.c.s
+
+src/lib/lwip/src/core/def.obj: src/lib/lwip/src/core/def.c.obj
+.PHONY : src/lib/lwip/src/core/def.obj
+
+# target to build an object file
+src/lib/lwip/src/core/def.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.obj
+.PHONY : src/lib/lwip/src/core/def.c.obj
+
+src/lib/lwip/src/core/def.i: src/lib/lwip/src/core/def.c.i
+.PHONY : src/lib/lwip/src/core/def.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/def.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.i
+.PHONY : src/lib/lwip/src/core/def.c.i
+
+src/lib/lwip/src/core/def.s: src/lib/lwip/src/core/def.c.s
+.PHONY : src/lib/lwip/src/core/def.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/def.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/def.c.s
+.PHONY : src/lib/lwip/src/core/def.c.s
+
+src/lib/lwip/src/core/dns.obj: src/lib/lwip/src/core/dns.c.obj
+.PHONY : src/lib/lwip/src/core/dns.obj
+
+# target to build an object file
+src/lib/lwip/src/core/dns.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.obj
+.PHONY : src/lib/lwip/src/core/dns.c.obj
+
+src/lib/lwip/src/core/dns.i: src/lib/lwip/src/core/dns.c.i
+.PHONY : src/lib/lwip/src/core/dns.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/dns.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.i
+.PHONY : src/lib/lwip/src/core/dns.c.i
+
+src/lib/lwip/src/core/dns.s: src/lib/lwip/src/core/dns.c.s
+.PHONY : src/lib/lwip/src/core/dns.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/dns.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/dns.c.s
+.PHONY : src/lib/lwip/src/core/dns.c.s
+
+src/lib/lwip/src/core/inet_chksum.obj: src/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : src/lib/lwip/src/core/inet_chksum.obj
+
+# target to build an object file
+src/lib/lwip/src/core/inet_chksum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : src/lib/lwip/src/core/inet_chksum.c.obj
+
+src/lib/lwip/src/core/inet_chksum.i: src/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : src/lib/lwip/src/core/inet_chksum.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/inet_chksum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : src/lib/lwip/src/core/inet_chksum.c.i
+
+src/lib/lwip/src/core/inet_chksum.s: src/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : src/lib/lwip/src/core/inet_chksum.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/inet_chksum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : src/lib/lwip/src/core/inet_chksum.c.s
+
+src/lib/lwip/src/core/init.obj: src/lib/lwip/src/core/init.c.obj
+.PHONY : src/lib/lwip/src/core/init.obj
+
+# target to build an object file
+src/lib/lwip/src/core/init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.obj
+.PHONY : src/lib/lwip/src/core/init.c.obj
+
+src/lib/lwip/src/core/init.i: src/lib/lwip/src/core/init.c.i
+.PHONY : src/lib/lwip/src/core/init.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.i
+.PHONY : src/lib/lwip/src/core/init.c.i
+
+src/lib/lwip/src/core/init.s: src/lib/lwip/src/core/init.c.s
+.PHONY : src/lib/lwip/src/core/init.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/init.c.s
+.PHONY : src/lib/lwip/src/core/init.c.s
+
+src/lib/lwip/src/core/ip.obj: src/lib/lwip/src/core/ip.c.obj
+.PHONY : src/lib/lwip/src/core/ip.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.obj
+.PHONY : src/lib/lwip/src/core/ip.c.obj
+
+src/lib/lwip/src/core/ip.i: src/lib/lwip/src/core/ip.c.i
+.PHONY : src/lib/lwip/src/core/ip.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.i
+.PHONY : src/lib/lwip/src/core/ip.c.i
+
+src/lib/lwip/src/core/ip.s: src/lib/lwip/src/core/ip.c.s
+.PHONY : src/lib/lwip/src/core/ip.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ip.c.s
+.PHONY : src/lib/lwip/src/core/ip.c.s
+
+src/lib/lwip/src/core/ipv4/acd.obj: src/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/acd.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv4/acd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/acd.c.obj
+
+src/lib/lwip/src/core/ipv4/acd.i: src/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/acd.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv4/acd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/acd.c.i
+
+src/lib/lwip/src/core/ipv4/acd.s: src/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/acd.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv4/acd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/acd.c.s
+
+src/lib/lwip/src/core/ipv4/autoip.obj: src/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/autoip.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv4/autoip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/autoip.c.obj
+
+src/lib/lwip/src/core/ipv4/autoip.i: src/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/autoip.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv4/autoip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/autoip.c.i
+
+src/lib/lwip/src/core/ipv4/autoip.s: src/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/autoip.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv4/autoip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/autoip.c.s
+
+src/lib/lwip/src/core/ipv4/dhcp.obj: src/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/dhcp.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv4/dhcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/dhcp.c.obj
+
+src/lib/lwip/src/core/ipv4/dhcp.i: src/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/dhcp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv4/dhcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/dhcp.c.i
+
+src/lib/lwip/src/core/ipv4/dhcp.s: src/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/dhcp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv4/dhcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/dhcp.c.s
+
+src/lib/lwip/src/core/ipv4/etharp.obj: src/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/etharp.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv4/etharp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/etharp.c.obj
+
+src/lib/lwip/src/core/ipv4/etharp.i: src/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/etharp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv4/etharp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/etharp.c.i
+
+src/lib/lwip/src/core/ipv4/etharp.s: src/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/etharp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv4/etharp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/etharp.c.s
+
+src/lib/lwip/src/core/ipv4/icmp.obj: src/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/icmp.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv4/icmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/icmp.c.obj
+
+src/lib/lwip/src/core/ipv4/icmp.i: src/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/icmp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv4/icmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/icmp.c.i
+
+src/lib/lwip/src/core/ipv4/icmp.s: src/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/icmp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv4/icmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/icmp.c.s
+
+src/lib/lwip/src/core/ipv4/igmp.obj: src/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/igmp.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv4/igmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/igmp.c.obj
+
+src/lib/lwip/src/core/ipv4/igmp.i: src/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/igmp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv4/igmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/igmp.c.i
+
+src/lib/lwip/src/core/ipv4/igmp.s: src/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/igmp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv4/igmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/igmp.c.s
+
+src/lib/lwip/src/core/ipv4/ip4.obj: src/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/ip4.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv4/ip4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/ip4.c.obj
+
+src/lib/lwip/src/core/ipv4/ip4.i: src/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/ip4.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv4/ip4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/ip4.c.i
+
+src/lib/lwip/src/core/ipv4/ip4.s: src/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/ip4.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv4/ip4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/ip4.c.s
+
+src/lib/lwip/src/core/ipv4/ip4_addr.obj: src/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_addr.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+
+src/lib/lwip/src/core/ipv4/ip4_addr.i: src/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_addr.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+src/lib/lwip/src/core/ipv4/ip4_addr.s: src/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_addr.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+src/lib/lwip/src/core/ipv4/ip4_frag.obj: src/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_frag.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+
+src/lib/lwip/src/core/ipv4/ip4_frag.i: src/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_frag.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+src/lib/lwip/src/core/ipv4/ip4_frag.s: src/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_frag.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : src/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+src/lib/lwip/src/core/ipv6/dhcp6.obj: src/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/dhcp6.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv6/dhcp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/dhcp6.c.obj
+
+src/lib/lwip/src/core/ipv6/dhcp6.i: src/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/dhcp6.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv6/dhcp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/dhcp6.c.i
+
+src/lib/lwip/src/core/ipv6/dhcp6.s: src/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/dhcp6.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv6/dhcp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/dhcp6.c.s
+
+src/lib/lwip/src/core/ipv6/ethip6.obj: src/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/ethip6.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv6/ethip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/ethip6.c.obj
+
+src/lib/lwip/src/core/ipv6/ethip6.i: src/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/ethip6.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv6/ethip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/ethip6.c.i
+
+src/lib/lwip/src/core/ipv6/ethip6.s: src/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/ethip6.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv6/ethip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/ethip6.c.s
+
+src/lib/lwip/src/core/ipv6/icmp6.obj: src/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/icmp6.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv6/icmp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/icmp6.c.obj
+
+src/lib/lwip/src/core/ipv6/icmp6.i: src/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/icmp6.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv6/icmp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/icmp6.c.i
+
+src/lib/lwip/src/core/ipv6/icmp6.s: src/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/icmp6.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv6/icmp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/icmp6.c.s
+
+src/lib/lwip/src/core/ipv6/inet6.obj: src/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/inet6.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv6/inet6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/inet6.c.obj
+
+src/lib/lwip/src/core/ipv6/inet6.i: src/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/inet6.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv6/inet6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/inet6.c.i
+
+src/lib/lwip/src/core/ipv6/inet6.s: src/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/inet6.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv6/inet6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/inet6.c.s
+
+src/lib/lwip/src/core/ipv6/ip6.obj: src/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/ip6.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv6/ip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/ip6.c.obj
+
+src/lib/lwip/src/core/ipv6/ip6.i: src/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/ip6.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv6/ip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/ip6.c.i
+
+src/lib/lwip/src/core/ipv6/ip6.s: src/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/ip6.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv6/ip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/ip6.c.s
+
+src/lib/lwip/src/core/ipv6/ip6_addr.obj: src/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_addr.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+
+src/lib/lwip/src/core/ipv6/ip6_addr.i: src/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_addr.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv6/ip6_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_addr.c.i
+
+src/lib/lwip/src/core/ipv6/ip6_addr.s: src/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_addr.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv6/ip6_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_addr.c.s
+
+src/lib/lwip/src/core/ipv6/ip6_frag.obj: src/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_frag.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+
+src/lib/lwip/src/core/ipv6/ip6_frag.i: src/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_frag.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv6/ip6_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_frag.c.i
+
+src/lib/lwip/src/core/ipv6/ip6_frag.s: src/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_frag.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv6/ip6_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/ip6_frag.c.s
+
+src/lib/lwip/src/core/ipv6/mld6.obj: src/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/mld6.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv6/mld6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/mld6.c.obj
+
+src/lib/lwip/src/core/ipv6/mld6.i: src/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/mld6.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv6/mld6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/mld6.c.i
+
+src/lib/lwip/src/core/ipv6/mld6.s: src/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/mld6.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv6/mld6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/mld6.c.s
+
+src/lib/lwip/src/core/ipv6/nd6.obj: src/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/nd6.obj
+
+# target to build an object file
+src/lib/lwip/src/core/ipv6/nd6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : src/lib/lwip/src/core/ipv6/nd6.c.obj
+
+src/lib/lwip/src/core/ipv6/nd6.i: src/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/nd6.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/ipv6/nd6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : src/lib/lwip/src/core/ipv6/nd6.c.i
+
+src/lib/lwip/src/core/ipv6/nd6.s: src/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/nd6.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/ipv6/nd6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : src/lib/lwip/src/core/ipv6/nd6.c.s
+
+src/lib/lwip/src/core/mem.obj: src/lib/lwip/src/core/mem.c.obj
+.PHONY : src/lib/lwip/src/core/mem.obj
+
+# target to build an object file
+src/lib/lwip/src/core/mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.obj
+.PHONY : src/lib/lwip/src/core/mem.c.obj
+
+src/lib/lwip/src/core/mem.i: src/lib/lwip/src/core/mem.c.i
+.PHONY : src/lib/lwip/src/core/mem.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.i
+.PHONY : src/lib/lwip/src/core/mem.c.i
+
+src/lib/lwip/src/core/mem.s: src/lib/lwip/src/core/mem.c.s
+.PHONY : src/lib/lwip/src/core/mem.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/mem.c.s
+.PHONY : src/lib/lwip/src/core/mem.c.s
+
+src/lib/lwip/src/core/memp.obj: src/lib/lwip/src/core/memp.c.obj
+.PHONY : src/lib/lwip/src/core/memp.obj
+
+# target to build an object file
+src/lib/lwip/src/core/memp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.obj
+.PHONY : src/lib/lwip/src/core/memp.c.obj
+
+src/lib/lwip/src/core/memp.i: src/lib/lwip/src/core/memp.c.i
+.PHONY : src/lib/lwip/src/core/memp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/memp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.i
+.PHONY : src/lib/lwip/src/core/memp.c.i
+
+src/lib/lwip/src/core/memp.s: src/lib/lwip/src/core/memp.c.s
+.PHONY : src/lib/lwip/src/core/memp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/memp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/memp.c.s
+.PHONY : src/lib/lwip/src/core/memp.c.s
+
+src/lib/lwip/src/core/netif.obj: src/lib/lwip/src/core/netif.c.obj
+.PHONY : src/lib/lwip/src/core/netif.obj
+
+# target to build an object file
+src/lib/lwip/src/core/netif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.obj
+.PHONY : src/lib/lwip/src/core/netif.c.obj
+
+src/lib/lwip/src/core/netif.i: src/lib/lwip/src/core/netif.c.i
+.PHONY : src/lib/lwip/src/core/netif.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/netif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.i
+.PHONY : src/lib/lwip/src/core/netif.c.i
+
+src/lib/lwip/src/core/netif.s: src/lib/lwip/src/core/netif.c.s
+.PHONY : src/lib/lwip/src/core/netif.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/netif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/netif.c.s
+.PHONY : src/lib/lwip/src/core/netif.c.s
+
+src/lib/lwip/src/core/pbuf.obj: src/lib/lwip/src/core/pbuf.c.obj
+.PHONY : src/lib/lwip/src/core/pbuf.obj
+
+# target to build an object file
+src/lib/lwip/src/core/pbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.obj
+.PHONY : src/lib/lwip/src/core/pbuf.c.obj
+
+src/lib/lwip/src/core/pbuf.i: src/lib/lwip/src/core/pbuf.c.i
+.PHONY : src/lib/lwip/src/core/pbuf.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/pbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.i
+.PHONY : src/lib/lwip/src/core/pbuf.c.i
+
+src/lib/lwip/src/core/pbuf.s: src/lib/lwip/src/core/pbuf.c.s
+.PHONY : src/lib/lwip/src/core/pbuf.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/pbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/pbuf.c.s
+.PHONY : src/lib/lwip/src/core/pbuf.c.s
+
+src/lib/lwip/src/core/raw.obj: src/lib/lwip/src/core/raw.c.obj
+.PHONY : src/lib/lwip/src/core/raw.obj
+
+# target to build an object file
+src/lib/lwip/src/core/raw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.obj
+.PHONY : src/lib/lwip/src/core/raw.c.obj
+
+src/lib/lwip/src/core/raw.i: src/lib/lwip/src/core/raw.c.i
+.PHONY : src/lib/lwip/src/core/raw.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/raw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.i
+.PHONY : src/lib/lwip/src/core/raw.c.i
+
+src/lib/lwip/src/core/raw.s: src/lib/lwip/src/core/raw.c.s
+.PHONY : src/lib/lwip/src/core/raw.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/raw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/raw.c.s
+.PHONY : src/lib/lwip/src/core/raw.c.s
+
+src/lib/lwip/src/core/stats.obj: src/lib/lwip/src/core/stats.c.obj
+.PHONY : src/lib/lwip/src/core/stats.obj
+
+# target to build an object file
+src/lib/lwip/src/core/stats.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.obj
+.PHONY : src/lib/lwip/src/core/stats.c.obj
+
+src/lib/lwip/src/core/stats.i: src/lib/lwip/src/core/stats.c.i
+.PHONY : src/lib/lwip/src/core/stats.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.i
+.PHONY : src/lib/lwip/src/core/stats.c.i
+
+src/lib/lwip/src/core/stats.s: src/lib/lwip/src/core/stats.c.s
+.PHONY : src/lib/lwip/src/core/stats.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/stats.c.s
+.PHONY : src/lib/lwip/src/core/stats.c.s
+
+src/lib/lwip/src/core/sys.obj: src/lib/lwip/src/core/sys.c.obj
+.PHONY : src/lib/lwip/src/core/sys.obj
+
+# target to build an object file
+src/lib/lwip/src/core/sys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.obj
+.PHONY : src/lib/lwip/src/core/sys.c.obj
+
+src/lib/lwip/src/core/sys.i: src/lib/lwip/src/core/sys.c.i
+.PHONY : src/lib/lwip/src/core/sys.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.i
+.PHONY : src/lib/lwip/src/core/sys.c.i
+
+src/lib/lwip/src/core/sys.s: src/lib/lwip/src/core/sys.c.s
+.PHONY : src/lib/lwip/src/core/sys.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/sys.c.s
+.PHONY : src/lib/lwip/src/core/sys.c.s
+
+src/lib/lwip/src/core/tcp.obj: src/lib/lwip/src/core/tcp.c.obj
+.PHONY : src/lib/lwip/src/core/tcp.obj
+
+# target to build an object file
+src/lib/lwip/src/core/tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.obj
+.PHONY : src/lib/lwip/src/core/tcp.c.obj
+
+src/lib/lwip/src/core/tcp.i: src/lib/lwip/src/core/tcp.c.i
+.PHONY : src/lib/lwip/src/core/tcp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.i
+.PHONY : src/lib/lwip/src/core/tcp.c.i
+
+src/lib/lwip/src/core/tcp.s: src/lib/lwip/src/core/tcp.c.s
+.PHONY : src/lib/lwip/src/core/tcp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp.c.s
+.PHONY : src/lib/lwip/src/core/tcp.c.s
+
+src/lib/lwip/src/core/tcp_in.obj: src/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : src/lib/lwip/src/core/tcp_in.obj
+
+# target to build an object file
+src/lib/lwip/src/core/tcp_in.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : src/lib/lwip/src/core/tcp_in.c.obj
+
+src/lib/lwip/src/core/tcp_in.i: src/lib/lwip/src/core/tcp_in.c.i
+.PHONY : src/lib/lwip/src/core/tcp_in.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/tcp_in.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.i
+.PHONY : src/lib/lwip/src/core/tcp_in.c.i
+
+src/lib/lwip/src/core/tcp_in.s: src/lib/lwip/src/core/tcp_in.c.s
+.PHONY : src/lib/lwip/src/core/tcp_in.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/tcp_in.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_in.c.s
+.PHONY : src/lib/lwip/src/core/tcp_in.c.s
+
+src/lib/lwip/src/core/tcp_out.obj: src/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : src/lib/lwip/src/core/tcp_out.obj
+
+# target to build an object file
+src/lib/lwip/src/core/tcp_out.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : src/lib/lwip/src/core/tcp_out.c.obj
+
+src/lib/lwip/src/core/tcp_out.i: src/lib/lwip/src/core/tcp_out.c.i
+.PHONY : src/lib/lwip/src/core/tcp_out.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/tcp_out.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.i
+.PHONY : src/lib/lwip/src/core/tcp_out.c.i
+
+src/lib/lwip/src/core/tcp_out.s: src/lib/lwip/src/core/tcp_out.c.s
+.PHONY : src/lib/lwip/src/core/tcp_out.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/tcp_out.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/tcp_out.c.s
+.PHONY : src/lib/lwip/src/core/tcp_out.c.s
+
+src/lib/lwip/src/core/timeouts.obj: src/lib/lwip/src/core/timeouts.c.obj
+.PHONY : src/lib/lwip/src/core/timeouts.obj
+
+# target to build an object file
+src/lib/lwip/src/core/timeouts.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.obj
+.PHONY : src/lib/lwip/src/core/timeouts.c.obj
+
+src/lib/lwip/src/core/timeouts.i: src/lib/lwip/src/core/timeouts.c.i
+.PHONY : src/lib/lwip/src/core/timeouts.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/timeouts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.i
+.PHONY : src/lib/lwip/src/core/timeouts.c.i
+
+src/lib/lwip/src/core/timeouts.s: src/lib/lwip/src/core/timeouts.c.s
+.PHONY : src/lib/lwip/src/core/timeouts.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/timeouts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/timeouts.c.s
+.PHONY : src/lib/lwip/src/core/timeouts.c.s
+
+src/lib/lwip/src/core/udp.obj: src/lib/lwip/src/core/udp.c.obj
+.PHONY : src/lib/lwip/src/core/udp.obj
+
+# target to build an object file
+src/lib/lwip/src/core/udp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.obj
+.PHONY : src/lib/lwip/src/core/udp.c.obj
+
+src/lib/lwip/src/core/udp.i: src/lib/lwip/src/core/udp.c.i
+.PHONY : src/lib/lwip/src/core/udp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/core/udp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.i
+.PHONY : src/lib/lwip/src/core/udp.c.i
+
+src/lib/lwip/src/core/udp.s: src/lib/lwip/src/core/udp.c.s
+.PHONY : src/lib/lwip/src/core/udp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/core/udp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/core/udp.c.s
+.PHONY : src/lib/lwip/src/core/udp.c.s
+
+src/lib/lwip/src/netif/bridgeif.obj: src/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : src/lib/lwip/src/netif/bridgeif.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/bridgeif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : src/lib/lwip/src/netif/bridgeif.c.obj
+
+src/lib/lwip/src/netif/bridgeif.i: src/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : src/lib/lwip/src/netif/bridgeif.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/bridgeif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : src/lib/lwip/src/netif/bridgeif.c.i
+
+src/lib/lwip/src/netif/bridgeif.s: src/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : src/lib/lwip/src/netif/bridgeif.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/bridgeif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : src/lib/lwip/src/netif/bridgeif.c.s
+
+src/lib/lwip/src/netif/bridgeif_fdb.obj: src/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : src/lib/lwip/src/netif/bridgeif_fdb.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/bridgeif_fdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : src/lib/lwip/src/netif/bridgeif_fdb.c.obj
+
+src/lib/lwip/src/netif/bridgeif_fdb.i: src/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : src/lib/lwip/src/netif/bridgeif_fdb.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/bridgeif_fdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : src/lib/lwip/src/netif/bridgeif_fdb.c.i
+
+src/lib/lwip/src/netif/bridgeif_fdb.s: src/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : src/lib/lwip/src/netif/bridgeif_fdb.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/bridgeif_fdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : src/lib/lwip/src/netif/bridgeif_fdb.c.s
+
+src/lib/lwip/src/netif/ethernet.obj: src/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : src/lib/lwip/src/netif/ethernet.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ethernet.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : src/lib/lwip/src/netif/ethernet.c.obj
+
+src/lib/lwip/src/netif/ethernet.i: src/lib/lwip/src/netif/ethernet.c.i
+.PHONY : src/lib/lwip/src/netif/ethernet.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ethernet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.i
+.PHONY : src/lib/lwip/src/netif/ethernet.c.i
+
+src/lib/lwip/src/netif/ethernet.s: src/lib/lwip/src/netif/ethernet.c.s
+.PHONY : src/lib/lwip/src/netif/ethernet.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ethernet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ethernet.c.s
+.PHONY : src/lib/lwip/src/netif/ethernet.c.s
+
+src/lib/lwip/src/netif/lowpan6.obj: src/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : src/lib/lwip/src/netif/lowpan6.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/lowpan6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : src/lib/lwip/src/netif/lowpan6.c.obj
+
+src/lib/lwip/src/netif/lowpan6.i: src/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : src/lib/lwip/src/netif/lowpan6.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/lowpan6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : src/lib/lwip/src/netif/lowpan6.c.i
+
+src/lib/lwip/src/netif/lowpan6.s: src/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : src/lib/lwip/src/netif/lowpan6.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/lowpan6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : src/lib/lwip/src/netif/lowpan6.c.s
+
+src/lib/lwip/src/netif/lowpan6_ble.obj: src/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : src/lib/lwip/src/netif/lowpan6_ble.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/lowpan6_ble.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : src/lib/lwip/src/netif/lowpan6_ble.c.obj
+
+src/lib/lwip/src/netif/lowpan6_ble.i: src/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : src/lib/lwip/src/netif/lowpan6_ble.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/lowpan6_ble.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : src/lib/lwip/src/netif/lowpan6_ble.c.i
+
+src/lib/lwip/src/netif/lowpan6_ble.s: src/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : src/lib/lwip/src/netif/lowpan6_ble.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/lowpan6_ble.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : src/lib/lwip/src/netif/lowpan6_ble.c.s
+
+src/lib/lwip/src/netif/lowpan6_common.obj: src/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : src/lib/lwip/src/netif/lowpan6_common.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/lowpan6_common.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : src/lib/lwip/src/netif/lowpan6_common.c.obj
+
+src/lib/lwip/src/netif/lowpan6_common.i: src/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : src/lib/lwip/src/netif/lowpan6_common.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/lowpan6_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : src/lib/lwip/src/netif/lowpan6_common.c.i
+
+src/lib/lwip/src/netif/lowpan6_common.s: src/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : src/lib/lwip/src/netif/lowpan6_common.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/lowpan6_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : src/lib/lwip/src/netif/lowpan6_common.c.s
+
+src/lib/lwip/src/netif/ppp/auth.obj: src/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/auth.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/auth.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/auth.c.obj
+
+src/lib/lwip/src/netif/ppp/auth.i: src/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/auth.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/auth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/auth.c.i
+
+src/lib/lwip/src/netif/ppp/auth.s: src/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/auth.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/auth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/auth.c.s
+
+src/lib/lwip/src/netif/ppp/ccp.obj: src/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ccp.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/ccp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ccp.c.obj
+
+src/lib/lwip/src/netif/ppp/ccp.i: src/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ccp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/ccp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ccp.c.i
+
+src/lib/lwip/src/netif/ppp/ccp.s: src/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ccp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/ccp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ccp.c.s
+
+src/lib/lwip/src/netif/ppp/chap-md5.obj: src/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/chap-md5.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/chap-md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/chap-md5.c.obj
+
+src/lib/lwip/src/netif/ppp/chap-md5.i: src/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/chap-md5.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/chap-md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/chap-md5.c.i
+
+src/lib/lwip/src/netif/ppp/chap-md5.s: src/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/chap-md5.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/chap-md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/chap-md5.c.s
+
+src/lib/lwip/src/netif/ppp/chap-new.obj: src/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/chap-new.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/chap-new.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/chap-new.c.obj
+
+src/lib/lwip/src/netif/ppp/chap-new.i: src/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/chap-new.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/chap-new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/chap-new.c.i
+
+src/lib/lwip/src/netif/ppp/chap-new.s: src/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/chap-new.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/chap-new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/chap-new.c.s
+
+src/lib/lwip/src/netif/ppp/chap_ms.obj: src/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/chap_ms.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/chap_ms.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/chap_ms.c.obj
+
+src/lib/lwip/src/netif/ppp/chap_ms.i: src/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/chap_ms.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/chap_ms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/chap_ms.c.i
+
+src/lib/lwip/src/netif/ppp/chap_ms.s: src/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/chap_ms.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/chap_ms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/chap_ms.c.s
+
+src/lib/lwip/src/netif/ppp/demand.obj: src/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/demand.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/demand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/demand.c.obj
+
+src/lib/lwip/src/netif/ppp/demand.i: src/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/demand.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/demand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/demand.c.i
+
+src/lib/lwip/src/netif/ppp/demand.s: src/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/demand.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/demand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/demand.c.s
+
+src/lib/lwip/src/netif/ppp/eap.obj: src/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/eap.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/eap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/eap.c.obj
+
+src/lib/lwip/src/netif/ppp/eap.i: src/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/eap.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/eap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/eap.c.i
+
+src/lib/lwip/src/netif/ppp/eap.s: src/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/eap.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/eap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/eap.c.s
+
+src/lib/lwip/src/netif/ppp/ecp.obj: src/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ecp.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/ecp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ecp.c.obj
+
+src/lib/lwip/src/netif/ppp/ecp.i: src/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ecp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/ecp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ecp.c.i
+
+src/lib/lwip/src/netif/ppp/ecp.s: src/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ecp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/ecp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ecp.c.s
+
+src/lib/lwip/src/netif/ppp/eui64.obj: src/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/eui64.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/eui64.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/eui64.c.obj
+
+src/lib/lwip/src/netif/ppp/eui64.i: src/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/eui64.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/eui64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/eui64.c.i
+
+src/lib/lwip/src/netif/ppp/eui64.s: src/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/eui64.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/eui64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/eui64.c.s
+
+src/lib/lwip/src/netif/ppp/fsm.obj: src/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/fsm.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/fsm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/fsm.c.obj
+
+src/lib/lwip/src/netif/ppp/fsm.i: src/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/fsm.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/fsm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/fsm.c.i
+
+src/lib/lwip/src/netif/ppp/fsm.s: src/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/fsm.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/fsm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/fsm.c.s
+
+src/lib/lwip/src/netif/ppp/ipcp.obj: src/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ipcp.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/ipcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ipcp.c.obj
+
+src/lib/lwip/src/netif/ppp/ipcp.i: src/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ipcp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/ipcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ipcp.c.i
+
+src/lib/lwip/src/netif/ppp/ipcp.s: src/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ipcp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/ipcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ipcp.c.s
+
+src/lib/lwip/src/netif/ppp/ipv6cp.obj: src/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ipv6cp.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+
+src/lib/lwip/src/netif/ppp/ipv6cp.i: src/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ipv6cp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/ipv6cp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ipv6cp.c.i
+
+src/lib/lwip/src/netif/ppp/ipv6cp.s: src/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ipv6cp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/ipv6cp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ipv6cp.c.s
+
+src/lib/lwip/src/netif/ppp/lcp.obj: src/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/lcp.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/lcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/lcp.c.obj
+
+src/lib/lwip/src/netif/ppp/lcp.i: src/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/lcp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/lcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/lcp.c.i
+
+src/lib/lwip/src/netif/ppp/lcp.s: src/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/lcp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/lcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/lcp.c.s
+
+src/lib/lwip/src/netif/ppp/magic.obj: src/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/magic.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/magic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/magic.c.obj
+
+src/lib/lwip/src/netif/ppp/magic.i: src/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/magic.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/magic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/magic.c.i
+
+src/lib/lwip/src/netif/ppp/magic.s: src/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/magic.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/magic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/magic.c.s
+
+src/lib/lwip/src/netif/ppp/mppe.obj: src/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/mppe.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/mppe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/mppe.c.obj
+
+src/lib/lwip/src/netif/ppp/mppe.i: src/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/mppe.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/mppe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/mppe.c.i
+
+src/lib/lwip/src/netif/ppp/mppe.s: src/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/mppe.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/mppe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/mppe.c.s
+
+src/lib/lwip/src/netif/ppp/multilink.obj: src/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/multilink.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/multilink.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/multilink.c.obj
+
+src/lib/lwip/src/netif/ppp/multilink.i: src/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/multilink.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/multilink.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/multilink.c.i
+
+src/lib/lwip/src/netif/ppp/multilink.s: src/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/multilink.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/multilink.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/multilink.c.s
+
+src/lib/lwip/src/netif/ppp/polarssl/arc4.obj: src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/arc4.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+
+src/lib/lwip/src/netif/ppp/polarssl/arc4.i: src/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/arc4.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+
+src/lib/lwip/src/netif/ppp/polarssl/arc4.s: src/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/arc4.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+
+src/lib/lwip/src/netif/ppp/polarssl/des.obj: src/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/des.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+
+src/lib/lwip/src/netif/ppp/polarssl/des.i: src/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/des.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/polarssl/des.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/des.c.i
+
+src/lib/lwip/src/netif/ppp/polarssl/des.s: src/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/des.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/polarssl/des.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/des.c.s
+
+src/lib/lwip/src/netif/ppp/polarssl/md4.obj: src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md4.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+
+src/lib/lwip/src/netif/ppp/polarssl/md4.i: src/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md4.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+
+src/lib/lwip/src/netif/ppp/polarssl/md4.s: src/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md4.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+
+src/lib/lwip/src/netif/ppp/polarssl/md5.obj: src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md5.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+
+src/lib/lwip/src/netif/ppp/polarssl/md5.i: src/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md5.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+
+src/lib/lwip/src/netif/ppp/polarssl/md5.s: src/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md5.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+
+src/lib/lwip/src/netif/ppp/polarssl/sha1.obj: src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/sha1.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+
+src/lib/lwip/src/netif/ppp/polarssl/sha1.i: src/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/sha1.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+
+src/lib/lwip/src/netif/ppp/polarssl/sha1.s: src/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/sha1.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+
+src/lib/lwip/src/netif/ppp/ppp.obj: src/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ppp.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/ppp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/ppp.c.obj
+
+src/lib/lwip/src/netif/ppp/ppp.i: src/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ppp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/ppp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/ppp.c.i
+
+src/lib/lwip/src/netif/ppp/ppp.s: src/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ppp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/ppp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/ppp.c.s
+
+src/lib/lwip/src/netif/ppp/pppapi.obj: src/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppapi.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/pppapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppapi.c.obj
+
+src/lib/lwip/src/netif/ppp/pppapi.i: src/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppapi.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/pppapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppapi.c.i
+
+src/lib/lwip/src/netif/ppp/pppapi.s: src/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppapi.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/pppapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppapi.c.s
+
+src/lib/lwip/src/netif/ppp/pppcrypt.obj: src/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppcrypt.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+
+src/lib/lwip/src/netif/ppp/pppcrypt.i: src/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppcrypt.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/pppcrypt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppcrypt.c.i
+
+src/lib/lwip/src/netif/ppp/pppcrypt.s: src/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppcrypt.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/pppcrypt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppcrypt.c.s
+
+src/lib/lwip/src/netif/ppp/pppoe.obj: src/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppoe.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/pppoe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppoe.c.obj
+
+src/lib/lwip/src/netif/ppp/pppoe.i: src/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppoe.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/pppoe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppoe.c.i
+
+src/lib/lwip/src/netif/ppp/pppoe.s: src/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppoe.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/pppoe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppoe.c.s
+
+src/lib/lwip/src/netif/ppp/pppol2tp.obj: src/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppol2tp.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+
+src/lib/lwip/src/netif/ppp/pppol2tp.i: src/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppol2tp.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/pppol2tp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppol2tp.c.i
+
+src/lib/lwip/src/netif/ppp/pppol2tp.s: src/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppol2tp.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/pppol2tp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppol2tp.c.s
+
+src/lib/lwip/src/netif/ppp/pppos.obj: src/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppos.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/pppos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/pppos.c.obj
+
+src/lib/lwip/src/netif/ppp/pppos.i: src/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppos.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/pppos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/pppos.c.i
+
+src/lib/lwip/src/netif/ppp/pppos.s: src/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppos.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/pppos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/pppos.c.s
+
+src/lib/lwip/src/netif/ppp/upap.obj: src/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/upap.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/upap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/upap.c.obj
+
+src/lib/lwip/src/netif/ppp/upap.i: src/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/upap.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/upap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/upap.c.i
+
+src/lib/lwip/src/netif/ppp/upap.s: src/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/upap.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/upap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/upap.c.s
+
+src/lib/lwip/src/netif/ppp/utils.obj: src/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/utils.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/utils.c.obj
+
+src/lib/lwip/src/netif/ppp/utils.i: src/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/utils.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/utils.c.i
+
+src/lib/lwip/src/netif/ppp/utils.s: src/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/utils.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/utils.c.s
+
+src/lib/lwip/src/netif/ppp/vj.obj: src/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/vj.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/ppp/vj.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : src/lib/lwip/src/netif/ppp/vj.c.obj
+
+src/lib/lwip/src/netif/ppp/vj.i: src/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/vj.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/ppp/vj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : src/lib/lwip/src/netif/ppp/vj.c.i
+
+src/lib/lwip/src/netif/ppp/vj.s: src/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/vj.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/ppp/vj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : src/lib/lwip/src/netif/ppp/vj.c.s
+
+src/lib/lwip/src/netif/slipif.obj: src/lib/lwip/src/netif/slipif.c.obj
+.PHONY : src/lib/lwip/src/netif/slipif.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/slipif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.obj
+.PHONY : src/lib/lwip/src/netif/slipif.c.obj
+
+src/lib/lwip/src/netif/slipif.i: src/lib/lwip/src/netif/slipif.c.i
+.PHONY : src/lib/lwip/src/netif/slipif.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/slipif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.i
+.PHONY : src/lib/lwip/src/netif/slipif.c.i
+
+src/lib/lwip/src/netif/slipif.s: src/lib/lwip/src/netif/slipif.c.s
+.PHONY : src/lib/lwip/src/netif/slipif.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/slipif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/slipif.c.s
+.PHONY : src/lib/lwip/src/netif/slipif.c.s
+
+src/lib/lwip/src/netif/zepif.obj: src/lib/lwip/src/netif/zepif.c.obj
+.PHONY : src/lib/lwip/src/netif/zepif.obj
+
+# target to build an object file
+src/lib/lwip/src/netif/zepif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.obj
+.PHONY : src/lib/lwip/src/netif/zepif.c.obj
+
+src/lib/lwip/src/netif/zepif.i: src/lib/lwip/src/netif/zepif.c.i
+.PHONY : src/lib/lwip/src/netif/zepif.i
+
+# target to preprocess a source file
+src/lib/lwip/src/netif/zepif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.i
+.PHONY : src/lib/lwip/src/netif/zepif.c.i
+
+src/lib/lwip/src/netif/zepif.s: src/lib/lwip/src/netif/zepif.c.s
+.PHONY : src/lib/lwip/src/netif/zepif.s
+
+# target to generate assembly for a file
+src/lib/lwip/src/netif/zepif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/src/netif/zepif.c.s
+.PHONY : src/lib/lwip/src/netif/zepif.c.s
+
+src/lib/lwip/system/OS/sys_arch.obj: src/lib/lwip/system/OS/sys_arch.c.obj
+.PHONY : src/lib/lwip/system/OS/sys_arch.obj
+
+# target to build an object file
+src/lib/lwip/system/OS/sys_arch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.obj
+.PHONY : src/lib/lwip/system/OS/sys_arch.c.obj
+
+src/lib/lwip/system/OS/sys_arch.i: src/lib/lwip/system/OS/sys_arch.c.i
+.PHONY : src/lib/lwip/system/OS/sys_arch.i
+
+# target to preprocess a source file
+src/lib/lwip/system/OS/sys_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.i
+.PHONY : src/lib/lwip/system/OS/sys_arch.c.i
+
+src/lib/lwip/system/OS/sys_arch.s: src/lib/lwip/system/OS/sys_arch.c.s
+.PHONY : src/lib/lwip/system/OS/sys_arch.s
+
+# target to generate assembly for a file
+src/lib/lwip/system/OS/sys_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/system/OS/sys_arch.c.s
+.PHONY : src/lib/lwip/system/OS/sys_arch.c.s
+
+src/lib/lwip/target/ethernetif.obj: src/lib/lwip/target/ethernetif.c.obj
+.PHONY : src/lib/lwip/target/ethernetif.obj
+
+# target to build an object file
+src/lib/lwip/target/ethernetif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.obj
+.PHONY : src/lib/lwip/target/ethernetif.c.obj
+
+src/lib/lwip/target/ethernetif.i: src/lib/lwip/target/ethernetif.c.i
+.PHONY : src/lib/lwip/target/ethernetif.i
+
+# target to preprocess a source file
+src/lib/lwip/target/ethernetif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.i
+.PHONY : src/lib/lwip/target/ethernetif.c.i
+
+src/lib/lwip/target/ethernetif.s: src/lib/lwip/target/ethernetif.c.s
+.PHONY : src/lib/lwip/target/ethernetif.s
+
+# target to generate assembly for a file
+src/lib/lwip/target/ethernetif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32h5-fw.elf.dir\build.make CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/target/ethernetif.c.s
+.PHONY : src/lib/lwip/target/ethernetif.c.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -4341,6 +6549,15 @@ help:
 	@echo ... src/hw/driver/can.obj
 	@echo ... src/hw/driver/can.i
 	@echo ... src/hw/driver/can.s
+	@echo ... src/hw/driver/eth.obj
+	@echo ... src/hw/driver/eth.i
+	@echo ... src/hw/driver/eth.s
+	@echo ... src/hw/driver/eth_udp.obj
+	@echo ... src/hw/driver/eth_udp.i
+	@echo ... src/hw/driver/eth_udp.s
+	@echo ... src/hw/driver/fatfs.obj
+	@echo ... src/hw/driver/fatfs.i
+	@echo ... src/hw/driver/fatfs.s
 	@echo ... src/hw/driver/fault.obj
 	@echo ... src/hw/driver/fault.i
 	@echo ... src/hw/driver/fault.s
@@ -4440,6 +6657,9 @@ help:
 	@echo ... src/lib/FreeRTOS/Source/timers.obj
 	@echo ... src/lib/FreeRTOS/Source/timers.i
 	@echo ... src/lib/FreeRTOS/Source/timers.s
+	@echo ... src/lib/ST/BSP/lan8742.obj
+	@echo ... src/lib/ST/BSP/lan8742.i
+	@echo ... src/lib/ST/BSP/lan8742.s
 	@echo ... src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.obj
 	@echo ... src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.i
 	@echo ... src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.s
@@ -4788,6 +7008,270 @@ help:
 	@echo ... src/lib/littlefs/lfs_util.obj
 	@echo ... src/lib/littlefs/lfs_util.i
 	@echo ... src/lib/littlefs/lfs_util.s
+	@echo ... src/lib/lwip/app/lwip.obj
+	@echo ... src/lib/lwip/app/lwip.i
+	@echo ... src/lib/lwip/app/lwip.s
+	@echo ... src/lib/lwip/src/api/api_lib.obj
+	@echo ... src/lib/lwip/src/api/api_lib.i
+	@echo ... src/lib/lwip/src/api/api_lib.s
+	@echo ... src/lib/lwip/src/api/api_msg.obj
+	@echo ... src/lib/lwip/src/api/api_msg.i
+	@echo ... src/lib/lwip/src/api/api_msg.s
+	@echo ... src/lib/lwip/src/api/err.obj
+	@echo ... src/lib/lwip/src/api/err.i
+	@echo ... src/lib/lwip/src/api/err.s
+	@echo ... src/lib/lwip/src/api/if_api.obj
+	@echo ... src/lib/lwip/src/api/if_api.i
+	@echo ... src/lib/lwip/src/api/if_api.s
+	@echo ... src/lib/lwip/src/api/netbuf.obj
+	@echo ... src/lib/lwip/src/api/netbuf.i
+	@echo ... src/lib/lwip/src/api/netbuf.s
+	@echo ... src/lib/lwip/src/api/netdb.obj
+	@echo ... src/lib/lwip/src/api/netdb.i
+	@echo ... src/lib/lwip/src/api/netdb.s
+	@echo ... src/lib/lwip/src/api/netifapi.obj
+	@echo ... src/lib/lwip/src/api/netifapi.i
+	@echo ... src/lib/lwip/src/api/netifapi.s
+	@echo ... src/lib/lwip/src/api/sockets.obj
+	@echo ... src/lib/lwip/src/api/sockets.i
+	@echo ... src/lib/lwip/src/api/sockets.s
+	@echo ... src/lib/lwip/src/api/tcpip.obj
+	@echo ... src/lib/lwip/src/api/tcpip.i
+	@echo ... src/lib/lwip/src/api/tcpip.s
+	@echo ... src/lib/lwip/src/core/altcp.obj
+	@echo ... src/lib/lwip/src/core/altcp.i
+	@echo ... src/lib/lwip/src/core/altcp.s
+	@echo ... src/lib/lwip/src/core/altcp_alloc.obj
+	@echo ... src/lib/lwip/src/core/altcp_alloc.i
+	@echo ... src/lib/lwip/src/core/altcp_alloc.s
+	@echo ... src/lib/lwip/src/core/altcp_tcp.obj
+	@echo ... src/lib/lwip/src/core/altcp_tcp.i
+	@echo ... src/lib/lwip/src/core/altcp_tcp.s
+	@echo ... src/lib/lwip/src/core/def.obj
+	@echo ... src/lib/lwip/src/core/def.i
+	@echo ... src/lib/lwip/src/core/def.s
+	@echo ... src/lib/lwip/src/core/dns.obj
+	@echo ... src/lib/lwip/src/core/dns.i
+	@echo ... src/lib/lwip/src/core/dns.s
+	@echo ... src/lib/lwip/src/core/inet_chksum.obj
+	@echo ... src/lib/lwip/src/core/inet_chksum.i
+	@echo ... src/lib/lwip/src/core/inet_chksum.s
+	@echo ... src/lib/lwip/src/core/init.obj
+	@echo ... src/lib/lwip/src/core/init.i
+	@echo ... src/lib/lwip/src/core/init.s
+	@echo ... src/lib/lwip/src/core/ip.obj
+	@echo ... src/lib/lwip/src/core/ip.i
+	@echo ... src/lib/lwip/src/core/ip.s
+	@echo ... src/lib/lwip/src/core/ipv4/acd.obj
+	@echo ... src/lib/lwip/src/core/ipv4/acd.i
+	@echo ... src/lib/lwip/src/core/ipv4/acd.s
+	@echo ... src/lib/lwip/src/core/ipv4/autoip.obj
+	@echo ... src/lib/lwip/src/core/ipv4/autoip.i
+	@echo ... src/lib/lwip/src/core/ipv4/autoip.s
+	@echo ... src/lib/lwip/src/core/ipv4/dhcp.obj
+	@echo ... src/lib/lwip/src/core/ipv4/dhcp.i
+	@echo ... src/lib/lwip/src/core/ipv4/dhcp.s
+	@echo ... src/lib/lwip/src/core/ipv4/etharp.obj
+	@echo ... src/lib/lwip/src/core/ipv4/etharp.i
+	@echo ... src/lib/lwip/src/core/ipv4/etharp.s
+	@echo ... src/lib/lwip/src/core/ipv4/icmp.obj
+	@echo ... src/lib/lwip/src/core/ipv4/icmp.i
+	@echo ... src/lib/lwip/src/core/ipv4/icmp.s
+	@echo ... src/lib/lwip/src/core/ipv4/igmp.obj
+	@echo ... src/lib/lwip/src/core/ipv4/igmp.i
+	@echo ... src/lib/lwip/src/core/ipv4/igmp.s
+	@echo ... src/lib/lwip/src/core/ipv4/ip4.obj
+	@echo ... src/lib/lwip/src/core/ipv4/ip4.i
+	@echo ... src/lib/lwip/src/core/ipv4/ip4.s
+	@echo ... src/lib/lwip/src/core/ipv4/ip4_addr.obj
+	@echo ... src/lib/lwip/src/core/ipv4/ip4_addr.i
+	@echo ... src/lib/lwip/src/core/ipv4/ip4_addr.s
+	@echo ... src/lib/lwip/src/core/ipv4/ip4_frag.obj
+	@echo ... src/lib/lwip/src/core/ipv4/ip4_frag.i
+	@echo ... src/lib/lwip/src/core/ipv4/ip4_frag.s
+	@echo ... src/lib/lwip/src/core/ipv6/dhcp6.obj
+	@echo ... src/lib/lwip/src/core/ipv6/dhcp6.i
+	@echo ... src/lib/lwip/src/core/ipv6/dhcp6.s
+	@echo ... src/lib/lwip/src/core/ipv6/ethip6.obj
+	@echo ... src/lib/lwip/src/core/ipv6/ethip6.i
+	@echo ... src/lib/lwip/src/core/ipv6/ethip6.s
+	@echo ... src/lib/lwip/src/core/ipv6/icmp6.obj
+	@echo ... src/lib/lwip/src/core/ipv6/icmp6.i
+	@echo ... src/lib/lwip/src/core/ipv6/icmp6.s
+	@echo ... src/lib/lwip/src/core/ipv6/inet6.obj
+	@echo ... src/lib/lwip/src/core/ipv6/inet6.i
+	@echo ... src/lib/lwip/src/core/ipv6/inet6.s
+	@echo ... src/lib/lwip/src/core/ipv6/ip6.obj
+	@echo ... src/lib/lwip/src/core/ipv6/ip6.i
+	@echo ... src/lib/lwip/src/core/ipv6/ip6.s
+	@echo ... src/lib/lwip/src/core/ipv6/ip6_addr.obj
+	@echo ... src/lib/lwip/src/core/ipv6/ip6_addr.i
+	@echo ... src/lib/lwip/src/core/ipv6/ip6_addr.s
+	@echo ... src/lib/lwip/src/core/ipv6/ip6_frag.obj
+	@echo ... src/lib/lwip/src/core/ipv6/ip6_frag.i
+	@echo ... src/lib/lwip/src/core/ipv6/ip6_frag.s
+	@echo ... src/lib/lwip/src/core/ipv6/mld6.obj
+	@echo ... src/lib/lwip/src/core/ipv6/mld6.i
+	@echo ... src/lib/lwip/src/core/ipv6/mld6.s
+	@echo ... src/lib/lwip/src/core/ipv6/nd6.obj
+	@echo ... src/lib/lwip/src/core/ipv6/nd6.i
+	@echo ... src/lib/lwip/src/core/ipv6/nd6.s
+	@echo ... src/lib/lwip/src/core/mem.obj
+	@echo ... src/lib/lwip/src/core/mem.i
+	@echo ... src/lib/lwip/src/core/mem.s
+	@echo ... src/lib/lwip/src/core/memp.obj
+	@echo ... src/lib/lwip/src/core/memp.i
+	@echo ... src/lib/lwip/src/core/memp.s
+	@echo ... src/lib/lwip/src/core/netif.obj
+	@echo ... src/lib/lwip/src/core/netif.i
+	@echo ... src/lib/lwip/src/core/netif.s
+	@echo ... src/lib/lwip/src/core/pbuf.obj
+	@echo ... src/lib/lwip/src/core/pbuf.i
+	@echo ... src/lib/lwip/src/core/pbuf.s
+	@echo ... src/lib/lwip/src/core/raw.obj
+	@echo ... src/lib/lwip/src/core/raw.i
+	@echo ... src/lib/lwip/src/core/raw.s
+	@echo ... src/lib/lwip/src/core/stats.obj
+	@echo ... src/lib/lwip/src/core/stats.i
+	@echo ... src/lib/lwip/src/core/stats.s
+	@echo ... src/lib/lwip/src/core/sys.obj
+	@echo ... src/lib/lwip/src/core/sys.i
+	@echo ... src/lib/lwip/src/core/sys.s
+	@echo ... src/lib/lwip/src/core/tcp.obj
+	@echo ... src/lib/lwip/src/core/tcp.i
+	@echo ... src/lib/lwip/src/core/tcp.s
+	@echo ... src/lib/lwip/src/core/tcp_in.obj
+	@echo ... src/lib/lwip/src/core/tcp_in.i
+	@echo ... src/lib/lwip/src/core/tcp_in.s
+	@echo ... src/lib/lwip/src/core/tcp_out.obj
+	@echo ... src/lib/lwip/src/core/tcp_out.i
+	@echo ... src/lib/lwip/src/core/tcp_out.s
+	@echo ... src/lib/lwip/src/core/timeouts.obj
+	@echo ... src/lib/lwip/src/core/timeouts.i
+	@echo ... src/lib/lwip/src/core/timeouts.s
+	@echo ... src/lib/lwip/src/core/udp.obj
+	@echo ... src/lib/lwip/src/core/udp.i
+	@echo ... src/lib/lwip/src/core/udp.s
+	@echo ... src/lib/lwip/src/netif/bridgeif.obj
+	@echo ... src/lib/lwip/src/netif/bridgeif.i
+	@echo ... src/lib/lwip/src/netif/bridgeif.s
+	@echo ... src/lib/lwip/src/netif/bridgeif_fdb.obj
+	@echo ... src/lib/lwip/src/netif/bridgeif_fdb.i
+	@echo ... src/lib/lwip/src/netif/bridgeif_fdb.s
+	@echo ... src/lib/lwip/src/netif/ethernet.obj
+	@echo ... src/lib/lwip/src/netif/ethernet.i
+	@echo ... src/lib/lwip/src/netif/ethernet.s
+	@echo ... src/lib/lwip/src/netif/lowpan6.obj
+	@echo ... src/lib/lwip/src/netif/lowpan6.i
+	@echo ... src/lib/lwip/src/netif/lowpan6.s
+	@echo ... src/lib/lwip/src/netif/lowpan6_ble.obj
+	@echo ... src/lib/lwip/src/netif/lowpan6_ble.i
+	@echo ... src/lib/lwip/src/netif/lowpan6_ble.s
+	@echo ... src/lib/lwip/src/netif/lowpan6_common.obj
+	@echo ... src/lib/lwip/src/netif/lowpan6_common.i
+	@echo ... src/lib/lwip/src/netif/lowpan6_common.s
+	@echo ... src/lib/lwip/src/netif/ppp/auth.obj
+	@echo ... src/lib/lwip/src/netif/ppp/auth.i
+	@echo ... src/lib/lwip/src/netif/ppp/auth.s
+	@echo ... src/lib/lwip/src/netif/ppp/ccp.obj
+	@echo ... src/lib/lwip/src/netif/ppp/ccp.i
+	@echo ... src/lib/lwip/src/netif/ppp/ccp.s
+	@echo ... src/lib/lwip/src/netif/ppp/chap-md5.obj
+	@echo ... src/lib/lwip/src/netif/ppp/chap-md5.i
+	@echo ... src/lib/lwip/src/netif/ppp/chap-md5.s
+	@echo ... src/lib/lwip/src/netif/ppp/chap-new.obj
+	@echo ... src/lib/lwip/src/netif/ppp/chap-new.i
+	@echo ... src/lib/lwip/src/netif/ppp/chap-new.s
+	@echo ... src/lib/lwip/src/netif/ppp/chap_ms.obj
+	@echo ... src/lib/lwip/src/netif/ppp/chap_ms.i
+	@echo ... src/lib/lwip/src/netif/ppp/chap_ms.s
+	@echo ... src/lib/lwip/src/netif/ppp/demand.obj
+	@echo ... src/lib/lwip/src/netif/ppp/demand.i
+	@echo ... src/lib/lwip/src/netif/ppp/demand.s
+	@echo ... src/lib/lwip/src/netif/ppp/eap.obj
+	@echo ... src/lib/lwip/src/netif/ppp/eap.i
+	@echo ... src/lib/lwip/src/netif/ppp/eap.s
+	@echo ... src/lib/lwip/src/netif/ppp/ecp.obj
+	@echo ... src/lib/lwip/src/netif/ppp/ecp.i
+	@echo ... src/lib/lwip/src/netif/ppp/ecp.s
+	@echo ... src/lib/lwip/src/netif/ppp/eui64.obj
+	@echo ... src/lib/lwip/src/netif/ppp/eui64.i
+	@echo ... src/lib/lwip/src/netif/ppp/eui64.s
+	@echo ... src/lib/lwip/src/netif/ppp/fsm.obj
+	@echo ... src/lib/lwip/src/netif/ppp/fsm.i
+	@echo ... src/lib/lwip/src/netif/ppp/fsm.s
+	@echo ... src/lib/lwip/src/netif/ppp/ipcp.obj
+	@echo ... src/lib/lwip/src/netif/ppp/ipcp.i
+	@echo ... src/lib/lwip/src/netif/ppp/ipcp.s
+	@echo ... src/lib/lwip/src/netif/ppp/ipv6cp.obj
+	@echo ... src/lib/lwip/src/netif/ppp/ipv6cp.i
+	@echo ... src/lib/lwip/src/netif/ppp/ipv6cp.s
+	@echo ... src/lib/lwip/src/netif/ppp/lcp.obj
+	@echo ... src/lib/lwip/src/netif/ppp/lcp.i
+	@echo ... src/lib/lwip/src/netif/ppp/lcp.s
+	@echo ... src/lib/lwip/src/netif/ppp/magic.obj
+	@echo ... src/lib/lwip/src/netif/ppp/magic.i
+	@echo ... src/lib/lwip/src/netif/ppp/magic.s
+	@echo ... src/lib/lwip/src/netif/ppp/mppe.obj
+	@echo ... src/lib/lwip/src/netif/ppp/mppe.i
+	@echo ... src/lib/lwip/src/netif/ppp/mppe.s
+	@echo ... src/lib/lwip/src/netif/ppp/multilink.obj
+	@echo ... src/lib/lwip/src/netif/ppp/multilink.i
+	@echo ... src/lib/lwip/src/netif/ppp/multilink.s
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/arc4.obj
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/arc4.i
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/arc4.s
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/des.obj
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/des.i
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/des.s
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/md4.obj
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/md4.i
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/md4.s
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/md5.obj
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/md5.i
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/md5.s
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/sha1.obj
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/sha1.i
+	@echo ... src/lib/lwip/src/netif/ppp/polarssl/sha1.s
+	@echo ... src/lib/lwip/src/netif/ppp/ppp.obj
+	@echo ... src/lib/lwip/src/netif/ppp/ppp.i
+	@echo ... src/lib/lwip/src/netif/ppp/ppp.s
+	@echo ... src/lib/lwip/src/netif/ppp/pppapi.obj
+	@echo ... src/lib/lwip/src/netif/ppp/pppapi.i
+	@echo ... src/lib/lwip/src/netif/ppp/pppapi.s
+	@echo ... src/lib/lwip/src/netif/ppp/pppcrypt.obj
+	@echo ... src/lib/lwip/src/netif/ppp/pppcrypt.i
+	@echo ... src/lib/lwip/src/netif/ppp/pppcrypt.s
+	@echo ... src/lib/lwip/src/netif/ppp/pppoe.obj
+	@echo ... src/lib/lwip/src/netif/ppp/pppoe.i
+	@echo ... src/lib/lwip/src/netif/ppp/pppoe.s
+	@echo ... src/lib/lwip/src/netif/ppp/pppol2tp.obj
+	@echo ... src/lib/lwip/src/netif/ppp/pppol2tp.i
+	@echo ... src/lib/lwip/src/netif/ppp/pppol2tp.s
+	@echo ... src/lib/lwip/src/netif/ppp/pppos.obj
+	@echo ... src/lib/lwip/src/netif/ppp/pppos.i
+	@echo ... src/lib/lwip/src/netif/ppp/pppos.s
+	@echo ... src/lib/lwip/src/netif/ppp/upap.obj
+	@echo ... src/lib/lwip/src/netif/ppp/upap.i
+	@echo ... src/lib/lwip/src/netif/ppp/upap.s
+	@echo ... src/lib/lwip/src/netif/ppp/utils.obj
+	@echo ... src/lib/lwip/src/netif/ppp/utils.i
+	@echo ... src/lib/lwip/src/netif/ppp/utils.s
+	@echo ... src/lib/lwip/src/netif/ppp/vj.obj
+	@echo ... src/lib/lwip/src/netif/ppp/vj.i
+	@echo ... src/lib/lwip/src/netif/ppp/vj.s
+	@echo ... src/lib/lwip/src/netif/slipif.obj
+	@echo ... src/lib/lwip/src/netif/slipif.i
+	@echo ... src/lib/lwip/src/netif/slipif.s
+	@echo ... src/lib/lwip/src/netif/zepif.obj
+	@echo ... src/lib/lwip/src/netif/zepif.i
+	@echo ... src/lib/lwip/src/netif/zepif.s
+	@echo ... src/lib/lwip/system/OS/sys_arch.obj
+	@echo ... src/lib/lwip/system/OS/sys_arch.i
+	@echo ... src/lib/lwip/system/OS/sys_arch.s
+	@echo ... src/lib/lwip/target/ethernetif.obj
+	@echo ... src/lib/lwip/target/ethernetif.i
+	@echo ... src/lib/lwip/target/ethernetif.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

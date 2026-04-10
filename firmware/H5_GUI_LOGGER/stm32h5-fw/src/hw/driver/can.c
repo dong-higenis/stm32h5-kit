@@ -153,7 +153,7 @@ bool canInit(void)
 
   return ret;
 }
-
+ 
 bool canLock(void)
 {
   return true;
@@ -520,6 +520,9 @@ void canRecovery(uint8_t ch)
   can_tbl[ch].recovery_cnt++;
 }
 
+/**
+ * @brief can 버스 에러 발생시 자동 복구
+ */
 bool canUpdate(void)
 {
   enum

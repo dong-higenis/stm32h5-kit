@@ -44,6 +44,7 @@ void systemMain(void)
     if (init_ret)
     {
       sdUpdate();
+      etnetUpdate();
     }
     
     static uint32_t pre_time;

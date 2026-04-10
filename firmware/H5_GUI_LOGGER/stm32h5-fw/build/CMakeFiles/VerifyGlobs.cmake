@@ -123,6 +123,16 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # SRC_FILES at CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/BSP/*.c")
+set(OLD_GLOB
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/BSP/lan8742.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:23 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/fatfs/diskio.c"
@@ -146,7 +156,27 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES at CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/app/*.c")
+set(OLD_GLOB
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/app/lwip.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/target/*.c")
+set(OLD_GLOB
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/target/ethernetif.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/modules/common/cli/cli.c"
@@ -158,7 +188,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/*.cpp")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/ap/ap.cpp"
@@ -168,7 +198,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/bsp/*.s")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/bsp/startup/startup_stm32h562xx.s"
@@ -178,7 +208,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/common/core/qbuffer.c"
@@ -193,13 +223,16 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/assert.c"
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/button.c"
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/buzzer.c"
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/can.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/eth.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/eth_udp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/fatfs.c"
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/fault.c"
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/fs.c"
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/hw/driver/gpio.c"
@@ -228,7 +261,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/*.c")
 set(OLD_GLOB
   "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/ST/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal.c"
@@ -347,7 +380,111 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/*.c")
+set(OLD_GLOB
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/api_lib.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/api_msg.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/err.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/if_api.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/netbuf.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/netdb.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/netifapi.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/sockets.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/api/tcpip.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/altcp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/altcp_alloc.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/altcp_tcp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/def.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/dns.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/inet_chksum.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/init.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ip.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/acd.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/autoip.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/dhcp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/etharp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/icmp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/igmp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/ip4.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/ip4_addr.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv4/ip4_frag.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/dhcp6.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/ethip6.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/icmp6.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/inet6.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/ip6.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/ip6_addr.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/ip6_frag.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/mld6.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/ipv6/nd6.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/mem.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/memp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/netif.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/pbuf.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/raw.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/stats.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/sys.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/tcp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/tcp_in.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/tcp_out.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/timeouts.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/core/udp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/bridgeif.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/bridgeif_fdb.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ethernet.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/lowpan6.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/lowpan6_ble.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/lowpan6_common.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/auth.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ccp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/chap-md5.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/chap-new.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/chap_ms.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/demand.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/eap.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ecp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/eui64.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/fsm.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ipcp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ipv6cp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/lcp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/magic.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/mppe.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/multilink.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/arc4.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/des.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/md4.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/md5.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/polarssl/sha1.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/ppp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppapi.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppcrypt.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppoe.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppol2tp.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/pppos.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/upap.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/utils.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/ppp/vj.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/slipif.c"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/src/netif/zepif.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/system/OS/*.c")
+set(OLD_GLOB
+  "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/lwip/system/OS/sys_arch.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/wifi/ArduinoJson/src/*.cpp")
 set(OLD_GLOB
   )
@@ -356,7 +493,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/wifi/Arduino_JSON/src/*.c")
 set(OLD_GLOB
   )
@@ -365,7 +502,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/wifi/PubSubClient/src/*.cpp")
 set(OLD_GLOB
   )
@@ -374,7 +511,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# SRC_FILES_RECURSE at CMakeLists.txt:48 (file)
+# SRC_FILES_RECURSE at CMakeLists.txt:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/src/lib/wifi/WiFiEspAT/*.cpp")
 set(OLD_GLOB
   )

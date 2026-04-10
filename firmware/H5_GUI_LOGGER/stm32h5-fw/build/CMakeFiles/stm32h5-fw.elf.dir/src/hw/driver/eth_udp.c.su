@@ -1,0 +1,11 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:141:6:etnetUdpSend	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:187:6:cliCmd	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:169:6:etnetUdpReceiveCallback	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:33:6:etnetUdpInit	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:53:6:etnetUdpOpen	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:84:6:etnetUdpIsOpen	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:89:6:etnetUdpClose	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:100:10:etnetUdpAvailable	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:109:6:etnetUdpFlush	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:115:6:etnetUdpRead	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth_udp.c:123:9:etnetUdpWrite	8	static

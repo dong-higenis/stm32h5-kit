@@ -36,6 +36,13 @@ file(GLOB SRC_FILES CONFIGURE_DEPENDS
   # FATFS
   src/lib/fatfs/*.c
 
+  # LwIP
+  src/lib/lwip/app/*.c
+  src/lib/lwip/target/*.c
+
+  # LAN8742
+  src/lib/ST/BSP/*.c
+
   # FreeRTOS
   src/lib/FreeRTOS/Source/*.c  
   src/lib/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/*.c
@@ -57,6 +64,8 @@ file(GLOB_RECURSE SRC_FILES_RECURSE CONFIGURE_DEPENDS
   src/lib/wifi/Arduino_JSON/src/*.c
   src/lib/wifi/ArduinoJson/src/*.cpp
   src/lib/wifi/PubSubClient/src/*.cpp
+  src/lib/lwip/src/*.c
+  src/lib/lwip/system/OS/*.c
   )
 
 # 특정 폴더를 빌드에서 제외한다.
@@ -115,6 +124,17 @@ target_include_directories(${EXECUTABLE} PRIVATE
 
   # PubSubClient
   src/lib/wifi/PubSubClient/src
+
+  # FATFS
+  src/lib/fatfs
+
+  # LwIP
+  src/lib/lwip/target
+  src/lib/lwip/src/include
+  src/lib/lwip/system
+
+  # LAN8742
+  src/lib/ST/BSP
 )
 
 target_compile_definitions(${EXECUTABLE} PRIVATE

@@ -86,6 +86,8 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/spi_flash.c.obj: \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_uart.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_uart_ex.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_exti.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_eth.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_eth_ex.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\ST\STM32H5xx_HAL_Driver\Inc/stm32h5xx_hal_fdcan.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\rtos/rtos.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\CMSIS_RTOS/cmsis_os.h \

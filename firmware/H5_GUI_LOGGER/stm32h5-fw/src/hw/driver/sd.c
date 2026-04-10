@@ -4,6 +4,7 @@
 #ifdef _USE_HW_SD
 #include "cli.h"
 #include "gpio.h"
+#include "fatfs.h"
 
 
 static bool          is_init                 = false;
@@ -165,6 +166,7 @@ sd_state_t sdUpdate(void)
         {
           sd_state  = SDCARD_CONNECTED;
           ret_state = SDCARD_CONNECTED;
+          fatfsMount();
           logPrintf("[SD] Connected!\n");
         }
         else
@@ -185,6 +187,7 @@ sd_state_t sdUpdate(void)
       {
         is_try   = 0;
         sd_state = SDCARD_IDLE;
+        fatfsUnMount();
         logPrintf("[SD] Disconnected!\n");
       }
       break;

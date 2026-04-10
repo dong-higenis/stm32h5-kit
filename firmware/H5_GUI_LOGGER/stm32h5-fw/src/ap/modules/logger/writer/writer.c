@@ -6,15 +6,13 @@ static void writerThread(void const *arg);
 
 static void writerCanProcess(uint8_t ch);
 
-MODULE_DEF(writer)
-{
+MODULE_DEF(writer){
   .name     = "writer",
   .priority = MODULE_PRI_NORMAL,
-  .init     = writerThreadInit
-};
+  .init     = writerThreadInit};
+
 
 static QueueHandle_t q_can[HW_CAN_MAX_CH];
-
 
 bool writerThreadInit(void)
 {
@@ -39,6 +37,20 @@ void writerThread(void const *arg)
   systemWaitStart();
 
   logPrintf("[OK] Thread Started : WRITER\n");
+
+  // 1). 파일 시스템 마운트 대기
+  while (!fatfsIsMount())
+  {
+    delay(100);
+  }
+
+  // 2). log 폴더가 없으면 만들기
+  if (!fatfsExist("log"))
+  {
+    fatfsCreateDir("log");
+  }
+
+  // 콜 백으로, 이름 대조
 
   while (1)
   {
@@ -65,12 +77,12 @@ static void writerCanProcess(uint8_t ch)
     // sdWrite(&log_msg, sizeof(peri_can_msg_t));
 
     logPrintf("[%08u] CAN%d %s %s 0x%08X L:%02d ",
-      log_msg.timestamp,
-      log_msg.ch,
-      (log_msg.dir == PERI_DIR_RX) ? "RX" : "TX",
-      (log_msg.message.id_type == CAN_STD) ? "STD" : "EXT",
-      log_msg.message.id,
-      log_msg.message.length);
+              log_msg.timestamp,
+              log_msg.ch,
+              (log_msg.dir == PERI_DIR_RX) ? "RX" : "TX",
+              (log_msg.message.id_type == CAN_STD) ? "STD" : "EXT",
+              log_msg.message.id,
+              log_msg.message.length);
 
     for (int i = 0; i < log_msg.message.length; i++)
     {

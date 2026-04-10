@@ -123,6 +123,9 @@
 #define _HW_DEF_THREAD_PERI_PRI                 osPriorityNormal
 #define _HW_DEF_THREAD_PERI_STACK               (32*1024)
 
+#define _HW_DEF_THREAD_WRITER_PRI               osPriorityNormal
+#define _HW_DEF_THREAD_WRITER_STACK             (32*1024)
+
 #define _HW_DEF_THREAD_EVENT_PRI                osPriorityNormal
 #define _HW_DEF_THREAD_EVENT_STACK              (8*1024)
 

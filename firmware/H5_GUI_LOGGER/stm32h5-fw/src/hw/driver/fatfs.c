@@ -1,9 +1,9 @@
 #include "fatfs.h"
 
 #ifdef _USE_HW_FATFS
+#include "cli.h"
 #include "ff.h"
 #include "sd.h"
-#include "cli.h"
 
 #ifdef _USE_HW_CLI
 void cliFs(cli_args_t *args);
@@ -78,67 +78,44 @@ bool fatfsDelete(const char *path)
   return f_unlink(path) == FR_OK;
 }
 
-bool fatfsWrite(const char *path, uint8_t *p_data, uint32_t length)
+bool fatfsOpen(FIL *p_file, const char *path, uint8_t mode)
 {
-  FIL  file;
-  UINT bw;
-  bool ret = false;
-
   if (is_mount == false) return false;
 
-  if (f_open(&file, path, FA_CREATE_ALWAYS | FA_WRITE) == FR_OK)
-  {
-    if (f_write(&file, p_data, length, &bw) == FR_OK)
-    {
-      ret = (bw == length);
-    }
-    f_close(&file);
-  }
-
-  return ret;
+  return f_open(p_file, path, mode) == FR_OK;
 }
 
-bool fatfsRead(const char *path, uint8_t *p_data, uint32_t length, uint32_t *p_read_length)
+bool fatfsClose(FIL *p_file)
 {
-  FIL  file;
-  UINT br;
-  bool ret = false;
-
-  if (is_mount == false) 
-    return false;
-
-  if (f_open(&file, path, FA_READ) == FR_OK)
-  {
-    if (f_read(&file, p_data, length, &br) == FR_OK)
-    {
-      *p_read_length = br;
-      ret            = true;
-    }
-    f_close(&file);
-  }
-
-  return ret;
+  return f_close(p_file) == FR_OK;
 }
 
-bool fatfsAppend(const char *path, uint8_t *p_data, uint32_t length)
+bool fatfsSync(FIL *p_file)
 {
-  FIL  file;
+  return f_sync(p_file) == FR_OK;
+}
+
+bool fatfsWrite(FIL *p_file, uint8_t *p_data, uint32_t length)
+{
   UINT bw;
-  bool ret = false;
 
-  if (is_mount == false) 
-    return false;
-
-  if (f_open(&file, path, FA_OPEN_APPEND | FA_WRITE) == FR_OK)
+  if (f_write(p_file, p_data, length, &bw) == FR_OK)
   {
-    if (f_write(&file, p_data, length, &bw) == FR_OK)
-    {
-      ret = (bw == length);
-    }
-    f_close(&file);
+    return (bw == length);
   }
+  return false;
+}
 
-  return ret;
+bool fatfsRead(FIL *p_file, uint8_t *p_data, uint32_t length, uint32_t *p_read_length)
+{
+  UINT br;
+
+  if (f_read(p_file, p_data, length, &br) == FR_OK)
+  {
+    *p_read_length = br;
+    return true;
+  }
+  return false;
 }
 
 void cliFs(cli_args_t *args)
@@ -196,11 +173,21 @@ void cliFs(cli_args_t *args)
   {
     const char *path = args->getStr(1);
     const char *data = args->getStr(2);
+    FIL         file;
 
-    if (fatfsAppend(path, (uint8_t *)data, strlen(data)) == true)
-      cliPrintf("Written to : %s\n", path);
+    if (fatfsOpen(&file, path, FA_OPEN_APPEND | FA_WRITE))
+    {
+      if (fatfsWrite(&file, (uint8_t *)data, strlen(data)))
+        cliPrintf("Written to : %s\n", path);
+      else
+        cliPrintf("Failed to write : %s\n", path);
+
+      fatfsClose(&file);
+    }
     else
-      cliPrintf("Failed to write : %s\n", path);
+    {
+      cliPrintf("Failed to open : %s\n", path);
+    }
 
     ret = true;
   }

@@ -1,13 +1,22 @@
 #include "peri.h"
-#include "peri_def.h"
 
 static bool periThreadInit(void);
 static void periThread(void const *arg);
+static void periCanProcess(const peri_ch_info_t *info);
 
-static void periCanProcess(uint8_t ch);
-
-// 큐 핸들러
-static QueueHandle_t task_queue_CAN[HW_CAN_MAX_CH];
+const peri_ch_info_t peri_ch_tbl[PERI_MAX] =
+{
+  {PERI_CAN_0,   PERI_PROTO_CAN,   _DEF_CAN1,          "CAN0",    PERI_CAN_QUEUE_DEPTH, sizeof(peri_can_msg_t)   },
+  {PERI_CAN_1,   PERI_PROTO_CAN,   _DEF_CAN2,          "CAN1",    PERI_CAN_QUEUE_DEPTH, sizeof(peri_can_msg_t)   },
+  {PERI_RS485_0, PERI_PROTO_RS485, HW_UART_CH_RS485_1, "RS485_0", PERI_QUEUE_DEPTH,     sizeof(peri_serial_msg_t)},
+  {PERI_RS485_1, PERI_PROTO_RS485, HW_UART_CH_RS485_2, "RS485_1", PERI_QUEUE_DEPTH,     sizeof(peri_serial_msg_t)},
+  {PERI_RS232_0, PERI_PROTO_RS232, HW_UART_CH_RS232,   "RS232_0", PERI_QUEUE_DEPTH,     sizeof(peri_serial_msg_t)},
+  {PERI_LIN_0,   PERI_PROTO_LIN,   HW_UART_CH_LIN_1,   "LIN0",    PERI_QUEUE_DEPTH,     sizeof(peri_lin_msg_t)   },
+  {PERI_LIN_1,   PERI_PROTO_LIN,   HW_UART_CH_LIN_2,   "LIN1",    PERI_QUEUE_DEPTH,     sizeof(peri_lin_msg_t)   },
+  {PERI_LIN_2,   PERI_PROTO_LIN,   HW_UART_CH_LIN_3,   "LIN2",    PERI_QUEUE_DEPTH,     sizeof(peri_lin_msg_t)   },
+  {PERI_UART_0,  PERI_PROTO_UART,  HW_UART_CH_UART_1,  "UART0",   PERI_QUEUE_DEPTH,     sizeof(peri_serial_msg_t)},
+  {PERI_UART_1,  PERI_PROTO_UART,  HW_UART_CH_UART_2,  "UART1",   PERI_QUEUE_DEPTH,     sizeof(peri_serial_msg_t)},
+};
 
 MODULE_DEF(peri){
   .name     = "peri",
@@ -16,81 +25,108 @@ MODULE_DEF(peri){
 
 bool periThreadInit(void)
 {
-  bool ret;
+  bool ret = true;
 
-  // 0). Queue 생성
-  for (int i = 0; i < HW_CAN_MAX_CH; i++)
+  // 테이블 순회하며 프로토콜별 open
+  for (int i = 0; i < PERI_MAX; i++)
   {
-    task_queue_CAN[i] = xQueueCreate(PERI_CAN_QUEUE_DEPTH, sizeof(peri_can_msg_t));
-    assert(task_queue_CAN[i] != NULL);
+    peri_ch_info_t *p_peri = &peri_ch_tbl[i];
+
+    // 각 페리페럴에 대한 큐 생성
+    if (!commonQueueCreate(p_peri->name, p_peri->q_depth, p_peri->q_size))
+    {
+      ret = false;
+    }
+
+    switch (p_peri->proto)
+    {
+      case PERI_PROTO_CAN:
+        canOpen(p_peri->hw_ch, CAN_NORMAL, CAN_CLASSIC, CAN_500K, CAN_500K);
+        break;
+
+        // case PERI_PROTO_RS485:
+        // case PERI_PROTO_RS232:
+        // case PERI_PROTO_UART:
+        //   uartOpen(ch->hw_ch, ...);
+        //   break;
+
+        // case PERI_PROTO_LIN:
+        //   uartOpen(ch->hw_ch, ...);
+        //   break;
+
+      default:
+        break;
+    }
   }
 
-  // 1). can open
-  for (int i = 0; i < HW_CAN_MAX_CH; i++)
-  {
-    canOpen(i, CAN_NORMAL, CAN_CLASSIC, CAN_500K, CAN_500K);
-  }
-
-  // 2). 485,232,uart,LIN
-
-  ret = threadCreate("peri", periThread, NULL, _HW_DEF_THREAD_PERI_PRI, _HW_DEF_THREAD_PERI_STACK);
+  ret = threadCreate("peri", periThread, NULL,
+                     _HW_DEF_THREAD_PERI_PRI,
+                     _HW_DEF_THREAD_PERI_STACK);
   assert(ret);
 
   logPrintf("[%s] periThreadInit()\n", ret ? "OK" : "NG");
   return ret;
 }
 
-void periThread(void const *arg)
+static void periThread(void const *arg)
 {
-  bool init_ret = true;
-
   systemWaitStart();
-
-  logPrintf("[%s] Thread Started : PERI\n", init_ret ? "OK" : "NG");
+  logPrintf("[OK] Thread Started : PERI\n");
 
   while (1)
   {
     canUpdate();
 
-    // 1). CAN 채널별 수신 --> Queue Push
-    for (int i = 0; i < HW_CAN_MAX_CH; i++)
+    for (int i = 0; i < PERI_MAX; i++)
     {
-      periCanProcess(i);
+      switch (peri_ch_tbl[i].proto)
+      {
+        case PERI_PROTO_CAN:
+          periCanProcess(&peri_ch_tbl[i]);
+          break;
+
+          // case PERI_PROTO_RS485:
+          // case PERI_PROTO_RS232:
+          // case PERI_PROTO_UART:
+          //   periSerialProcess(&peri_ch_tbl[i]);
+          //   break;
+
+          // case PERI_PROTO_LIN:
+          //   periLinProcess(&peri_ch_tbl[i]);
+          //   break;
+
+        default:
+          break;
+      }
     }
 
     delay(1);
   }
 }
 
-// getter
-QueueHandle_t periGetCanQueue(uint8_t ch)
+static void periCanProcess(const peri_ch_info_t *p_peri)
 {
-  if (ch >= HW_CAN_MAX_CH) 
-    return NULL;
-    
-  return task_queue_CAN[ch];
-}
+  QueueHandle_t can_queue = commonQueueGet(p_peri->name);
+  if (can_queue == NULL)
+    return;
 
-static void periCanProcess(uint8_t ch)
-{
-  while (canMsgAvailable(ch))
+  while (canMsgAvailable(p_peri->hw_ch))
   {
-    can_msg_t can_msg;
-    canMsgRead(ch, &can_msg);
+    can_msg_t can_message;
+    canMsgRead(p_peri->hw_ch, &can_message);
 
-    peri_can_msg_t log_msg =
+    peri_can_msg_t peri_can_message =
     {
-      .ch        = ch,
+      .name      = p_peri->name,
       .dir       = PERI_DIR_RX,
       .timestamp = millis(),
-      .err_code  = canGetError(ch),
-      .message   = can_msg,
+      .message   = can_message,
+      .err_code  = canGetError(p_peri->hw_ch),
     };
-    
-    // queue에 받은 메시지 push
-    if (xQueueSend(task_queue_CAN[ch], &log_msg, 0) != pdTRUE)
+
+    if (xQueueSend(can_queue, &peri_can_message, 0) != pdTRUE)
     {
-      logPrintf("[WRN] CAN%d Q full, ID:0x%08X\n", ch, can_msg.id);
+      logPrintf("[ERR] %s Queue OverFlowed, ID:0x%08X\n", p_peri->str, can_message.id);
     }
   }
 }

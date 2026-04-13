@@ -19,10 +19,7 @@ bool hwInit(void)
   ledInit();
   uartInit();
 
-  for (int i = 0; i < HW_UART_MAX_CH; i++)
-  {
-    uartOpen(i, 115200);
-  }
+  uartOpen(HW_UART_CH_DEBUG, 115200);
 
   logOpen(HW_LOG_CH, 115200);
   logPrintf("\r\n[ Firmware Begin... ]\r\n");

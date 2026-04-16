@@ -1,8 +1,0 @@
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c:62:6:etnetInit	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c:75:6:etnetIsInit	0	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c:80:6:etnetIsLink	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c:85:6:etnetUpdateLink	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c:106:6:etnetUpdateDHCP	24	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c:199:6:etnetUpdate	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c:206:6:etnetIsGetIP	0	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\hw\driver\eth.c:211:6:etnetGetInfo	0	static

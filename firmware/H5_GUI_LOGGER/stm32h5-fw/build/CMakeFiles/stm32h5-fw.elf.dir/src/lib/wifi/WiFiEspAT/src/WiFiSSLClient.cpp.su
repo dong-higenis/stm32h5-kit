@@ -1,5 +1,0 @@
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\core/Print.h:74:17:virtual int Print::availableForWrite()	0	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiSSLClient.cpp:24:5:virtual int WiFiSSLClient::connect(const char*, uint16_t)	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiSSLClient.cpp:28:5:virtual int WiFiSSLClient::connect(IPAddress, uint16_t)	16	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiSSLClient.cpp:30:1:void __static_initialization_and_destruction_0(int, int)	16	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\wifi\WiFiEspAT\src\WiFiSSLClient.cpp:30:1:cpp)	8	static

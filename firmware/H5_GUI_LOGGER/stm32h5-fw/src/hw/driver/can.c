@@ -1,6 +1,6 @@
 #include "can.h"
-#include "qbuffer.h"
 #include "cli.h"
+#include "qbuffer.h"
 
 
 #ifdef _USE_HW_CAN
@@ -35,7 +35,7 @@ const can_baud_cfg_t can_baud_cfg_80m_data[] =
   {4,  8, 11, 8}, // 1M,   60%
   {2,  8, 11, 8}, // 2M    60%
   {1,  8, 11, 8}, // 4M    60%
-  {1,  8,  9, 6}, // 5M    62.5%
+  {1,  8, 9,  6}, // 5M    62.5%
 };
 
 const can_baud_cfg_t *p_baud_normal = can_baud_cfg_80m_normal;
@@ -61,23 +61,19 @@ const uint32_t dlc_tbl[] =
   FDCAN_DLC_BYTES_24,
   FDCAN_DLC_BYTES_32,
   FDCAN_DLC_BYTES_48,
-  FDCAN_DLC_BYTES_64
-};
+  FDCAN_DLC_BYTES_64};
 
 static const uint32_t frame_tbl[] =
 {
   FDCAN_FRAME_CLASSIC,
   FDCAN_FRAME_FD_NO_BRS,
-  FDCAN_FRAME_FD_BRS
-};
+  FDCAN_FRAME_FD_BRS};
 
 static const uint32_t mode_tbl[] =
 {
   FDCAN_MODE_NORMAL,
   FDCAN_MODE_BUS_MONITORING,
-  FDCAN_MODE_INTERNAL_LOOPBACK
-};
-
+  FDCAN_MODE_INTERNAL_LOOPBACK};
 
 typedef struct
 {
@@ -121,7 +117,6 @@ static void cliCan(cli_args_t *args);
 
 static void canErrUpdate(uint8_t ch);
 
-
 bool canInit(void)
 {
   bool    ret = true;
@@ -129,13 +124,13 @@ bool canInit(void)
 
   for (i = 0; i < CAN_MAX_CH; i++)
   {
-    can_tbl[i].is_init       = true;
-    can_tbl[i].is_open       = false;
-    can_tbl[i].err_code      = CAN_ERR_NONE;
-    can_tbl[i].state         = 0;
-    can_tbl[i].recovery_cnt  = 0;
-    can_tbl[i].rx_cnt        = 0;
-    can_tbl[i].tx_cnt        = 0;
+    can_tbl[i].is_init      = true;
+    can_tbl[i].is_open      = false;
+    can_tbl[i].err_code     = CAN_ERR_NONE;
+    can_tbl[i].state        = 0;
+    can_tbl[i].recovery_cnt = 0;
+    can_tbl[i].rx_cnt       = 0;
+    can_tbl[i].tx_cnt       = 0;
 
     can_tbl[i].q_rx_full_cnt = 0;
     can_tbl[i].q_tx_full_cnt = 0;
@@ -153,7 +148,7 @@ bool canInit(void)
 
   return ret;
 }
- 
+
 bool canLock(void)
 {
   return true;
@@ -166,10 +161,10 @@ bool canUnLock(void)
 
 bool canOpen(uint8_t ch, CanMode_t mode, CanFrame_t frame, CanBaud_t baud, CanBaud_t baud_data)
 {
-  bool                 ret = true;
-  FDCAN_HandleTypeDef *p_can;
-  uint32_t             tdc_offset;
-  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
+  bool                     ret = true;
+  FDCAN_HandleTypeDef     *p_can;
+  uint32_t                 tdc_offset;
+  // RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
 
   if (ch >= CAN_MAX_CH) return false;
 
@@ -178,12 +173,12 @@ bool canOpen(uint8_t ch, CanMode_t mode, CanFrame_t frame, CanBaud_t baud, CanBa
   switch (ch)
   {
     case _DEF_CAN1:
-      PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_FDCAN;
-      PeriphClkInit.FdcanClockSelection  = RCC_FDCANCLKSOURCE_PLL1Q;
-      if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
-      {
-        return false;
-      }
+      // PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_FDCAN;
+      // PeriphClkInit.FdcanClockSelection  = RCC_FDCANCLKSOURCE_PLL1Q;
+      // if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+      // {
+      //   return false;
+      // }
       p_can->Instance                  = FDCAN1;
       p_can->Init.ClockDivider         = FDCAN_CLOCK_DIV1;
       p_can->Init.FrameFormat          = frame_tbl[frame];
@@ -209,11 +204,50 @@ bool canOpen(uint8_t ch, CanMode_t mode, CanFrame_t frame, CanBaud_t baud, CanBa
       can_tbl[ch].baud_data  = baud_data;
       can_tbl[ch].fifo_idx   = FDCAN_RX_FIFO0;
       can_tbl[ch].enable_int = FDCAN_IT_LIST_RX_FIFO0 |
-                               FDCAN_IT_BUS_OFF        |
-                               FDCAN_IT_ERROR_WARNING  |
+                               FDCAN_IT_BUS_OFF |
+                               FDCAN_IT_ERROR_WARNING |
                                FDCAN_IT_ERROR_PASSIVE;
       can_tbl[ch].err_code   = CAN_ERR_NONE;
-      ret = true;
+      ret                    = true;
+      break;
+
+    case _DEF_CAN2:
+      // PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_FDCAN;
+      // PeriphClkInit.FdcanClockSelection  = RCC_FDCANCLKSOURCE_PLL1Q;
+      // if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+      // {
+      //   return false;
+      // }
+      p_can->Instance                  = FDCAN2;
+      p_can->Init.ClockDivider         = FDCAN_CLOCK_DIV1;
+      p_can->Init.FrameFormat          = frame_tbl[frame];
+      p_can->Init.Mode                 = mode_tbl[mode];
+      p_can->Init.AutoRetransmission   = DISABLE;
+      p_can->Init.TransmitPause        = ENABLE;
+      p_can->Init.ProtocolException    = ENABLE;
+      p_can->Init.NominalPrescaler     = p_baud_normal[baud].prescaler;
+      p_can->Init.NominalSyncJumpWidth = p_baud_normal[baud].sjw;
+      p_can->Init.NominalTimeSeg1      = p_baud_normal[baud].tseg1;
+      p_can->Init.NominalTimeSeg2      = p_baud_normal[baud].tseg2;
+      p_can->Init.DataPrescaler        = p_baud_data[baud_data].prescaler;
+      p_can->Init.DataSyncJumpWidth    = p_baud_data[baud_data].sjw;
+      p_can->Init.DataTimeSeg1         = p_baud_data[baud_data].tseg1;
+      p_can->Init.DataTimeSeg2         = p_baud_data[baud_data].tseg2;
+      p_can->Init.StdFiltersNbr        = 28;
+      p_can->Init.ExtFiltersNbr        = 8;
+      p_can->Init.TxFifoQueueMode      = FDCAN_TX_FIFO_OPERATION;
+
+      can_tbl[ch].mode       = mode;
+      can_tbl[ch].frame      = frame;
+      can_tbl[ch].baud       = baud;
+      can_tbl[ch].baud_data  = baud_data;
+      can_tbl[ch].fifo_idx   = FDCAN_RX_FIFO0;
+      can_tbl[ch].enable_int = FDCAN_IT_LIST_RX_FIFO0 |
+                               FDCAN_IT_BUS_OFF |
+                               FDCAN_IT_ERROR_WARNING |
+                               FDCAN_IT_ERROR_PASSIVE;
+      can_tbl[ch].err_code   = CAN_ERR_NONE;
+      ret                    = true;
       break;
 
     default:
@@ -241,7 +275,7 @@ bool canOpen(uint8_t ch, CanMode_t mode, CanFrame_t frame, CanBaud_t baud, CanBa
   tdc_offset = p_can->Init.DataPrescaler * p_can->Init.DataTimeSeg1;
 
   if (HAL_FDCAN_ConfigTxDelayCompensation(p_can, tdc_offset, 0) != HAL_OK) return false;
-  if (HAL_FDCAN_EnableTxDelayCompensation(p_can) != HAL_OK)                return false;
+  if (HAL_FDCAN_EnableTxDelayCompensation(p_can) != HAL_OK) return false;
 
   if (HAL_FDCAN_Start(p_can) != HAL_OK)
   {
@@ -267,6 +301,7 @@ void canClose(uint8_t ch)
   if (can_tbl[ch].is_open)
   {
     HAL_FDCAN_DeInit(&can_tbl[ch].hfdcan);
+    can_tbl[ch].is_open = false;
   }
 }
 
@@ -286,15 +321,24 @@ CanDlc_t canGetDlc(uint8_t length)
 {
   CanDlc_t ret;
 
-  if (length >= 64)      ret = CAN_DLC_64;
-  else if (length >= 48) ret = CAN_DLC_48;
-  else if (length >= 32) ret = CAN_DLC_32;
-  else if (length >= 24) ret = CAN_DLC_24;
-  else if (length >= 20) ret = CAN_DLC_20;
-  else if (length >= 16) ret = CAN_DLC_16;
-  else if (length >= 12) ret = CAN_DLC_12;
-  else if (length >= 8)  ret = CAN_DLC_8;
-  else                   ret = (CanDlc_t)length;
+  if (length >= 64)
+    ret = CAN_DLC_64;
+  else if (length >= 48)
+    ret = CAN_DLC_48;
+  else if (length >= 32)
+    ret = CAN_DLC_32;
+  else if (length >= 24)
+    ret = CAN_DLC_24;
+  else if (length >= 20)
+    ret = CAN_DLC_20;
+  else if (length >= 16)
+    ret = CAN_DLC_16;
+  else if (length >= 12)
+    ret = CAN_DLC_12;
+  else if (length >= 8)
+    ret = CAN_DLC_8;
+  else
+    ret = (CanDlc_t)length;
 
   return ret;
 }
@@ -323,14 +367,14 @@ bool canConfigFilter(uint8_t ch, uint8_t index, CanIdType_t id_type, uint32_t id
 
   if (ch >= CAN_MAX_CH) return false;
 
-  sFilterConfig.IdType = (id_type == CAN_STD) ? FDCAN_STANDARD_ID : FDCAN_EXTENDED_ID;
+  sFilterConfig.IdType       = (id_type == CAN_STD) ? FDCAN_STANDARD_ID : FDCAN_EXTENDED_ID;
   sFilterConfig.FilterConfig = (can_tbl[ch].fifo_idx == FDCAN_RX_FIFO0)
                                ? FDCAN_FILTER_TO_RXFIFO0
                                : FDCAN_FILTER_TO_RXFIFO1;
-  sFilterConfig.FilterIndex = index;
-  sFilterConfig.FilterType  = (can_filter_type == CAN_ID_MASK) ? FDCAN_FILTER_MASK : FDCAN_FILTER_RANGE;
-  sFilterConfig.FilterID1   = id;
-  sFilterConfig.FilterID2   = id_mask;
+  sFilterConfig.FilterIndex  = index;
+  sFilterConfig.FilterType   = (can_filter_type == CAN_ID_MASK) ? FDCAN_FILTER_MASK : FDCAN_FILTER_RANGE;
+  sFilterConfig.FilterID1    = id;
+  sFilterConfig.FilterID2    = id_mask;
 
   if (HAL_FDCAN_ConfigFilter(&can_tbl[ch].hfdcan, &sFilterConfig) == HAL_OK)
   {
@@ -363,16 +407,20 @@ bool canMsgWrite(uint8_t ch, can_msg_t *p_msg, uint32_t timeout)
   uint32_t              pre_time;
   bool                  ret = true;
 
-  if (ch >= CAN_MAX_CH)              return false;
-  if (!can_tbl[ch].is_open)          return false;
+  if (ch >= CAN_MAX_CH) return false;
+  if (!can_tbl[ch].is_open) return false;
   if (can_tbl[ch].err_code & CAN_ERR_BUS_OFF) return false;
 
   p_can = &can_tbl[ch].hfdcan;
 
   switch (p_msg->id_type)
   {
-    case CAN_STD: tx_header.IdType = FDCAN_STANDARD_ID; break;
-    case CAN_EXT: tx_header.IdType = FDCAN_EXTENDED_ID; break;
+    case CAN_STD:
+      tx_header.IdType = FDCAN_STANDARD_ID;
+      break;
+    case CAN_EXT:
+      tx_header.IdType = FDCAN_EXTENDED_ID;
+      break;
   }
 
   switch (p_msg->frame)
@@ -509,8 +557,8 @@ void canDetachRxInterrupt(uint8_t ch)
 
 void canRecovery(uint8_t ch)
 {
-  if (ch >= CAN_MAX_CH)          return;
-  if (!can_tbl[ch].is_open)      return;
+  if (ch >= CAN_MAX_CH) return;
+  if (!can_tbl[ch].is_open) return;
 
   can_tbl[ch].err_code = CAN_ERR_NONE;
 
@@ -533,7 +581,7 @@ bool canUpdate(void)
 
   bool            ret = false;
   can_tbl_t      *p_can;
-  static uint32_t pre_time             = 0;
+  static uint32_t pre_time[CAN_MAX_CH] = {0};
   static bool     is_begin[CAN_MAX_CH] = {0};
 
   for (int i = 0; i < CAN_MAX_CH; i++)
@@ -554,7 +602,7 @@ bool canUpdate(void)
               logPrintf("canRecovery() - Begin\n");
             }
             p_can->state = CAN_STATE_WAIT;
-            pre_time     = millis();
+            pre_time[i]  = millis();
             ret          = true;
           }
         }
@@ -568,7 +616,7 @@ bool canUpdate(void)
           is_begin[i]  = false;
         }
         // 5초 이상 BUS OFF 상태면 IDLE로 복귀하여 재시도
-        if (millis() - pre_time >= 5000)
+        if (millis() - pre_time[i] >= 5000)
         {
           p_can->state = CAN_STATE_IDLE;
         }
@@ -707,8 +755,12 @@ void canInfoPrint(uint8_t ch)
   canPrintf("ch            : ");
   switch (ch)
   {
-    case _DEF_CAN1: canPrintf("_DEF_CAN1\n"); break;
-    case _DEF_CAN2: canPrintf("_DEF_CAN2\n"); break;
+    case _DEF_CAN1:
+      canPrintf("_DEF_CAN1\n");
+      break;
+    case _DEF_CAN2:
+      canPrintf("_DEF_CAN2\n");
+      break;
   }
 
   canPrintf("is_open       : %s\n", p_can->is_open ? "true" : "false");
@@ -716,44 +768,82 @@ void canInfoPrint(uint8_t ch)
   canPrintf("baud          : ");
   switch (p_can->baud)
   {
-    case CAN_100K: canPrintf("100K\n"); break;
-    case CAN_125K: canPrintf("125K\n"); break;
-    case CAN_250K: canPrintf("250K\n"); break;
-    case CAN_500K: canPrintf("500K\n"); break;
-    case CAN_1M:   canPrintf("1M\n");   break;
-    default:                            break;
+    case CAN_100K:
+      canPrintf("100K\n");
+      break;
+    case CAN_125K:
+      canPrintf("125K\n");
+      break;
+    case CAN_250K:
+      canPrintf("250K\n");
+      break;
+    case CAN_500K:
+      canPrintf("500K\n");
+      break;
+    case CAN_1M:
+      canPrintf("1M\n");
+      break;
+    default:
+      break;
   }
 
   canPrintf("baud data     : ");
   switch (p_can->baud_data)
   {
-    case CAN_100K: canPrintf("100K\n"); break;
-    case CAN_125K: canPrintf("125K\n"); break;
-    case CAN_250K: canPrintf("250K\n"); break;
-    case CAN_500K: canPrintf("500K\n"); break;
-    case CAN_1M:   canPrintf("1M\n");   break;
-    case CAN_2M:   canPrintf("2M\n");   break;
-    case CAN_4M:   canPrintf("4M\n");   break;
-    case CAN_5M:   canPrintf("5M\n");   break;
+    case CAN_100K:
+      canPrintf("100K\n");
+      break;
+    case CAN_125K:
+      canPrintf("125K\n");
+      break;
+    case CAN_250K:
+      canPrintf("250K\n");
+      break;
+    case CAN_500K:
+      canPrintf("500K\n");
+      break;
+    case CAN_1M:
+      canPrintf("1M\n");
+      break;
+    case CAN_2M:
+      canPrintf("2M\n");
+      break;
+    case CAN_4M:
+      canPrintf("4M\n");
+      break;
+    case CAN_5M:
+      canPrintf("5M\n");
+      break;
   }
 
   canPrintf("mode          : ");
   switch (p_can->mode)
   {
-    case CAN_NORMAL:   canPrintf("NORMAL\n");   break;
-    case CAN_MONITOR:  canPrintf("MONITOR\n");  break;
-    case CAN_LOOPBACK: canPrintf("LOOPBACK\n"); break;
+    case CAN_NORMAL:
+      canPrintf("NORMAL\n");
+      break;
+    case CAN_MONITOR:
+      canPrintf("MONITOR\n");
+      break;
+    case CAN_LOOPBACK:
+      canPrintf("LOOPBACK\n");
+      break;
   }
 
   canPrintf("frame         : ");
   switch (p_can->frame)
   {
-    case CAN_CLASSIC:   canPrintf("CAN_CLASSIC\n");   break;
-    case CAN_FD_NO_BRS: canPrintf("CAN_FD_NO_BRS\n"); break;
-    case CAN_FD_BRS:    canPrintf("CAN_FD_BRS\n");    break;
+    case CAN_CLASSIC:
+      canPrintf("CAN_CLASSIC\n");
+      break;
+    case CAN_FD_NO_BRS:
+      canPrintf("CAN_FD_NO_BRS\n");
+      break;
+    case CAN_FD_BRS:
+      canPrintf("CAN_FD_BRS\n");
+      break;
   }
 }
-
 
 void HAL_FDCAN_ErrorStatusCallback(FDCAN_HandleTypeDef *hfdcan, uint32_t ErrorStatusITs)
 {
@@ -789,6 +879,21 @@ void FDCAN1_IT0_IRQHandler(void)
   HAL_FDCAN_IRQHandler(&can_tbl[_DEF_CAN1].hfdcan);
 }
 
+void FDCAN1_IT1_IRQHandler(void)
+{
+  HAL_FDCAN_IRQHandler(&can_tbl[_DEF_CAN1].hfdcan);
+}
+
+void FDCAN2_IT0_IRQHandler(void)
+{
+  HAL_FDCAN_IRQHandler(&can_tbl[_DEF_CAN2].hfdcan);
+}
+
+void FDCAN2_IT1_IRQHandler(void)
+{
+  HAL_FDCAN_IRQHandler(&can_tbl[_DEF_CAN2].hfdcan);
+}
+
 void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 {
   for (int i = 0; i < CAN_MAX_CH; i++)
@@ -811,106 +916,104 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
   }
 }
 
-void HAL_FDCAN_MspInit(FDCAN_HandleTypeDef* fdcanHandle)
+void HAL_FDCAN_MspInit(FDCAN_HandleTypeDef *fdcanHandle)
 {
-
   GPIO_InitTypeDef GPIO_InitStruct = {0};
-  if(fdcanHandle->Instance==FDCAN1)
+  if (fdcanHandle->Instance == FDCAN1)
   {
-  /* USER CODE BEGIN FDCAN1_MspInit 0 */
+    /* USER CODE BEGIN FDCAN1_MspInit 0 */
 
-  /* USER CODE END FDCAN1_MspInit 0 */
+    /* USER CODE END FDCAN1_MspInit 0 */
     /* FDCAN1 clock enable */
     __HAL_RCC_FDCAN_CLK_ENABLE();
     __HAL_RCC_GPIOD_CLK_ENABLE();
 
-    GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+    GPIO_InitStruct.Pin       = GPIO_PIN_0 | GPIO_PIN_1;
+    GPIO_InitStruct.Mode      = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull      = GPIO_NOPULL;
+    GPIO_InitStruct.Speed     = GPIO_SPEED_FREQ_HIGH;
     GPIO_InitStruct.Alternate = GPIO_AF9_FDCAN1;
     HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
     /* FDCAN1 interrupt Init */
-    HAL_NVIC_SetPriority(FDCAN1_IT0_IRQn, 0, 0);
+    HAL_NVIC_SetPriority(FDCAN1_IT0_IRQn, 5, 0);
     HAL_NVIC_EnableIRQ(FDCAN1_IT0_IRQn);
-    HAL_NVIC_SetPriority(FDCAN1_IT1_IRQn, 0, 0);
+    HAL_NVIC_SetPriority(FDCAN1_IT1_IRQn, 5, 0);
     HAL_NVIC_EnableIRQ(FDCAN1_IT1_IRQn);
-  /* USER CODE BEGIN FDCAN1_MspInit 1 */
+    /* USER CODE BEGIN FDCAN1_MspInit 1 */
 
-  /* USER CODE END FDCAN1_MspInit 1 */
+    /* USER CODE END FDCAN1_MspInit 1 */
   }
-  else if(fdcanHandle->Instance==FDCAN2)
+  else if (fdcanHandle->Instance == FDCAN2)
   {
-  /* USER CODE BEGIN FDCAN2_MspInit 0 */
+    /* USER CODE BEGIN FDCAN2_MspInit 0 */
 
-  /* USER CODE END FDCAN2_MspInit 0 */
+    /* USER CODE END FDCAN2_MspInit 0 */
     /* FDCAN2 clock enable */
     __HAL_RCC_FDCAN_CLK_ENABLE();
     __HAL_RCC_GPIOB_CLK_ENABLE();
 
-    GPIO_InitStruct.Pin = GPIO_PIN_5|GPIO_PIN_6;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    GPIO_InitStruct.Pin       = GPIO_PIN_5 | GPIO_PIN_6;
+    GPIO_InitStruct.Mode      = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull      = GPIO_NOPULL;
+    GPIO_InitStruct.Speed     = GPIO_SPEED_FREQ_HIGH;
     GPIO_InitStruct.Alternate = GPIO_AF9_FDCAN2;
     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
     /* FDCAN2 interrupt Init */
-    HAL_NVIC_SetPriority(FDCAN2_IT0_IRQn, 0, 0);
+    HAL_NVIC_SetPriority(FDCAN2_IT0_IRQn, 5, 0);
     HAL_NVIC_EnableIRQ(FDCAN2_IT0_IRQn);
-    HAL_NVIC_SetPriority(FDCAN2_IT1_IRQn, 0, 0);
+    HAL_NVIC_SetPriority(FDCAN2_IT1_IRQn, 5, 0);
     HAL_NVIC_EnableIRQ(FDCAN2_IT1_IRQn);
-  /* USER CODE BEGIN FDCAN2_MspInit 1 */
+    /* USER CODE BEGIN FDCAN2_MspInit 1 */
 
-  /* USER CODE END FDCAN2_MspInit 1 */
+    /* USER CODE END FDCAN2_MspInit 1 */
   }
 }
 
-void HAL_FDCAN_MspDeInit(FDCAN_HandleTypeDef* fdcanHandle)
+void HAL_FDCAN_MspDeInit(FDCAN_HandleTypeDef *fdcanHandle)
 {
-
-  if(fdcanHandle->Instance==FDCAN1)
+  if (fdcanHandle->Instance == FDCAN1)
   {
-  /* USER CODE BEGIN FDCAN1_MspDeInit 0 */
+    /* USER CODE BEGIN FDCAN1_MspDeInit 0 */
 
-  /* USER CODE END FDCAN1_MspDeInit 0 */
+    /* USER CODE END FDCAN1_MspDeInit 0 */
     /* Peripheral clock disable */
-    __HAL_RCC_FDCAN_CLK_ENABLE();
+    __HAL_RCC_FDCAN_CLK_DISABLE();
 
     /**FDCAN1 GPIO Configuration
     PD0     ------> FDCAN1_RX
     PD1     ------> FDCAN1_TX
     */
-    HAL_GPIO_DeInit(GPIOD, GPIO_PIN_0|GPIO_PIN_1);
+    HAL_GPIO_DeInit(GPIOD, GPIO_PIN_0 | GPIO_PIN_1);
 
     /* FDCAN1 interrupt Deinit */
     HAL_NVIC_DisableIRQ(FDCAN1_IT0_IRQn);
     HAL_NVIC_DisableIRQ(FDCAN1_IT1_IRQn);
-  /* USER CODE BEGIN FDCAN1_MspDeInit 1 */
+    /* USER CODE BEGIN FDCAN1_MspDeInit 1 */
 
-  /* USER CODE END FDCAN1_MspDeInit 1 */
+    /* USER CODE END FDCAN1_MspDeInit 1 */
   }
-  else if(fdcanHandle->Instance==FDCAN2)
+  else if (fdcanHandle->Instance == FDCAN2)
   {
-  /* USER CODE BEGIN FDCAN2_MspDeInit 0 */
+    /* USER CODE BEGIN FDCAN2_MspDeInit 0 */
 
-  /* USER CODE END FDCAN2_MspDeInit 0 */
+    /* USER CODE END FDCAN2_MspDeInit 0 */
     /* Peripheral clock disable */
-    __HAL_RCC_FDCAN_CLK_ENABLE();
+    __HAL_RCC_FDCAN_CLK_DISABLE();
 
     /**FDCAN2 GPIO Configuration
     PB5     ------> FDCAN2_RX
     PB6     ------> FDCAN2_TX
     */
-    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_5|GPIO_PIN_6);
+    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_5 | GPIO_PIN_6);
 
     /* FDCAN2 interrupt Deinit */
     HAL_NVIC_DisableIRQ(FDCAN2_IT0_IRQn);
     HAL_NVIC_DisableIRQ(FDCAN2_IT1_IRQn);
-  /* USER CODE BEGIN FDCAN2_MspDeInit 1 */
+    /* USER CODE BEGIN FDCAN2_MspDeInit 1 */
 
-  /* USER CODE END FDCAN2_MspDeInit 1 */
+    /* USER CODE END FDCAN2_MspDeInit 1 */
   }
 }
 
@@ -960,7 +1063,7 @@ void cliCan(cli_args_t *args)
 
   if (args->argc == 2 && args->isStr(0, "open") && args->isStr(1, "test"))
   {
-    bool    can_ret;
+    bool can_ret;
     can_ret = canOpen(_DEF_CAN1, CAN_LOOPBACK, CAN_FD_BRS, CAN_1M, CAN_5M);
     cliPrintf("canOpen() : %s\n", can_ret ? "True" : "False");
     canInfoPrint(_DEF_CAN1);
@@ -970,20 +1073,48 @@ void cliCan(cli_args_t *args)
   if (args->argc == 6 && args->isStr(0, "open"))
   {
     uint8_t     ch;
-    CanMode_t   mode      = CAN_NORMAL;
-    CanFrame_t  frame     = CAN_CLASSIC;
-    CanBaud_t   baud      = CAN_1M;
-    CanBaud_t   baud_data = CAN_1M;
+    CanMode_t   mode        = CAN_NORMAL;
+    CanFrame_t  frame       = CAN_CLASSIC;
+    CanBaud_t   baud        = CAN_1M;
+    CanBaud_t   baud_data   = CAN_1M;
     const char *mode_str[]  = {"CAN_NORMAL", "CAN_MONITOR", "CAN_LOOPBACK"};
     const char *frame_str[] = {"CAN_CLASSIC", "CAN_FD_NO_BRS", "CAN_FD_BRS"};
     const char *baud_str[]  = {"CAN_100K", "CAN_125K", "CAN_250K", "CAN_500K", "CAN_1M", "CAN_2M", "CAN_4M", "CAN_5M"};
 
     ch = constrain(args->getData(1), 0, CAN_MAX_CH - 1);
 
-    for (int i = 0; i < 3; i++) { if (args->isStr(2, mode_str[i]))  { mode  = i; break; } }
-    for (int i = 0; i < 3; i++) { if (args->isStr(3, frame_str[i])) { frame = i; break; } }
-    for (int i = 0; i < 8; i++) { if (args->isStr(4, baud_str[i]))  { baud  = i; break; } }
-    for (int i = 0; i < 8; i++) { if (args->isStr(5, baud_str[i]))  { baud_data = i; break; } }
+    for (int i = 0; i < 3; i++)
+    {
+      if (args->isStr(2, mode_str[i]))
+      {
+        mode = i;
+        break;
+      }
+    }
+    for (int i = 0; i < 3; i++)
+    {
+      if (args->isStr(3, frame_str[i]))
+      {
+        frame = i;
+        break;
+      }
+    }
+    for (int i = 0; i < 8; i++)
+    {
+      if (args->isStr(4, baud_str[i]))
+      {
+        baud = i;
+        break;
+      }
+    }
+    for (int i = 0; i < 8; i++)
+    {
+      if (args->isStr(5, baud_str[i]))
+      {
+        baud_data = i;
+        break;
+      }
+    }
 
     bool can_ret = canOpen(ch, mode, frame, baud, baud_data);
     cliPrintf("canOpen() : %s\n", can_ret ? "True" : "False");
@@ -1015,9 +1146,10 @@ void cliCan(cli_args_t *args)
         cliPrintf("ch %d %03d(R) <- id %s %s: 0x%08X, L:%02d, ",
                   ch, index++,
                   (msg.frame != CAN_CLASSIC) ? "fd " : "   ",
-                  (msg.id_type == CAN_STD)   ? "std " : "ext ",
+                  (msg.id_type == CAN_STD) ? "std " : "ext ",
                   msg.id, msg.length);
-        for (int i = 0; i < msg.length; i++) cliPrintf("0x%02X ", msg.data[i]);
+        for (int i = 0; i < msg.length; i++)
+          cliPrintf("0x%02X ", msg.data[i]);
         cliPrintf("\n");
       }
     }
@@ -1027,10 +1159,10 @@ void cliCan(cli_args_t *args)
   if (args->argc == 3 && args->isStr(0, "send_test"))
   {
     uint32_t   pre_time;
-    uint32_t   index    = 0;
+    uint32_t   index = 0;
     uint32_t   err_code;
-    uint8_t    ch       = constrain(args->getData(1), 0, CAN_MAX_CH - 1);
-    CanFrame_t frame    = args->isStr(2, "can") ? CAN_CLASSIC : CAN_FD_BRS;
+    uint8_t    ch    = constrain(args->getData(1), 0, CAN_MAX_CH - 1);
+    CanFrame_t frame = args->isStr(2, "can") ? CAN_CLASSIC : CAN_FD_BRS;
 
     err_code = can_tbl[ch].err_code;
     pre_time = millis();
@@ -1056,9 +1188,10 @@ void cliCan(cli_args_t *args)
           cliPrintf("ch %d %03d(T) -> id %s %s: 0x%08X, L:%02d, ",
                     ch, index++,
                     (msg.frame != CAN_CLASSIC) ? "fd " : "   ",
-                    (msg.id_type == CAN_STD)   ? "std " : "ext ",
+                    (msg.id_type == CAN_STD) ? "std " : "ext ",
                     msg.id, msg.length);
-          for (int i = 0; i < msg.length; i++) cliPrintf("0x%02X ", msg.data[i]);
+          for (int i = 0; i < msg.length; i++)
+            cliPrintf("0x%02X ", msg.data[i]);
           cliPrintf("\n");
         }
 
@@ -1093,9 +1226,10 @@ void cliCan(cli_args_t *args)
         cliPrintf("ch %d %03d(R) <- id %s %s: 0x%08X, L:%02d, ",
                   ch, index++,
                   (msg.frame != CAN_CLASSIC) ? "fd " : "   ",
-                  (msg.id_type == CAN_STD)   ? "std " : "ext ",
+                  (msg.id_type == CAN_STD) ? "std " : "ext ",
                   msg.id, msg.length);
-        for (int i = 0; i < msg.length; i++) cliPrintf("0x%02X ", msg.data[i]);
+        for (int i = 0; i < msg.length; i++)
+          cliPrintf("0x%02X ", msg.data[i]);
         cliPrintf("\n");
       }
     }

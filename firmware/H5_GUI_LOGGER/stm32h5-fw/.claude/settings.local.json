@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(arm-none-eabi-addr2line -e build/stm32h5-fw.elf 0x0803026C 0x0802E335 -f -C)",
+      "Bash(arm-none-eabi-addr2line -e build/stm32h5-fw.elf 0x0803026C 0x0802E335)",
+      "Bash(sed -i '481s/\\\\t\\\\t/\\\\t/' startup_stm32h562xx.s)",
+      "Bash(sed -n '479,488p' startup_stm32h562xx.s)"
+    ]
+  }
+}

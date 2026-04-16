@@ -296,8 +296,8 @@ g_pfnVectors:
 	.word	0
 	.word	0
 	.word	DCMI_PSSI_IRQHandler
-	.word	0
-	.word	0
+	.word	FDCAN2_IT0_IRQHandler
+	.word	FDCAN2_IT1_IRQHandler
 	.word	CORDIC_IRQHandler
  	.word	FMAC_IRQHandler
 	.word	DTS_IRQHandler
@@ -478,6 +478,12 @@ g_pfnVectors:
 
 	.weak	FDCAN1_IT1_IRQHandler
 	.thumb_set FDCAN1_IT1_IRQHandler,Default_Handler
+	
+	.weak	FDCAN2_IT0_IRQHandler
+	.thumb_set FDCAN2_IT0_IRQHandler,Default_Handler
+
+	.weak	FDCAN2_IT1_IRQHandler
+	.thumb_set FDCAN2_IT1_IRQHandler,Default_Handler
 
 	.weak	TIM1_BRK_IRQHandler
 	.thumb_set TIM1_BRK_IRQHandler,Default_Handler

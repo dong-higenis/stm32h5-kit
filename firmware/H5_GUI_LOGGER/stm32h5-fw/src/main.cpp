@@ -19,7 +19,7 @@ int main(void)
     while(1)
     {
       ledOn(_DEF_LED1);
-      delay(50);
+      delay(50); 
       ledOff(_DEF_LED1);
       delay(50);
       ledOn(_DEF_LED1);

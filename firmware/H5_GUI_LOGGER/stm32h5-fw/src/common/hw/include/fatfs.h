@@ -2,7 +2,7 @@
 #define SRC_COMMON_HW_INCLUDE_FATFS_H_
 
 #include "hw_def.h"
-
+#include "ff.h"
 
 #ifdef _USE_HW_FATFS
 

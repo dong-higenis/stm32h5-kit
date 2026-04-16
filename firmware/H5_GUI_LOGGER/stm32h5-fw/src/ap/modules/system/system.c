@@ -1,11 +1,6 @@
 #include "system.h"
 
 
-
-#define lock(x)      xSemaphoreTake(x, portMAX_DELAY);
-#define unLock(x)    xSemaphoreGive(x);
-
-
 static SemaphoreHandle_t mutex_start;
 
 

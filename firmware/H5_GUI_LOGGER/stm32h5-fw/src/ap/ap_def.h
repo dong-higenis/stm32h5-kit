@@ -13,8 +13,4 @@
 #include "system/system.h"
 
 
-// Logger 참조 설정
-//
-#include "peri_def.h"
-
 #endif

@@ -25,6 +25,7 @@ file(GLOB SRC_FILES CONFIGURE_DEPENDS
   src/*.c
   src/ap/*.cpp
   src/ap/*.c
+  src/ap/modules/logger/*.c
   src/bsp/*.c
   src/bsp/rtos/*.c  
   src/bsp/device/*.c
@@ -96,6 +97,8 @@ target_include_directories(${EXECUTABLE} PRIVATE
   src/ap
   src/ap/modules
   src/ap/modules/common
+  src/ap/modules/logger
+  src/ap/modules/logger/resource
   src/bsp
   src/bsp/device
   src/bsp/rtos  

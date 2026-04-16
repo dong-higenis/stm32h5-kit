@@ -8,7 +8,8 @@ extern "C" {
 
 #include "ap_def.h"
 
-
+#define lock(x)      xSemaphoreTake(x, portMAX_DELAY);
+#define unLock(x)    xSemaphoreGive(x);
 
 bool systemInit(void);
 void systemMain(void);

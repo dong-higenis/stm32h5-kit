@@ -2,14 +2,13 @@
 
 #ifdef _USE_HW_FATFS
 #include "cli.h"
-#include "ff.h"
 #include "sd.h"
 
 #ifdef _USE_HW_CLI
 void cliFs(cli_args_t *args);
 #endif
 
-static FATFS fatfs;
+static FATFS fatfs __attribute__((section(".non_cache"), aligned(32)));
 static bool  is_mount = false;
 
 bool fatfsInit(void)

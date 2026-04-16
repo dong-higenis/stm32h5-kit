@@ -2,6 +2,10 @@
 #define WRITER_H_
 
 #include "ap_def.h"
+#include "peri_config.h"
+// -- 
+// SD 기록 설정 값
+#define WRITER_LINE_MAX        256
 
 void writerRequestPause(void);
 void writerRequestResume(void);

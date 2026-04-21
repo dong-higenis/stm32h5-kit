@@ -7,7 +7,7 @@
 // -- 
 // SD 기록 설정 값
 #define FILE_CTRL_BUF_SIZE        1024
-#define FILE_CTRL_FLUSH_THRESHOLD 512 
+#define FILE_CTRL_FLUSH_THRESHOLD 512
 
 bool fileCtrlInit(void);
 

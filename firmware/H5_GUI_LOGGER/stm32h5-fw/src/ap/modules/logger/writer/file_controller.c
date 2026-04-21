@@ -149,7 +149,8 @@ void fileCtrlFlush(PeriName_t peri_name)
     if (fatfsWrite(&p_file->file_handler, 
                    (uint8_t *)p_file->write_buf, write_size))
     {
-      fatfsSync(&p_file->file_handler);
+      // Sync is deferred to force-flush/close so the writer thread can keep
+      // draining queues even under sustained RX traffic.
     }
     else
     {

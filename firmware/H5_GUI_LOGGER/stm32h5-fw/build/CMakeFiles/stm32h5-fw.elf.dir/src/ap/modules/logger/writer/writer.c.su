@@ -1,7 +1,8 @@
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:54:6:writerThreadInit	16	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:247:13:writerOpenAllFiles	16	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:139:13:writerCanProcess	928	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:176:13:writerSerialProcess	1104	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:262:13:writerCloseAllFiles	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:275:13:writerCheckPause	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:67:13:writerThread	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:55:6:writerThreadInit	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:262:13:writerOpenAllFiles	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:141:13:writerCanProcess	936	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:188:13:writerSerialProcess	1112	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:285:13:writerFlushPeriodically	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:277:13:writerCloseAllFiles	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:301:13:writerCheckPause	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:68:13:writerThread	16	static

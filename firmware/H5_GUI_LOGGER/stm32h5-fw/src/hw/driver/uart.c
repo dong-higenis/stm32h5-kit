@@ -213,18 +213,6 @@ bool uartOpen(uint8_t ch, uint32_t baud)
         ret_hal = HAL_UART_Init(uart_tbl[ch].p_huart);
       }
 
-      if (ch == HW_UART_CH_UART_2)
-      {
-        // 1). USART10 초기화 직후 핵심 레지스터 상태를 확인한다.
-        logPrintf("[UART10] Init ret=%d err=0x%08lX ISR=0x%08lX CR1=0x%08lX CR2=0x%08lX CR3=0x%08lX BRR=0x%08lX\n",
-                  ret_hal,
-                  uart_tbl[ch].p_huart->ErrorCode,
-                  uart_tbl[ch].p_huart->Instance->ISR,
-                  uart_tbl[ch].p_huart->Instance->CR1,
-                  uart_tbl[ch].p_huart->Instance->CR2,
-                  uart_tbl[ch].p_huart->Instance->CR3,
-                  uart_tbl[ch].p_huart->Instance->BRR);
-      }
 
       if (ret_hal == HAL_OK)
       {

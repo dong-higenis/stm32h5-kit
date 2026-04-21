@@ -11,6 +11,7 @@ static void writerThread(void const *arg);
 static void writerOpenAllFiles(void);
 static void writerCloseAllFiles(void);
 static void writerCheckPause(void);
+static void writerFlushPeriodically(void);
 
 static void writerCanProcess(QueueHandle_t queue, const peri_ch_info_t *p_peri);
 static void writerSerialProcess(QueueHandle_t serial_queue, const peri_ch_info_t *p_peri);
@@ -42,7 +43,7 @@ static const char *writer_file_tbl[PERI_MAX] =
  */
 static const char *writer_csv_header_tbl[PERI_PROTO_MAX] =
 {
-  [PERI_PROTO_CAN]   = "timestamp,dir,id,dlc,data,err\n",
+  [PERI_PROTO_CAN]   = "timestamp,dir,id,dlc,d0,d1,d2,d3,d4,d5,d6,d7,err\n",
   [PERI_PROTO_RS485] = "timestamp,dir,length,data\n",
   [PERI_PROTO_RS232] = "timestamp,dir,length,data\n",
   [PERI_PROTO_UART]  = "timestamp,dir,length,data\n",
@@ -128,6 +129,7 @@ static void writerThread(void const *arg)
       }
     }
 
+    writerFlushPeriodically();
     writerCheckPause();
     delay(1);
   }
@@ -139,8 +141,10 @@ static void writerThread(void const *arg)
 static void writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_peri)
 {
   peri_can_msg_t can_msg;
+  uint8_t        pop_count = 0;
 
-  while (xQueueReceive(can_queue, &can_msg, 0) == pdTRUE)
+  while (pop_count < WRITER_MAX_DEQUEUE_PER_PASS &&
+         xQueueReceive(can_queue, &can_msg, 0) == pdTRUE)
   {
     char     write_buffer[WRITER_LINE_MAX];
     uint16_t write_len = 0;
@@ -158,8 +162,15 @@ static void writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_pe
     {
       write_len += snprintf(write_buffer + write_len,
                             sizeof(write_buffer) - write_len,
-                            ",%02X",
+                            ",0x%02X",
                             can_msg.message.data[data_index]);
+    }
+
+    for (int data_index = can_msg.message.length; data_index < 8; data_index++)
+    {
+      write_len += snprintf(write_buffer + write_len,
+                            sizeof(write_buffer) - write_len,
+                            ",");
     }
 
     // 에러코드와 줄바꿈을 기록하고 다음 offset도 그만큼 증가
@@ -170,14 +181,17 @@ static void writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_pe
 
     // file controller에게 파싱이 끝난 데이터버퍼와 이름값을 전달한다.
     fileCtrlWrite(p_peri->name, write_buffer, write_len);
+    pop_count++;
   }
 }
 
 static void writerSerialProcess(QueueHandle_t serial_queue, const peri_ch_info_t *p_peri)
 {
   peri_serial_msg_t serial_msg;
+  uint8_t           pop_count = 0;
 
-  while (xQueueReceive(serial_queue, &serial_msg, 0) == pdTRUE)
+  while (pop_count < WRITER_MAX_DEQUEUE_PER_PASS &&
+         xQueueReceive(serial_queue, &serial_msg, 0) == pdTRUE)
   {
     char     write_buffer[WRITER_LINE_MAX];
     uint16_t write_len = 0;
@@ -237,6 +251,7 @@ static void writerSerialProcess(QueueHandle_t serial_queue, const peri_ch_info_t
 
     // 9). 완성된 CSV 한 줄을 file controller로 전달한다.
     fileCtrlWrite(p_peri->name, write_buffer, write_len);
+    pop_count++;
   }
 }
 
@@ -265,6 +280,17 @@ static void writerCloseAllFiles(void)
   {
     fileCtrlClose((PeriName_t)i);
   }
+}
+
+static void writerFlushPeriodically(void)
+{
+  static uint32_t pre_time = 0;
+
+  if (millis() - pre_time < WRITER_FORCE_FLUSH_PERIOD_MS)
+    return;
+
+  fileCtrlFlushAll();
+  pre_time = millis();
 }
 
 /**

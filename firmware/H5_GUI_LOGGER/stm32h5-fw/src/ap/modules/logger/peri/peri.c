@@ -100,7 +100,7 @@ static void periThread(void const *arg)
 
           // case PERI_PROTO_LIN:
           //   periLinProcess(p_peri);
-          //   break;
+          //   break;  
 
         default:
           break;

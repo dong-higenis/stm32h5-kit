@@ -7,7 +7,20 @@
 #include "ap_def.h"
 
 /**
- * @brief 현재 들어온 데이터의 통신 프로토콜
+ * @brief Serial
+ */
+#define PERI_UART_BAUD           115200
+#define PERI_UART_PACKET_USE_LF  1 // \n을 패킷 구분자로 씀
+#define PERI_UART_PACKET_USE_CR  1 // \r을 패킷 구분자로 씀
+
+#if !PERI_UART_PACKET_USE_CR && !PERI_UART_PACKET_USE_LF
+#error "PERI_UART_PACKET_USE_CR or PERI_UART_PACKET_USE_LF must be 1"
+#endif
+
+#define PERI_SERIAL_MAX_BUFF_LEN 256
+
+/**
+ * @brief 현재 들어오는 데이터의 통신 프로토콜
  */
 typedef enum
 {
@@ -20,7 +33,7 @@ typedef enum
 } PeriProto_t;
 
 /**
- * @brief 통신 프로토콜 별 채널에 따라 이름 별도 정의
+ * @brief 통신 프로토콜 및 채널별로 이름 별도 정의
  */
 typedef enum
 {
@@ -44,7 +57,7 @@ typedef enum
 } PeriDir_t;
 
 /**
- * @brief 프토토콜별 메시지 구조체 
+ * @brief 프로토콜별 메시지 구조체
  */
 typedef struct
 {
@@ -52,8 +65,8 @@ typedef struct
   PeriDir_t  dir;
   uint32_t   timestamp;
 
-  can_msg_t  message;
-  uint32_t   err_code;
+  can_msg_t message;
+  uint32_t  err_code;
 } peri_can_msg_t;
 
 typedef struct
@@ -62,8 +75,8 @@ typedef struct
   PeriDir_t  dir;
   uint32_t   timestamp;
 
-  uint8_t    data[256];
-  uint16_t   length;
+  uint8_t  data[PERI_SERIAL_MAX_BUFF_LEN];
+  uint16_t length;
 } peri_serial_msg_t;
 
 typedef struct
@@ -72,10 +85,10 @@ typedef struct
   PeriDir_t  dir;
   uint32_t   timestamp;
 
-  uint8_t    id;
-  uint8_t    data[8];
-  uint8_t    length;
-  uint8_t    err_code;
+  uint8_t id;
+  uint8_t data[8];
+  uint8_t length;
+  uint8_t err_code;
 } peri_lin_msg_t;
 
 /**

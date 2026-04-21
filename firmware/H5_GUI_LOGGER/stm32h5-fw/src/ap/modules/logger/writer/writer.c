@@ -13,7 +13,7 @@ static void writerCloseAllFiles(void);
 static void writerCheckPause(void);
 
 static void writerCanProcess(QueueHandle_t queue, const peri_ch_info_t *p_peri);
-
+static void writerSerialProcess(QueueHandle_t serial_queue, const peri_ch_info_t *p_peri);
 
 MODULE_DEF(writer){
   .name     = "writer",
@@ -21,7 +21,7 @@ MODULE_DEF(writer){
   .init     = writerThreadInit};
 
 /**
- * @brief 각 데이터 별 기록 파일명
+ * @brief 각 데이터별 기록 파일명
  */
 static const char *writer_file_tbl[PERI_MAX] =
 {
@@ -38,7 +38,7 @@ static const char *writer_file_tbl[PERI_MAX] =
 };
 
 /**
- * @brief 로그 파일 내 최상단 헤더
+ * @brief 로그 파일 각 최상단의 헤더
  */
 static const char *writer_csv_header_tbl[PERI_PROTO_MAX] =
 {
@@ -69,13 +69,13 @@ static void writerThread(void const *arg)
   // systemWaitStart();
   logPrintf("[OK] Thread Started : WRITER\n");
 
-  // 0). 파일 시스템 마운트 대기
+  // 0). 파일 시스템 마운트까지 대기
   while (!fatfsIsMount())
   {
     delay(100);
   }
 
-  // 1). SD카드 내 최상위 루트에서 "log" 폴더를 확인 -> 존재하지 않으면 새로 만든다.
+  // 1). SD카드 최상단 루트에서 "log" 폴더를 확인 -> 존재하지 않으면 새로 만든다
   if (!fatfsExist("log"))
   {
     fatfsCreateDir("log");
@@ -91,10 +91,10 @@ static void writerThread(void const *arg)
     {
       writerCheckPause();
       delay(100);
-      continue; 
+      continue;
     }
 
-    // peri_config에 정의된 채널 정보를 가져와 순회한다.
+    // peri_config에 정의된 채널별 정보를 가져와 순회한다.
     for (int i = 0; i < PERI_MAX; i++)
     {
       const peri_ch_info_t *p_peri = periGetChInfo(i);
@@ -113,11 +113,11 @@ static void writerThread(void const *arg)
           writerCanProcess(queue, p_peri);
           break;
 
-          // case PERI_PROTO_RS485:
-          // case PERI_PROTO_RS232:
-          // case PERI_PROTO_UART:
-          //   writerSerialProcess(q, ch);
-          //   break;
+        case PERI_PROTO_RS485:
+        case PERI_PROTO_RS232:
+        case PERI_PROTO_UART:
+          writerSerialProcess(queue, p_peri);
+          break;
 
           // case PERI_PROTO_LIN:
           //   writerLinProcess(q, ch);
@@ -134,7 +134,7 @@ static void writerThread(void const *arg)
 }
 
 /**
- * @brief  CAN 큐에서 메시지를 꺼내 CSV 포맷 후 file_controller에 전달
+ * @brief  CAN 큐에서 메시지를 꺼내 CSV 형식 후 file_controller에 전달
  */
 static void writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_peri)
 {
@@ -145,7 +145,7 @@ static void writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_pe
     char     write_buffer[WRITER_LINE_MAX];
     uint16_t write_len = 0;
 
-    // 타임스탬프, 방향, CAN ID, DLC의 길이만큼 offset을 잡는다.
+    // 타임스탬프, 방향, CAN ID, DLC를 길이만큼 offset에 쌓는다
     write_len = snprintf(write_buffer, sizeof(write_buffer),
                          "%lu,%s,0x%08lX,%d",
                          can_msg.timestamp,
@@ -153,7 +153,7 @@ static void writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_pe
                          can_msg.message.id,
                          can_msg.message.length);
 
-    // CAN 데이터 를 기록한뒤 길이만큼 offset 증가
+    // CAN 데이터를 기록한뒤 길이만큼 offset 증가
     for (int data_index = 0; data_index < can_msg.message.length; data_index++)
     {
       write_len += snprintf(write_buffer + write_len,
@@ -162,16 +162,84 @@ static void writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_pe
                             can_msg.message.data[data_index]);
     }
 
-    // 에러코드와 줄바꿈을 기록한 다음 offset을 그만큼 증가
+    // 에러코드와 줄바꿈을 기록하고 다음 offset도 그만큼 증가
     write_len += snprintf(write_buffer + write_len,
                           sizeof(write_buffer) - write_len,
                           ",%lu\n",
                           can_msg.err_code);
 
-    // file controller에게 파싱이 끝난 데이터 버퍼와 이름등을 전달한다.
+    // file controller에게 파싱이 끝난 데이터버퍼와 이름값을 전달한다.
     fileCtrlWrite(p_peri->name, write_buffer, write_len);
   }
 }
+
+static void writerSerialProcess(QueueHandle_t serial_queue, const peri_ch_info_t *p_peri)
+{
+  peri_serial_msg_t serial_msg;
+
+  while (xQueueReceive(serial_queue, &serial_msg, 0) == pdTRUE)
+  {
+    char     write_buffer[WRITER_LINE_MAX];
+    uint16_t write_len = 0;
+    int      string_len;
+
+    // 1). CSV 첫 컬럼들(timestamp, dir, length)을 먼저 기록한다.
+    string_len = snprintf(write_buffer,
+                   sizeof(write_buffer),
+                   "%lu,%s,%d",
+                   serial_msg.timestamp,
+                   (serial_msg.dir == PERI_DIR_RX) ? "RX" : "TX",
+                   serial_msg.length);
+
+    // 2). snprintf 실패 또는 첫 줄부터 버퍼를 넘기는 경우는 이번 패킷 기록을 포기한다.
+    if (string_len < 0 || string_len >= (int)sizeof(write_buffer))
+    {
+      continue;
+    }
+    write_len = (uint16_t)string_len;
+
+    // 3). payload를 1바이트씩 ",XX" 형태의 hex 문자열로 뒤에 이어붙인다.
+    for (int i = 0; i < serial_msg.length; i++)
+    {
+      string_len = snprintf(write_buffer + write_len,
+                     sizeof(write_buffer) - write_len,
+                     ",%02X",
+                     serial_msg.data[i]);
+
+      // 4). 남은 버퍼보다 더 긴 문자열을 쓰려 했다면 잘린 것이므로 더 이상 누적하지 않는다.
+      if (string_len < 0 || string_len >= (int)(sizeof(write_buffer) - write_len))
+      {
+        write_len = sizeof(write_buffer) - 2;
+        break;
+      }
+
+      // 5). 실제로 안전하게 붙인 길이만큼 offset을 증가시킨다.
+      write_len += (uint16_t)string_len;
+    }
+
+    // 6). CSV 한 줄 마무리를 위해 개행 문자를 붙인다.
+    string_len = snprintf(write_buffer + write_len,
+                   sizeof(write_buffer) - write_len,
+                   "\n");
+
+    // 7). 개행조차 정상적으로 못 붙이면 마지막 두 칸에 강제로 '\n', '\0'을 넣어 문자열을 마무리한다.
+    if (string_len < 0 || string_len >= (int)(sizeof(write_buffer) - write_len))
+    {
+      write_buffer[sizeof(write_buffer) - 2] = '\n';
+      write_buffer[sizeof(write_buffer) - 1] = '\0';
+      write_len = sizeof(write_buffer) - 1;
+    }
+    else
+    {
+      // 8). 개행까지 정상적으로 붙었으면 그 길이만큼 최종 길이를 증가시킨다.
+      write_len += (uint16_t)string_len;
+    }
+
+    // 9). 완성된 CSV 한 줄을 file controller로 전달한다.
+    fileCtrlWrite(p_peri->name, write_buffer, write_len);
+  }
+}
+
 
 /**
  * @brief  채널별 파일 경로와 CSV 헤더를 file_controller에 전달하여 파일을 연다
@@ -201,22 +269,22 @@ static void writerCloseAllFiles(void)
 
 /**
  * @brief  SD카드 상태를 확인하여 기록을 일시정지/재개
- *         - SD 분리 감지 → 모든 파일 닫기 + 일시정지
- *         - SD 재삽입 감지 → log 폴더 확인 + 모든 파일 다시 열기 + 재개
+ *         - SD 분리 감지 시 모든 파일 닫기 + 일시정지
+ *         - SD 삽입 감지 시 log 폴더 확인 + 모든 파일 다시 열기 + 재개
  */
 static void writerCheckPause(void)
 {
-  bool sd_ok = fileCtrlCheckSD();
+  bool sd_ok = fatfsIsMount();
 
   if (!sd_ok && !is_writer_paused)
   {
-    // SD카드 분리가 감지되면 플래그를 세워 쓰레드 루프를 멈춘다.
+    // SD카드 분리가 감지되면 플래그를 세워 아래쪽 루프를 멈춘다
     writerCloseAllFiles();
     is_writer_paused = true;
   }
   else if (sd_ok && is_writer_paused)
   {
-    // SD카드 재삽입 감지 -> 기존 작업으로 되돌아간다.
+    // SD카드 삽입이 감지 -> 기존 작업으로 복귀하기
     if (!fatfsExist("log"))
     {
       fatfsCreateDir("log");

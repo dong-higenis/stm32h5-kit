@@ -1,0 +1,3 @@
+C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/stm32h5-fw.elf.dir
+C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/edit_cache.dir
+C:/work/git/STM32-H5-KIT/firmware/H5_GUI_LOGGER/stm32h5-fw/build/CMakeFiles/rebuild_cache.dir

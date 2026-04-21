@@ -1,0 +1,17 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:438:9:ETH_PHY_IO_DeInit	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:251:22:low_level_input	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:196:14:low_level_output	64	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:332:6:pbuf_free_custom	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:481:9:ETH_PHY_IO_GetTick	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:421:9:ETH_PHY_IO_Init	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:450:9:ETH_PHY_IO_ReadReg	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:467:9:ETH_PHY_IO_WriteReg	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:272:6:ethernetif_input	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:350:7:sys_now	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:364:6:HAL_ETH_MspInit	64	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:490:6:ethernet_link_check_state	128	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:124:13:low_level_init	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:303:7:ethernetif_init	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:549:6:HAL_ETH_RxAllocateCallback	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:569:6:HAL_ETH_RxLinkCallback	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\lwip\target\ethernetif.c:602:6:HAL_ETH_TxFreeCallback	8	static

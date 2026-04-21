@@ -18,6 +18,5 @@ void fileCtrlFlush(PeriName_t name);
 void fileCtrlFlushAll(void);
 
 bool fileCtrlIsOpen(PeriName_t name);
-bool fileCtrlCheckSD(void);   // true: 정상, false: 분리됨
 
 #endif

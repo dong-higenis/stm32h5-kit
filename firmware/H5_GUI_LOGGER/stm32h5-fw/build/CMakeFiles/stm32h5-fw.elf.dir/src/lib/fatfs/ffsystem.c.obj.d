@@ -1,0 +1,23 @@
+CMakeFiles/stm32h5-fw.elf.dir/src/lib/fatfs/ffsystem.c.obj: \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\fatfs\ffsystem.c \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\fatfs\ff.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\fatfs\ffconf.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/FreeRTOS.h \
+ c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\rtos/FreeRTOSConfig.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/projdefs.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/portable.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/deprecated_definitions.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\portable\GCC\ARM_CM33_NTZ\non_secure/portmacro.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/mpu_wrappers.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/semphr.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/queue.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/task.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\lib\FreeRTOS\Source\include/list.h

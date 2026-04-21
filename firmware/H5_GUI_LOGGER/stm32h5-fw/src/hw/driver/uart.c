@@ -213,6 +213,19 @@ bool uartOpen(uint8_t ch, uint32_t baud)
         ret_hal = HAL_UART_Init(uart_tbl[ch].p_huart);
       }
 
+      if (ch == HW_UART_CH_UART_2)
+      {
+        // 1). USART10 초기화 직후 핵심 레지스터 상태를 확인한다.
+        logPrintf("[UART10] Init ret=%d err=0x%08lX ISR=0x%08lX CR1=0x%08lX CR2=0x%08lX CR3=0x%08lX BRR=0x%08lX\n",
+                  ret_hal,
+                  uart_tbl[ch].p_huart->ErrorCode,
+                  uart_tbl[ch].p_huart->Instance->ISR,
+                  uart_tbl[ch].p_huart->Instance->CR1,
+                  uart_tbl[ch].p_huart->Instance->CR2,
+                  uart_tbl[ch].p_huart->Instance->CR3,
+                  uart_tbl[ch].p_huart->Instance->BRR);
+      }
+
       if (ret_hal == HAL_OK)
       {
         if (uart_hw_tbl[ch].uart_type == UART_TYPE_LIN)
@@ -228,7 +241,23 @@ bool uartOpen(uint8_t ch, uint32_t baud)
         ret                  = true;
         uart_tbl[ch].is_open = true;
 
-        if (HAL_UART_Receive_DMA(uart_tbl[ch].p_huart, (uint8_t *)&uart_tbl[ch].rx_buf[0], UART_RX_BUF_LENGTH) != HAL_OK)
+        ret_hal = HAL_UART_Receive_DMA(uart_tbl[ch].p_huart, (uint8_t *)&uart_tbl[ch].rx_buf[0], UART_RX_BUF_LENGTH);
+
+        if (ch == HW_UART_CH_UART_2)
+        {
+          // 2). DMA 시작 결과와 TX/RX 핀 입력 상태를 함께 확인한다.
+          logPrintf("[UART10] DMA ret=%d err=0x%08lX PE2=%d PE3=%d UE=%d TE=%d RE=%d CBR1=%lu\n",
+                    ret_hal,
+                    uart_tbl[ch].p_huart->ErrorCode,
+                    HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_2),
+                    HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_3),
+                    (uart_tbl[ch].p_huart->Instance->CR1 & USART_CR1_UE) ? 1 : 0,
+                    (uart_tbl[ch].p_huart->Instance->CR1 & USART_CR1_TE) ? 1 : 0,
+                    (uart_tbl[ch].p_huart->Instance->CR1 & USART_CR1_RE) ? 1 : 0,
+                    (uart_tbl[ch].p_huart->hdmarx != NULL) ? uart_tbl[ch].p_huart->hdmarx->Instance->CBR1 : 0);
+        }
+
+        if (ret_hal != HAL_OK)
         {
           ret = false;
         }
@@ -926,7 +955,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef *uartHandle)
     GPIO_InitStruct.Mode      = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull      = GPIO_NOPULL;
     GPIO_InitStruct.Speed     = GPIO_SPEED_FREQ_HIGH;
-    GPIO_InitStruct.Alternate = GPIO_AF6_USART10;
+    GPIO_InitStruct.Alternate = GPIO_AF7_USART10;
     HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
     /* USART10 DMA Init */

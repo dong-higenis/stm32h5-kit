@@ -1,0 +1,7 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:47:6:writerThreadInit	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:172:13:writerCloseAllFiles	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:156:13:writerOpenAllFiles	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:199:13:writerCheckPause	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:109:13:writerCanProcess	640	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:184:13:writerFlushPeriodically	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\writer.c:60:13:writerThread	112	static

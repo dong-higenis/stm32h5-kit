@@ -1,6 +1,0 @@
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\bsp.c:49:6:delay	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\bsp.c:65:10:millis	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\bsp.c:88:6:Error_Handler	0	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\bsp.c:104:6:SystemClock_Config	120	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\bsp.c:164:6:PeriphCommonClock_Config	272	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\bsp\bsp.c:13:6:bspInit	24	static

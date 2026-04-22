@@ -1,5 +1,0 @@
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\peri\peri.c:25:6:periThreadInit	24	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\peri\peri.c:150:13:periSerialPush	24	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\peri\peri.c:117:13:periCanProcess	184	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\peri\peri.c:175:13:periSerialProcess	24	static
-C:\work\git\STM32-H5-KIT\firmware\H5_GUI_LOGGER\stm32h5-fw\src\ap\modules\logger\peri\peri.c:74:13:periThread	8	static

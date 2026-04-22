@@ -1,0 +1,7 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\file_controller.c:186:13:fileCtrlFlushForce	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\file_controller.c:19:6:fileCtrlOpen	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\file_controller.c:61:6:fileCtrlResetLogStart	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\file_controller.c:69:6:fileCtrlClose	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\file_controller.c:127:6:fileCtrlFlush	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\file_controller.c:92:6:fileCtrlWrite	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\writer\file_controller.c:172:6:fileCtrlFlushAll	8	static

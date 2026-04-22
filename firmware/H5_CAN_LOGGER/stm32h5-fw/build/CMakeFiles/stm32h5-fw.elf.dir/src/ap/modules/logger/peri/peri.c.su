@@ -1,0 +1,4 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\peri\peri.c:25:6:periThreadInit	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\peri\peri.c:17:15:periGetCanQueue	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\peri\peri.c:83:13:periCanProcess	184	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\ap\modules\logger\peri\peri.c:57:13:periThread	8	static

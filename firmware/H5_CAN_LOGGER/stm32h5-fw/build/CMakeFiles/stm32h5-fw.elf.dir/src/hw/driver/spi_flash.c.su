@@ -1,0 +1,16 @@
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:443:6:spiFlashTransfer	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:338:6:spiFlashGetID	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:79:6:spiFlashReqCmd	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:365:6:spiFlashWriteEnable	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:405:6:spiFlashWaitBusy	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:74:6:spiFlashIsInit	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:94:6:spiFlashReset	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:33:6:spiFlashInit	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:128:6:spiFlashRead	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:263:6:spiFlashEraseBlock	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:222:6:spiFlashErase	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:294:6:spiFlashEraseSector	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:324:10:spiFlashGetAddr	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:329:10:spiFlashGetLength	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:155:6:spiFlashWrite	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\spi_flash.c:455:6:cliCmd	552	static

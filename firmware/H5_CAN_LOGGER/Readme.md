@@ -5,8 +5,8 @@
 해당 펌웨어는 현재 CAN만 로깅하게 구현되어 있습니다.
 각 하드웨어 모듈은 개발의 진행도에 따라 특수 목적으로도 쓰일수있게 구현된 채로 남겼습니다.
 
-- `CAN1` -> `log/CAN0.csv`
-- `CAN2` -> `log/CAN1.csv`
+- `CAN1` -> `log/CAN1.csv`
+- `CAN2` -> `log/CAN2.csv`
 
 ## How To Use
 
@@ -17,7 +17,7 @@
 5. 첫 메시지가 SD카드에 기록되면 아래와 같은 메시지가 출력됩니다.
 
 ```text
-[LOG] CAN logging started: log/CAN0.csv
+[LOG] CAN logging started: log/CAN1.csv
 ```
 
 만약 `CAN2` 를 수신 받았다면, SD 카드 내 `log/CAN2.csv`에 저장됩니다.

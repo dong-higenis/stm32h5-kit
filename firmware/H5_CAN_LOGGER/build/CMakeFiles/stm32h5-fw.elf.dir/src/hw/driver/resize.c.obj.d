@@ -1,7 +1,7 @@
 CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.obj: \
- C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\resize.c \
- C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\common\hw\include/resize.h \
- C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\common/def.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\resize.c \
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\common\hw\include/resize.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\common/def.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h \
@@ -42,5 +42,5 @@ CMakeFiles/stm32h5-fw.elf.dir/src/hw/driver/resize.c.obj: \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\sched.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\types.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h \
- C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\common/err_code.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\common/err_code.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h

@@ -23,8 +23,8 @@ MODULE_DEF(writer){
  */
 static const char *writer_file_tbl[PERI_MAX] =
 {
-  [PERI_CAN_1] = "log/CAN1.csv",
-  [PERI_CAN_2] = "log/CAN2.csv",
+  [PERI_CAN_1] = "log/CAN1/CAN1",
+  [PERI_CAN_2] = "log/CAN2/CAN2",
 };
 
 /**

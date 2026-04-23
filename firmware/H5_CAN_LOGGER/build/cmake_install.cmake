@@ -1,4 +1,4 @@
-# Install script for directory: C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/stm32h5-fw
+# Install script for directory: C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/stm32h5-fw/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

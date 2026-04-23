@@ -1,6 +1,6 @@
 CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.obj: \
- C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\common\hw\include\hangul\han.c \
- C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\common\hw\include\hangul\han.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\common\hw\include\hangul\han.c \
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\common\hw\include\hangul\han.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h \
@@ -23,5 +23,5 @@ CMakeFiles/stm32h5-fw.elf.dir/src/common/hw/include/hangul/han.c.obj: \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_locale.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\strings.h \
  c:\work\tools\baram-fw-tools-main\arm_toolchain\arm_gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h \
- C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\common\hw\include\hangul\font_eng.h \
- C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\common\hw\include\hangul\font_han.h
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\common\hw\include\hangul\font_eng.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\common\hw\include\hangul\font_han.h

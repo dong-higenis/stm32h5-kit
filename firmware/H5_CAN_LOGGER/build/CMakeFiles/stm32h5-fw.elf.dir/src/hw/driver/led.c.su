@@ -1,4 +1,4 @@
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\led.c:46:6:ledOn	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\led.c:53:6:ledOff	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\led.c:24:6:ledInit	32	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\stm32h5-fw\src\hw\driver\led.c:60:6:ledToggle	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\led.c:46:6:ledOn	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\led.c:53:6:ledOff	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\led.c:24:6:ledInit	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\led.c:60:6:ledToggle	8	static

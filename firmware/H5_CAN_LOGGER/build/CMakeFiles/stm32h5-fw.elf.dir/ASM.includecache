@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/stm32h5-fw/src/bsp/startup/startup_stm32h562xx.s
+C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/startup/startup_stm32h562xx.s
 

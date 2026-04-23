@@ -22,14 +22,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/ST/STM32CubeCLT_1.20.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
   "C:/ST/STM32CubeCLT_1.20.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
   "C:/ST/STM32CubeCLT_1.20.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake"
-  "C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/stm32h5-fw/CMakeLists.txt"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/CMakeLists.txt"
   "CMakeFiles/3.28.1/CMakeASMCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeSystem.cmake"
   "CMakeFiles/VerifyGlobs.cmake"
   "CMakeFiles/cmake.verify_globs"
-  "C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/stm32h5-fw/tools/arm-none-eabi-gcc.cmake"
+  "C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/tools/arm-none-eabi-gcc.cmake"
   )
 
 # The corresponding makefile is:

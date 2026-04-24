@@ -31,7 +31,7 @@ typedef struct
 {
   PeriName_t name;
   PeriDir_t  dir;
-  uint32_t   timestamp;
+  rtc_timestamp_t timestamp;
 
   can_msg_t message;
   uint32_t  err_code;

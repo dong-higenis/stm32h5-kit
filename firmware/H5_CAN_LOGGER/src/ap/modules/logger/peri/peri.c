@@ -99,15 +99,16 @@ static void periCanProcess(const peri_ch_info_t *p_peri)
     taskEXIT_CRITICAL();
     
     // * 메시지를 로그 파일 형태로 파싱한다.
-    peri_can_msg_t peri_can_message =
-    {
-      .name      = p_peri->name,
-      .dir       = PERI_DIR_RX,
-      .timestamp = millis(),
-      .message   = can_message,
-      .err_code  = canGetError(p_peri->hw_ch),
-    };
-    
+    peri_can_msg_t peri_can_message = {0};
+
+    peri_can_message.name = p_peri->name;
+    peri_can_message.dir = PERI_DIR_RX;
+    peri_can_message.message = can_message;
+    peri_can_message.err_code = canGetError(p_peri->hw_ch);
+
+    // 시간 기록을 위해 rtc 정보 받아오기
+    rtcGetTimestamp(&peri_can_message.timestamp);
+
     // * rtos의 queue로 push한다.
     if (xQueueSend(can_queue, &peri_can_message, 0) != pdTRUE)
     {

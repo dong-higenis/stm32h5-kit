@@ -11,7 +11,7 @@ static void writerOpenAllFiles(void);
 static void writerCloseAllFiles(void);
 static bool writerCheckPause(void);
 static void writerFlushPeriodically(void);
-static void writerCanProcess(QueueHandle_t queue, const peri_ch_info_t *p_peri);
+static bool writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_peri);
 
 MODULE_DEF(writer){
   .name     = "writer",
@@ -32,7 +32,7 @@ static const char *writer_file_tbl[PERI_MAX] =
  */
 static const char *writer_csv_header_tbl[PERI_PROTO_MAX] =
 {
-  [PERI_PROTO_CAN] = "timestamp,dir,id,dlc,"
+  [PERI_PROTO_CAN] = "datetime,dir,id,dlc,"
                      "d0,d1,d2,d3,d4,d5,d6,d7,"
                      "d8,d9,d10,d11,d12,d13,d14,d15,"
                      "d16,d17,d18,d19,d20,d21,d22,d23,"
@@ -106,56 +106,95 @@ static void writerThread(void const *arg)
   }
 }
 
-static void writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_peri)
+static uint16_t writerAppendComma(char *p_buf, uint16_t buf_size, uint16_t cur_len)
+{
+  if (cur_len >= buf_size)
+    return 0;
+  return snprintf(p_buf + cur_len, buf_size - cur_len, ",");
+}
+
+static uint16_t writerAppendHexByte(char *p_buf, uint16_t buf_size, uint16_t cur_len, uint8_t byte)
+{
+  if (cur_len >= buf_size)
+    return 0;
+  return snprintf(p_buf + cur_len, buf_size - cur_len, ",0x%02X", byte);
+}
+
+static uint16_t writerAppendErrCode(char *p_buf, uint16_t buf_size, uint16_t cur_len, uint32_t err_code)
+{
+  if (cur_len >= buf_size)
+    return 0;
+  return snprintf(p_buf + cur_len, buf_size - cur_len, ",%lu\n", err_code);
+}
+
+static bool writerCanProcess(QueueHandle_t can_queue, const peri_ch_info_t *p_peri)
 {
   peri_can_msg_t can_msg;
 
-  // * 큐에 쌓인 CAN 로그를 하나씩 꺼내 CSV 한 줄로 변환한다.
   while (xQueueReceive(can_queue, &can_msg, 0) == pdTRUE)
   {
-    // * 한 줄 전체를 임시로 조립할 버퍼와 현재 길이를 준비한다.
     char     write_buffer[WRITER_LINE_MAX];
     uint16_t write_len = 0;
+    uint16_t ret;
 
-    // * timestamp, dir, id, dlc 까지 CSV 앞부분을 먼저 작성한다.
     write_len = snprintf(write_buffer, sizeof(write_buffer),
-                         "%lu,%s,0x%08lX,%d",
-                         can_msg.timestamp,
-                         (can_msg.dir == PERI_DIR_RX) ? "RX" : "TX",
-                         can_msg.message.id,
-                         can_msg.message.length);
+                     "%04u-%02u-%02u %02u:%02u:%02u.%03u,%s,0x%08lX,%d",
+                     can_msg.timestamp.year,
+                     can_msg.timestamp.month,
+                     can_msg.timestamp.day,
+                     can_msg.timestamp.hour,
+                     can_msg.timestamp.minute,
+                     can_msg.timestamp.second,
+                     can_msg.timestamp.msec,
+                     (can_msg.dir == PERI_DIR_RX) ? "RX" : "TX",
+                     can_msg.message.id,
+                     can_msg.message.length);
 
-    // * 실제 DLC 길이만큼 CAN data 바이트를 뒤에 이어 붙인다.
-    for (int data_index = 0; data_index < can_msg.message.length; data_index++)
+    if (write_len >= sizeof(write_buffer))
+      goto log_drop;
+
+    uint8_t dlc = can_msg.message.length;
+    if (dlc > WRITER_CAN_DATA_COLUMN)
+      dlc = WRITER_CAN_DATA_COLUMN;
+
+    for (int data_index = 0; data_index < dlc; data_index++)
     {
-      write_len += snprintf(write_buffer + write_len,
-                            sizeof(write_buffer) - write_len,
-                            ",0x%02X",
-                            can_msg.message.data[data_index]);
+      ret = writerAppendHexByte(write_buffer, sizeof(write_buffer), write_len, can_msg.message.data[data_index]);
+      if (ret == 0)
+        goto log_drop;
+      write_len += ret;
     }
 
-    // * 남은 data 컬럼은 비워서 CSV 열 개수를 항상 동일하게 맞춘다.
-    for (int data_index = can_msg.message.length; data_index < WRITER_CAN_DATA_COLUMN; data_index++)
+    for (int data_index = dlc; data_index < WRITER_CAN_DATA_COLUMN; data_index++)
     {
-      write_len += snprintf(write_buffer + write_len,
-                            sizeof(write_buffer) - write_len,
-                            ",");
+      ret = writerAppendComma(write_buffer, sizeof(write_buffer), write_len);
+      if (ret == 0)
+        goto log_drop;
+      write_len += ret;
     }
 
-    // * 마지막 컬럼에 에러 코드를 추가하고 한 줄을 마무리한다.
-    write_len += snprintf(write_buffer + write_len,
-                          sizeof(write_buffer) - write_len,
-                          ",%lu\n",
-                          can_msg.err_code);
+    ret = writerAppendErrCode(write_buffer, sizeof(write_buffer), write_len, can_msg.err_code);
+    if (ret == 0)
+      goto log_drop;
+    write_len += ret;
 
-    // * 파일 관리자에게 쓰기 요청을 지시한다.
-    fileCtrlWrite(p_peri->name, write_buffer, write_len);
+    if (!fileCtrlWrite(p_peri->name, &can_msg.timestamp, write_buffer, write_len))
+    {
+      logPrintf("[ERR] writer line dropped: id=0x%08lX\n", can_msg.message.id);
+      continue;
+    }
+
+    continue;
+
+log_drop:
+    logPrintf("[ERR] writer line dropped (buf overflow): id=0x%08lX\n", can_msg.message.id);
   }
+
+  return true;
 }
 
 static void writerOpenAllFiles(void)
 {
-  // *로그 기록 시작에 대한 cli 출력 허용
   fileCtrlResetLogStart();
 
   for (int i = 0; i < PERI_MAX; i++)
@@ -164,8 +203,7 @@ static void writerOpenAllFiles(void)
     if (p_peri == NULL)
       continue;
 
-    // *파일 관리자에게 열려고 하는 파일 정보를 전달한다.
-    fileCtrlOpen((PeriName_t)i, writer_file_tbl[i], writer_csv_header_tbl[p_peri->proto]);
+    fileCtrlInit((PeriName_t)i, writer_file_tbl[i], writer_csv_header_tbl[p_peri->proto]);
   }
 }
 

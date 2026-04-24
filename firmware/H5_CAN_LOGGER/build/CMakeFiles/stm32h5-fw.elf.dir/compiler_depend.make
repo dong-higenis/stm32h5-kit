@@ -7,6 +7,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/ap.cpp.obj: C:/work/git/STM32-H5-KIT/firmwa
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/device/stm32h5xx_hal_conf.h \
@@ -224,6 +225,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/common/cli/cli.c.obj: C:/work/git/S
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/device/stm32h5xx_hal_conf.h \
@@ -401,6 +403,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/logger/peri/peri.c.obj: C:/work/git
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri/peri.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
@@ -579,6 +582,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/logger/peri_config.c.obj: C:/work/g
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
@@ -757,6 +761,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/logger/writer/file_controller.c.obj
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/writer/file_controller.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
@@ -935,6 +940,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/logger/writer/writer.c.obj: C:/work
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri/peri.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/writer/file_controller.h \
@@ -1115,6 +1121,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/module.c.obj: C:/work/git/STM32-H5-
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
@@ -1293,6 +1300,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/system/system.c.obj: C:/work/git/ST
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
@@ -1580,6 +1588,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/bsp/device/stm32h5xx_hal_msp.c.obj: C:/work/gi
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/device/stm32h5xx_hal_conf.h \
@@ -11935,6 +11944,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj: C:/work/git/STM32-H5-
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/device/stm32h5xx_hal_conf.h \
@@ -17533,6 +17543,7 @@ CMakeFiles/stm32h5-fw.elf.dir/src/main.cpp.obj: C:/work/git/STM32-H5-KIT/firmwar
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/ap_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/module.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h \
+  C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/peri_config.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h \
   C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/device/stm32h5xx_hal_conf.h \
@@ -17776,6 +17787,8 @@ C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/bsp.h:
 
 C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/system/system.h:
 
+C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/ap/modules/logger/log_def.h:
+
 C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/bsp/device/stm32h5xx_hal_conf.h:
 
 C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/common/hw/include/rtc.h:
@@ -17820,15 +17833,15 @@ C:/work/tools/baram-fw-tools-main/arm_toolchain/arm_gcc/gcc-arm-none-eabi-10.3-2
 
 C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/common/hw/include/button.h:
 
-C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/lib/ST/CMSIS/Include/cmsis_version.h:
-
-C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/common/hw/include/buzzer.h:
-
 C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/lib/lwip/src/core/netif.c:
 
 C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/lib/lwip/src/include/lwip/priv/tcp_priv.h:
 
 C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/common/hw/include/osal/thread.h:
+
+C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/common/hw/include/buzzer.h:
+
+C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/lib/ST/CMSIS/Include/cmsis_version.h:
 
 C:/work/git/STM32-H5-KIT/firmware/H5_CAN_LOGGER/src/lib/FreeRTOS/Source/include/semphr.h:
 

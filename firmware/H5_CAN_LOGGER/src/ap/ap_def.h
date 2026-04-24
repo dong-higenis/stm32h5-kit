@@ -13,5 +13,6 @@
 #include "system/system.h"
 
 #include "peri_config.h"
+#include "log_def.h"
 
 #endif

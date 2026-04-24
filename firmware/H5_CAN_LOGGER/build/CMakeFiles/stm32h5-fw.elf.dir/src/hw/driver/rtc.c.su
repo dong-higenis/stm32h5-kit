@@ -4,8 +4,9 @@ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:72:6:rtcGetT
 C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:91:6:rtcGetDate	80	static
 C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:125:6:rtcSetTime	32	static
 C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:147:6:rtcSetDate	32	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:226:6:cliRtc	40	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:266:6:cliRtc	40	static
 C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:169:6:HAL_RTC_MspInit	280	static
 C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:190:6:rtcSetReg	8	static
 C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:203:6:rtcGetReg	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:216:6:HAL_RTC_MspDeInit	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:216:6:rtcGetTimestamp	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\hw\driver\rtc.c:256:6:HAL_RTC_MspDeInit	0	static

@@ -182,5 +182,6 @@ CMakeFiles/stm32h5-fw.elf.dir/src/ap/modules/logger/writer/writer.c.obj: \
  C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules/module.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules/system/system.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger/peri_config.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger/log_def.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\peri/peri.h

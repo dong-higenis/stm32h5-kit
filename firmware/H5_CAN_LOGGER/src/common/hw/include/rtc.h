@@ -32,6 +32,20 @@ typedef struct
   rtc_date_t date;
 } rtc_info_t;
 
+/**
+ * @brief app단에서 사용할 로그 기록용 timestamp
+ */
+typedef struct
+{
+  uint16_t year;
+  uint8_t  month;
+  uint8_t  day;
+  uint8_t  hour;
+  uint8_t  minute;
+  uint8_t  second;
+  uint16_t msec;
+} rtc_timestamp_t;
+
 
 bool rtcInit(void);
 bool rtcGetInfo(rtc_info_t *rtc_info);
@@ -42,6 +56,8 @@ bool rtcSetDate(rtc_date_t *rtc_date);
 
 bool rtcSetReg(uint32_t index, uint32_t data);
 bool rtcGetReg(uint32_t index, uint32_t *p_data);
+
+bool rtcGetTimestamp(rtc_timestamp_t *p_timestamp);
 
 #endif
 

@@ -113,7 +113,7 @@
 */
 
 
-#define FF_USE_LFN		0
+#define FF_USE_LFN		2
 #define FF_MAX_LFN		255
 /* The FF_USE_LFN switches the support for LFN (long file name).
 /
@@ -124,7 +124,7 @@
 /
 /  To enable the LFN, ffunicode.c needs to be added to the project. The LFN feature
 /  requiers certain internal working buffer occupies (FF_MAX_LFN + 1) * 2 bytes and
-/  additional (FF_MAX_LFN + 44) / 15 * 32 bytes when exFAT is enabled.
+/  additional (FF_MAX_LFN + 44) / 15 * 32 bytes when exFAT is enabled.  
 /  The FF_MAX_LFN defines size of the working buffer in UTF-16 code unit and it can
 /  be in range of 12 to 255. It is recommended to be set 255 to fully support the LFN
 /  specification.

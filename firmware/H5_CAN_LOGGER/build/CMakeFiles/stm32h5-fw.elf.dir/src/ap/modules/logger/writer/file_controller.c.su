@@ -1,7 +1,8 @@
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:290:13:fileCtrlFlushForce	16	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:26:6:fileCtrlOpen	96	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:103:6:fileCtrlResetLogStart	0	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:111:6:fileCtrlClose	8	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:228:6:fileCtrlFlush	24	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:134:6:fileCtrlWrite	40	static
-C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:276:6:fileCtrlFlushAll	8	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:316:13:fileCtrlFlushForce	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:34:6:fileCtrlInit	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:89:6:fileCtrlResetLogStart	0	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:191:6:fileCtrlClose	16	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:97:6:fileCtrlOpen	128	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:258:6:fileCtrlFlush	24	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:216:6:fileCtrlWrite	32	static
+C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger\writer\file_controller.c:305:6:fileCtrlFlushAll	8	static

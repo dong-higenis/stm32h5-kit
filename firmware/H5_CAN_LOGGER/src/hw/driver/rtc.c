@@ -213,6 +213,46 @@ bool rtcGetReg(uint32_t index, uint32_t *p_data)
   }
 }
 
+bool rtcGetTimestamp(rtc_timestamp_t *p_timestamp)
+{
+  RTC_TimeTypeDef time; 
+  RTC_DateTypeDef date;
+  uint32_t second_fraction;
+  uint32_t sub_seconds;
+
+  if (p_timestamp == NULL)
+    return false;
+
+  if (HAL_RTC_GetTime(&hrtc, &time, RTC_FORMAT_BIN) != HAL_OK)
+    return false;
+
+  if (HAL_RTC_GetDate(&hrtc, &date, RTC_FORMAT_BIN) != HAL_OK)
+    return false;
+
+  p_timestamp->year = 2000U + date.Year; // 20xx 년도로 게시
+  p_timestamp->month = date.Month;
+  p_timestamp->day = date.Date;
+  p_timestamp->hour = time.Hours;
+  p_timestamp->minute = time.Minutes;
+  p_timestamp->second = time.Seconds;
+
+  second_fraction = time.SecondFraction;
+  sub_seconds = time.SubSeconds;
+
+  // ms단위로 시간 측정
+  if (second_fraction > 0U)
+  {
+    p_timestamp->msec = (uint16_t)(((second_fraction - sub_seconds) * 1000U) / (second_fraction + 1U));
+  }
+  else
+  {
+    p_timestamp->msec = 0;
+  }
+  
+  return true;
+}
+
+
 void HAL_RTC_MspDeInit(RTC_HandleTypeDef* rtcHandle)
 {
 

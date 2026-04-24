@@ -200,4 +200,5 @@ CMakeFiles/stm32h5-fw.elf.dir/src/lib/lwip/app/lwip.c.obj: \
  C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules/module.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap/ap_def.h \
  C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules/system/system.h \
- C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger/peri_config.h
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger/peri_config.h \
+ C:\work\git\STM32-H5-KIT\firmware\H5_CAN_LOGGER\src\ap\modules\logger/log_def.h
